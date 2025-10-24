@@ -1,0 +1,85 @@
+ 92.16	7740	7740	U	0	unclassified
+  7.84	658	1	R	1	root
+  7.79	654	0	R1	131567	  cellular organisms
+  7.79	654	0	D	2	    Bacteria
+  7.53	632	0	P	1224	      Proteobacteria
+  7.49	629	0	C	1236	        Gammaproteobacteria
+  7.44	625	1	O	91347	          Enterobacterales
+  7.43	624	588	F	543	            Enterobacteriaceae
+  0.35	29	0	G	561	              Escherichia
+  0.35	29	24	S	562	                Escherichia coli
+  0.05	4	0	S1	37762	                  Escherichia coli B
+  0.05	4	4	S2	413997	                    Escherichia coli B str. REL606
+  0.01	1	1	S1	1038927	                  Escherichia coli O104:H4
+  0.04	3	1	G	590	              Salmonella
+  0.02	2	2	S	28901	                Salmonella enterica
+  0.02	2	0	G	620	              Shigella
+  0.02	2	0	S	623	                Shigella flexneri
+  0.02	2	0	S1	42897	                  Shigella flexneri 2a
+  0.02	2	2	S2	198214	                    Shigella flexneri 2a str. 301
+  0.01	1	0	G	158483	              Cedecea
+  0.01	1	1	S	158822	                Cedecea neteri
+  0.01	1	0	G	544	              Citrobacter
+  0.01	1	0	G1	1344959	                Citrobacter freundii complex
+  0.01	1	1	S	67827	                  Citrobacter werkmanii
+  0.02	2	0	O	72274	          Pseudomonadales
+  0.02	2	0	F	468	            Moraxellaceae
+  0.02	2	0	G	469	              Acinetobacter
+  0.01	1	1	S	40215	                Acinetobacter junii
+  0.01	1	1	S	756892	                Acinetobacter indicus
+  0.02	2	0	O	135625	          Pasteurellales
+  0.02	2	0	F	712	            Pasteurellaceae
+  0.02	2	0	G	745	              Pasteurella
+  0.02	2	0	S	747	                Pasteurella multocida
+  0.02	2	2	S1	44283	                  Pasteurella multocida subsp. multocida
+  0.02	2	0	C	28216	        Betaproteobacteria
+  0.02	2	0	O	80840	          Burkholderiales
+  0.02	2	0	F	80864	            Comamonadaceae
+  0.01	1	1	G	12916	              Acidovorax
+  0.01	1	0	G	80865	              Delftia
+  0.01	1	1	S	1920191	                Delftia sp. HK171
+  0.01	1	0	C	28211	        Alphaproteobacteria
+  0.01	1	0	O	766	          Rickettsiales
+  0.01	1	0	F	942	            Anaplasmataceae
+  0.01	1	0	F1	952	              Wolbachieae
+  0.01	1	0	G	953	                Wolbachia
+  0.01	1	0	S	263437	                  Wolbachia endosymbiont of Culex quinquefasciatus
+  0.01	1	1	S1	570417	                    Wolbachia endosymbiont of Culex quinquefasciatus Pel
+  0.25	21	0	D1	1783272	      Terrabacteria group
+  0.17	14	0	P	201174	        Actinobacteria
+  0.17	14	0	C	1760	          Actinobacteria
+  0.14	12	0	O	85009	            Propionibacteriales
+  0.14	12	0	F	31957	              Propionibacteriaceae
+  0.14	12	0	G	1912216	                Cutibacterium
+  0.14	12	12	S	1747	                  Cutibacterium acnes
+  0.02	2	0	O	85008	            Micromonosporales
+  0.02	2	0	F	28056	              Micromonosporaceae
+  0.02	2	2	G	673534	                Plantactinospora
+  0.08	7	1	P	1239	        Firmicutes
+  0.07	6	0	C	91061	          Bacilli
+  0.06	5	0	O	1385	            Bacillales
+  0.06	5	0	F	90964	              Staphylococcaceae
+  0.06	5	0	G	1279	                Staphylococcus
+  0.04	3	3	S	1280	                  Staphylococcus aureus
+  0.01	1	1	S	1282	                  Staphylococcus epidermidis
+  0.01	1	0	S	1292	                  Staphylococcus warneri
+  0.01	1	1	S1	1194526	                    Staphylococcus warneri SG1
+  0.01	1	0	O	186826	            Lactobacillales
+  0.01	1	0	F	1300	              Streptococcaceae
+  0.01	1	0	G	1301	                Streptococcus
+  0.01	1	1	S	1308	                  Streptococcus thermophilus
+  0.01	1	0	D1	1783270	      FCB group
+  0.01	1	0	D2	68336	        Bacteroidetes/Chlorobi group
+  0.01	1	0	P	976	          Bacteroidetes
+  0.01	1	0	C	117743	            Flavobacteriia
+  0.01	1	0	O	200644	              Flavobacteriales
+  0.01	1	0	F	49546	                Flavobacteriaceae
+  0.01	1	0	G	237	                  Flavobacterium
+  0.01	1	1	S	2294119	                    Flavobacterium sp. CJ74
+  0.04	3	0	D	10239	  Viruses
+  0.04	3	0	D1	35237	    dsDNA viruses, no RNA stage
+  0.04	3	0	O	28883	      Caudovirales
+  0.04	3	0	F	10699	        Siphoviridae
+  0.04	3	0	F1	1910999	          Tunavirinae
+  0.04	3	0	G	187217	            T1virus
+  0.04	3	3	S	1921008	              Escherichia virus T1

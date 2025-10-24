@@ -1,0 +1,1087 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.22+htslib-1.22.1
+##bcftoolsCommand=mpileup -Ou -f data/spades/scaffolds_trimmed.fasta mapping/evo1.sorted.bam
+##reference=file://data/spades/scaffolds_trimmed.fasta
+##contig=<ID=NODE_1_length_128130_cov_7.544689,length=128130>
+##contig=<ID=NODE_2_length_120600_cov_7.276951,length=120600>
+##contig=<ID=NODE_3_length_99373_cov_7.379287,length=99373>
+##contig=<ID=NODE_4_length_88325_cov_6.946460,length=88325>
+##contig=<ID=NODE_5_length_81931_cov_7.680187,length=81931>
+##contig=<ID=NODE_6_length_73269_cov_7.320526,length=73269>
+##contig=<ID=NODE_7_length_68638_cov_7.617033,length=68638>
+##contig=<ID=NODE_8_length_67539_cov_7.236426,length=67539>
+##contig=<ID=NODE_9_length_64525_cov_7.079680,length=64525>
+##contig=<ID=NODE_10_length_62317_cov_7.168417,length=62317>
+##contig=<ID=NODE_11_length_61513_cov_7.480003,length=61513>
+##contig=<ID=NODE_12_length_58658_cov_7.086668,length=58658>
+##contig=<ID=NODE_13_length_57379_cov_7.171848,length=57379>
+##contig=<ID=NODE_14_length_56470_cov_7.649880,length=56470>
+##contig=<ID=NODE_15_length_56309_cov_7.427898,length=56309>
+##contig=<ID=NODE_16_length_52457_cov_7.337792,length=52457>
+##contig=<ID=NODE_17_length_52262_cov_7.016205,length=52262>
+##contig=<ID=NODE_18_length_51341_cov_7.266642,length=51341>
+##contig=<ID=NODE_19_length_49902_cov_8.214617,length=49902>
+##contig=<ID=NODE_20_length_49143_cov_7.893171,length=49143>
+##contig=<ID=NODE_21_length_48101_cov_7.810473,length=48101>
+##contig=<ID=NODE_22_length_47574_cov_7.207559,length=47574>
+##contig=<ID=NODE_23_length_47476_cov_7.643913,length=47476>
+##contig=<ID=NODE_24_length_46911_cov_7.238561,length=46911>
+##contig=<ID=NODE_25_length_46435_cov_7.041203,length=46435>
+##contig=<ID=NODE_26_length_45752_cov_7.321268,length=45752>
+##contig=<ID=NODE_27_length_44692_cov_7.163116,length=44692>
+##contig=<ID=NODE_28_length_44097_cov_7.682848,length=44097>
+##contig=<ID=NODE_29_length_42812_cov_8.142854,length=42812>
+##contig=<ID=NODE_30_length_41718_cov_6.655906,length=41718>
+##contig=<ID=NODE_31_length_40620_cov_7.179071,length=40620>
+##contig=<ID=NODE_32_length_40516_cov_7.631176,length=40516>
+##contig=<ID=NODE_33_length_38803_cov_7.737044,length=38803>
+##contig=<ID=NODE_34_length_38002_cov_7.454107,length=38002>
+##contig=<ID=NODE_35_length_36553_cov_7.143789,length=36553>
+##contig=<ID=NODE_36_length_36414_cov_7.373718,length=36414>
+##contig=<ID=NODE_37_length_34987_cov_7.205141,length=34987>
+##contig=<ID=NODE_38_length_34835_cov_7.392266,length=34835>
+##contig=<ID=NODE_39_length_34487_cov_7.449988,length=34487>
+##contig=<ID=NODE_40_length_34254_cov_7.307758,length=34254>
+##contig=<ID=NODE_41_length_33901_cov_7.321870,length=33901>
+##contig=<ID=NODE_42_length_33002_cov_7.437278,length=33002>
+##contig=<ID=NODE_43_length_32434_cov_7.428735,length=32434>
+##contig=<ID=NODE_44_length_32014_cov_8.919647,length=32014>
+##contig=<ID=NODE_45_length_31819_cov_7.574298,length=31819>
+##contig=<ID=NODE_46_length_31756_cov_7.187029,length=31756>
+##contig=<ID=NODE_47_length_31341_cov_7.006872,length=31341>
+##contig=<ID=NODE_48_length_30911_cov_8.008880,length=30911>
+##contig=<ID=NODE_49_length_30817_cov_7.325889,length=30817>
+##contig=<ID=NODE_50_length_30329_cov_7.244500,length=30329>
+##contig=<ID=NODE_51_length_29298_cov_7.426906,length=29298>
+##contig=<ID=NODE_52_length_28908_cov_7.271064,length=28908>
+##contig=<ID=NODE_53_length_28116_cov_7.326503,length=28116>
+##contig=<ID=NODE_54_length_27951_cov_7.270110,length=27951>
+##contig=<ID=NODE_55_length_27559_cov_7.175211,length=27559>
+##contig=<ID=NODE_56_length_27107_cov_7.555153,length=27107>
+##contig=<ID=NODE_57_length_26843_cov_7.203188,length=26843>
+##contig=<ID=NODE_58_length_26511_cov_8.058701,length=26511>
+##contig=<ID=NODE_59_length_26450_cov_7.954802,length=26450>
+##contig=<ID=NODE_60_length_26444_cov_7.460912,length=26444>
+##contig=<ID=NODE_61_length_26259_cov_7.530148,length=26259>
+##contig=<ID=NODE_62_length_26162_cov_7.462252,length=26162>
+##contig=<ID=NODE_63_length_26132_cov_7.472524,length=26132>
+##contig=<ID=NODE_64_length_25223_cov_7.322063,length=25223>
+##contig=<ID=NODE_65_length_24740_cov_7.854365,length=24740>
+##contig=<ID=NODE_66_length_24421_cov_8.134655,length=24421>
+##contig=<ID=NODE_67_length_24421_cov_7.135804,length=24421>
+##contig=<ID=NODE_68_length_23980_cov_7.171285,length=23980>
+##contig=<ID=NODE_69_length_23804_cov_7.320982,length=23804>
+##contig=<ID=NODE_70_length_23720_cov_7.185252,length=23720>
+##contig=<ID=NODE_71_length_22459_cov_6.729557,length=22459>
+##contig=<ID=NODE_72_length_22189_cov_6.610102,length=22189>
+##contig=<ID=NODE_73_length_21621_cov_7.174627,length=21621>
+##contig=<ID=NODE_74_length_21481_cov_7.486418,length=21481>
+##contig=<ID=NODE_75_length_20786_cov_7.371087,length=20786>
+##contig=<ID=NODE_76_length_20743_cov_7.940255,length=20743>
+##contig=<ID=NODE_77_length_20728_cov_7.271465,length=20728>
+##contig=<ID=NODE_78_length_20016_cov_7.110516,length=20016>
+##contig=<ID=NODE_79_length_19292_cov_6.769455,length=19292>
+##contig=<ID=NODE_80_length_19137_cov_7.478461,length=19137>
+##contig=<ID=NODE_81_length_19135_cov_7.476363,length=19135>
+##contig=<ID=NODE_82_length_19044_cov_7.124914,length=19044>
+##contig=<ID=NODE_83_length_18988_cov_7.052871,length=18988>
+##contig=<ID=NODE_84_length_18577_cov_8.026077,length=18577>
+##contig=<ID=NODE_85_length_18342_cov_6.547438,length=18342>
+##contig=<ID=NODE_86_length_17993_cov_6.722935,length=17993>
+##contig=<ID=NODE_87_length_17545_cov_6.862722,length=17545>
+##contig=<ID=NODE_88_length_17353_cov_7.156434,length=17353>
+##contig=<ID=NODE_89_length_16990_cov_7.236256,length=16990>
+##contig=<ID=NODE_90_length_16373_cov_7.395882,length=16373>
+##contig=<ID=NODE_91_length_16226_cov_6.460701,length=16226>
+##contig=<ID=NODE_92_length_16204_cov_7.535575,length=16204>
+##contig=<ID=NODE_93_length_16115_cov_7.784620,length=16115>
+##contig=<ID=NODE_94_length_15876_cov_7.057708,length=15876>
+##contig=<ID=NODE_95_length_15483_cov_6.777612,length=15483>
+##contig=<ID=NODE_96_length_15211_cov_7.226907,length=15211>
+##contig=<ID=NODE_97_length_14875_cov_7.819366,length=14875>
+##contig=<ID=NODE_98_length_14595_cov_6.945117,length=14595>
+##contig=<ID=NODE_99_length_14586_cov_7.143280,length=14586>
+##contig=<ID=NODE_100_length_14505_cov_7.167266,length=14505>
+##contig=<ID=NODE_101_length_14478_cov_8.247729,length=14478>
+##contig=<ID=NODE_102_length_14208_cov_6.850420,length=14208>
+##contig=<ID=NODE_103_length_14198_cov_7.068656,length=14198>
+##contig=<ID=NODE_104_length_14109_cov_7.202647,length=14109>
+##contig=<ID=NODE_105_length_14108_cov_7.002206,length=14108>
+##contig=<ID=NODE_106_length_14024_cov_7.228148,length=14024>
+##contig=<ID=NODE_107_length_13805_cov_6.728218,length=13805>
+##contig=<ID=NODE_108_length_13775_cov_6.998251,length=13775>
+##contig=<ID=NODE_109_length_13711_cov_7.685633,length=13711>
+##contig=<ID=NODE_110_length_13692_cov_7.507820,length=13692>
+##contig=<ID=NODE_111_length_13616_cov_7.071897,length=13616>
+##contig=<ID=NODE_112_length_13460_cov_7.598135,length=13460>
+##contig=<ID=NODE_113_length_13239_cov_7.483161,length=13239>
+##contig=<ID=NODE_114_length_13191_cov_7.440012,length=13191>
+##contig=<ID=NODE_115_length_13006_cov_7.004633,length=13006>
+##contig=<ID=NODE_116_length_12913_cov_7.683621,length=12913>
+##contig=<ID=NODE_117_length_12855_cov_6.597734,length=12855>
+##contig=<ID=NODE_118_length_12425_cov_6.389814,length=12425>
+##contig=<ID=NODE_119_length_12062_cov_7.073957,length=12062>
+##contig=<ID=NODE_120_length_12014_cov_7.273518,length=12014>
+##contig=<ID=NODE_121_length_11755_cov_7.251624,length=11755>
+##contig=<ID=NODE_122_length_11689_cov_6.772649,length=11689>
+##contig=<ID=NODE_123_length_11316_cov_6.716544,length=11316>
+##contig=<ID=NODE_124_length_11002_cov_6.811821,length=11002>
+##contig=<ID=NODE_125_length_10891_cov_6.973883,length=10891>
+##contig=<ID=NODE_126_length_10827_cov_7.194300,length=10827>
+##contig=<ID=NODE_127_length_10755_cov_6.836636,length=10755>
+##contig=<ID=NODE_128_length_10649_cov_6.888711,length=10649>
+##contig=<ID=NODE_129_length_10397_cov_6.888223,length=10397>
+##contig=<ID=NODE_130_length_10165_cov_7.431850,length=10165>
+##contig=<ID=NODE_131_length_10021_cov_7.522376,length=10021>
+##contig=<ID=NODE_132_length_9981_cov_6.842233,length=9981>
+##contig=<ID=NODE_133_length_9943_cov_7.604571,length=9943>
+##contig=<ID=NODE_134_length_9856_cov_8.014896,length=9856>
+##contig=<ID=NODE_135_length_9687_cov_6.954319,length=9687>
+##contig=<ID=NODE_136_length_9505_cov_8.578095,length=9505>
+##contig=<ID=NODE_137_length_9497_cov_7.365100,length=9497>
+##contig=<ID=NODE_138_length_9382_cov_7.221293,length=9382>
+##contig=<ID=NODE_139_length_9251_cov_7.968356,length=9251>
+##contig=<ID=NODE_140_length_9150_cov_7.108191,length=9150>
+##contig=<ID=NODE_141_length_9056_cov_6.460282,length=9056>
+##contig=<ID=NODE_142_length_8835_cov_6.341002,length=8835>
+##contig=<ID=NODE_143_length_8311_cov_7.906734,length=8311>
+##contig=<ID=NODE_144_length_8147_cov_7.480351,length=8147>
+##contig=<ID=NODE_145_length_7996_cov_6.767913,length=7996>
+##contig=<ID=NODE_146_length_7943_cov_6.484026,length=7943>
+##contig=<ID=NODE_147_length_7928_cov_6.880986,length=7928>
+##contig=<ID=NODE_148_length_7898_cov_8.215224,length=7898>
+##contig=<ID=NODE_149_length_7827_cov_7.783196,length=7827>
+##contig=<ID=NODE_150_length_7783_cov_6.313276,length=7783>
+##contig=<ID=NODE_151_length_7334_cov_6.963731,length=7334>
+##contig=<ID=NODE_152_length_7296_cov_7.463058,length=7296>
+##contig=<ID=NODE_153_length_7202_cov_7.202882,length=7202>
+##contig=<ID=NODE_154_length_7179_cov_7.366929,length=7179>
+##contig=<ID=NODE_155_length_7109_cov_8.441310,length=7109>
+##contig=<ID=NODE_156_length_7010_cov_7.473472,length=7010>
+##contig=<ID=NODE_157_length_6683_cov_7.000151,length=6683>
+##contig=<ID=NODE_158_length_6674_cov_6.838193,length=6674>
+##contig=<ID=NODE_159_length_6669_cov_7.250832,length=6669>
+##contig=<ID=NODE_160_length_6555_cov_7.845692,length=6555>
+##contig=<ID=NODE_161_length_6555_cov_7.799692,length=6555>
+##contig=<ID=NODE_162_length_6480_cov_7.714086,length=6480>
+##contig=<ID=NODE_163_length_6325_cov_7.507337,length=6325>
+##contig=<ID=NODE_164_length_6307_cov_7.089891,length=6307>
+##contig=<ID=NODE_165_length_6288_cov_6.858174,length=6288>
+##contig=<ID=NODE_166_length_6183_cov_7.000490,length=6183>
+##contig=<ID=NODE_167_length_6158_cov_7.176471,length=6158>
+##contig=<ID=NODE_168_length_5932_cov_6.385571,length=5932>
+##contig=<ID=NODE_169_length_5654_cov_7.707626,length=5654>
+##contig=<ID=NODE_170_length_5510_cov_6.001283,length=5510>
+##contig=<ID=NODE_171_length_5434_cov_6.430377,length=5434>
+##contig=<ID=NODE_172_length_5291_cov_6.057487,length=5291>
+##contig=<ID=NODE_173_length_5181_cov_7.728443,length=5181>
+##contig=<ID=NODE_174_length_4722_cov_7.648382,length=4722>
+##contig=<ID=NODE_175_length_4720_cov_7.617578,length=4720>
+##contig=<ID=NODE_176_length_4622_cov_6.150646,length=4622>
+##contig=<ID=NODE_177_length_4586_cov_6.372324,length=4586>
+##contig=<ID=NODE_178_length_4558_cov_7.812125,length=4558>
+##contig=<ID=NODE_179_length_4521_cov_7.894760,length=4521>
+##contig=<ID=NODE_180_length_4384_cov_7.362670,length=4384>
+##contig=<ID=NODE_181_length_4362_cov_7.380543,length=4362>
+##contig=<ID=NODE_182_length_4269_cov_6.344803,length=4269>
+##contig=<ID=NODE_183_length_4252_cov_8.621158,length=4252>
+##contig=<ID=NODE_184_length_4242_cov_8.303797,length=4242>
+##contig=<ID=NODE_185_length_4234_cov_12.229481,length=4234>
+##contig=<ID=NODE_186_length_4232_cov_7.558774,length=4232>
+##contig=<ID=NODE_187_length_3996_cov_6.857650,length=3996>
+##contig=<ID=NODE_188_length_3916_cov_7.688941,length=3916>
+##contig=<ID=NODE_189_length_3893_cov_7.575821,length=3893>
+##contig=<ID=NODE_190_length_3718_cov_6.526072,length=3718>
+##contig=<ID=NODE_191_length_3614_cov_7.652992,length=3614>
+##contig=<ID=NODE_192_length_3436_cov_7.076309,length=3436>
+##contig=<ID=NODE_193_length_2988_cov_6.029322,length=2988>
+##contig=<ID=NODE_194_length_2951_cov_6.288329,length=2951>
+##contig=<ID=NODE_195_length_2912_cov_7.065453,length=2912>
+##contig=<ID=NODE_196_length_2867_cov_6.166785,length=2867>
+##contig=<ID=NODE_197_length_2840_cov_6.917056,length=2840>
+##contig=<ID=NODE_198_length_2822_cov_5.929165,length=2822>
+##contig=<ID=NODE_199_length_2817_cov_7.327299,length=2817>
+##contig=<ID=NODE_200_length_2805_cov_6.917455,length=2805>
+##contig=<ID=NODE_201_length_2803_cov_6.635371,length=2803>
+##contig=<ID=NODE_202_length_2754_cov_8.124861,length=2754>
+##contig=<ID=NODE_203_length_2740_cov_5.588827,length=2740>
+##contig=<ID=NODE_204_length_2719_cov_8.424174,length=2719>
+##contig=<ID=NODE_205_length_2654_cov_53.740669,length=2654>
+##contig=<ID=NODE_206_length_2614_cov_7.425948,length=2614>
+##contig=<ID=NODE_207_length_2600_cov_8.411395,length=2600>
+##contig=<ID=NODE_208_length_2423_cov_7.127534,length=2423>
+##contig=<ID=NODE_209_length_2408_cov_7.124522,length=2408>
+##contig=<ID=NODE_210_length_2270_cov_4.259142,length=2270>
+##contig=<ID=NODE_211_length_2220_cov_6.533487,length=2220>
+##contig=<ID=NODE_212_length_2216_cov_7.246645,length=2216>
+##contig=<ID=NODE_213_length_2100_cov_6.139853,length=2100>
+##contig=<ID=NODE_214_length_1860_cov_5.168421,length=1860>
+##contig=<ID=NODE_215_length_1747_cov_4.533688,length=1747>
+##contig=<ID=NODE_216_length_1694_cov_8.062843,length=1694>
+##contig=<ID=NODE_217_length_1664_cov_7.424487,length=1664>
+##contig=<ID=NODE_218_length_1641_cov_5.552963,length=1641>
+##contig=<ID=NODE_219_length_1632_cov_3.538364,length=1632>
+##contig=<ID=NODE_220_length_1619_cov_6.037084,length=1619>
+##contig=<ID=NODE_221_length_1524_cov_7.614704,length=1524>
+##contig=<ID=NODE_222_length_1488_cov_5.563852,length=1488>
+##contig=<ID=NODE_223_length_1434_cov_8.416244,length=1434>
+##contig=<ID=NODE_224_length_1408_cov_4.273466,length=1408>
+##contig=<ID=NODE_225_length_1407_cov_6.866124,length=1407>
+##contig=<ID=NODE_226_length_1403_cov_5.760386,length=1403>
+##contig=<ID=NODE_227_length_1343_cov_32.538820,length=1343>
+##contig=<ID=NODE_228_length_1317_cov_16.329635,length=1317>
+##contig=<ID=NODE_229_length_1277_cov_5.730769,length=1277>
+##contig=<ID=NODE_230_length_1267_cov_8.091584,length=1267>
+##contig=<ID=NODE_231_length_1267_cov_5.824257,length=1267>
+##contig=<ID=NODE_232_length_1242_cov_6.845830,length=1242>
+##contig=<ID=NODE_233_length_1234_cov_7.910941,length=1234>
+##contig=<ID=NODE_234_length_1204_cov_6.720627,length=1204>
+##contig=<ID=NODE_235_length_1202_cov_34.973845,length=1202>
+##contig=<ID=NODE_236_length_1184_cov_7.198406,length=1184>
+##contig=<ID=NODE_237_length_1133_cov_6.871985,length=1133>
+##contig=<ID=NODE_238_length_1128_cov_6.167754,length=1128>
+##contig=<ID=NODE_239_length_1126_cov_6.584500,length=1126>
+##contig=<ID=NODE_240_length_1120_cov_7.524883,length=1120>
+##contig=<ID=NODE_241_length_1118_cov_4.394167,length=1118>
+##contig=<ID=NODE_242_length_1062_cov_6.787488,length=1062>
+##contig=<ID=NODE_243_length_1061_cov_57.792247,length=1061>
+##contig=<ID=NODE_244_length_1007_cov_5.491597,length=1007>
+##contig=<ID=NODE_245_length_998_cov_6.948038,length=998>
+##contig=<ID=NODE_246_length_992_cov_6.248666,length=992>
+##contig=<ID=NODE_247_length_978_cov_7.496208,length=978>
+##contig=<ID=NODE_248_length_965_cov_6.471429,length=965>
+##contig=<ID=NODE_249_length_957_cov_3.645233,length=957>
+##contig=<ID=NODE_250_length_927_cov_9.864679,length=927>
+##contig=<ID=NODE_251_length_890_cov_5.343713,length=890>
+##contig=<ID=NODE_252_length_861_cov_4.545906,length=861>
+##contig=<ID=NODE_253_length_831_cov_8.412371,length=831>
+##contig=<ID=NODE_254_length_826_cov_6.616083,length=826>
+##contig=<ID=NODE_255_length_825_cov_6.980519,length=825>
+##contig=<ID=NODE_256_length_819_cov_6.739529,length=819>
+##contig=<ID=NODE_257_length_798_cov_5.305518,length=798>
+##contig=<ID=NODE_258_length_791_cov_58.524457,length=791>
+##contig=<ID=NODE_259_length_777_cov_9.196676,length=777>
+##contig=<ID=NODE_260_length_767_cov_32.889045,length=767>
+##contig=<ID=NODE_261_length_666_cov_7.769231,length=666>
+##contig=<ID=NODE_262_length_648_cov_3.042159,length=648>
+##contig=<ID=NODE_263_length_606_cov_7.460980,length=606>
+##contig=<ID=NODE_264_length_603_cov_3.895985,length=603>
+##contig=<ID=NODE_265_length_556_cov_15.862275,length=556>
+##contig=<ID=NODE_266_length_554_cov_6.240481,length=554>
+##contig=<ID=NODE_267_length_548_cov_63.087221,length=548>
+##contig=<ID=NODE_268_length_544_cov_3.558282,length=544>
+##contig=<ID=NODE_269_length_526_cov_13.842887,length=526>
+##contig=<ID=NODE_270_length_503_cov_4.154018,length=503>
+##contig=<ID=NODE_271_length_497_cov_4.730769,length=497>
+##contig=<ID=NODE_272_length_492_cov_6.292906,length=492>
+##contig=<ID=NODE_273_length_470_cov_5.173494,length=470>
+##contig=<ID=NODE_274_length_461_cov_8.285714,length=461>
+##contig=<ID=NODE_275_length_433_cov_8.619048,length=433>
+##contig=<ID=NODE_276_length_429_cov_3.540107,length=429>
+##contig=<ID=NODE_277_length_421_cov_5.560109,length=421>
+##contig=<ID=NODE_278_length_405_cov_5.034286,length=405>
+##contig=<ID=NODE_279_length_402_cov_3.991354,length=402>
+##contig=<ID=NODE_280_length_399_cov_12.534884,length=399>
+##contig=<ID=NODE_281_length_393_cov_13.079882,length=393>
+##contig=<ID=NODE_282_length_392_cov_6.964392,length=392>
+##contig=<ID=NODE_283_length_387_cov_36.243976,length=387>
+##contig=<ID=NODE_284_length_384_cov_5.820669,length=384>
+##contig=<ID=NODE_285_length_378_cov_2.080495,length=378>
+##contig=<ID=NODE_286_length_374_cov_2.416928,length=374>
+##contig=<ID=NODE_287_length_352_cov_8.289562,length=352>
+##contig=<ID=NODE_288_length_347_cov_10.455479,length=347>
+##contig=<ID=NODE_289_length_339_cov_7.218310,length=339>
+##contig=<ID=NODE_290_length_332_cov_4.945848,length=332>
+##contig=<ID=NODE_291_length_332_cov_4.935018,length=332>
+##contig=<ID=NODE_292_length_328_cov_6.245421,length=328>
+##contig=<ID=NODE_293_length_325_cov_11.670370,length=325>
+##contig=<ID=NODE_294_length_300_cov_6.114286,length=300>
+##contig=<ID=NODE_295_length_292_cov_28.113924,length=292>
+##contig=<ID=NODE_296_length_283_cov_9.350877,length=283>
+##contig=<ID=NODE_297_length_279_cov_23.687500,length=279>
+##contig=<ID=NODE_298_length_279_cov_7.343750,length=279>
+##contig=<ID=NODE_299_length_266_cov_4.028436,length=266>
+##contig=<ID=NODE_300_length_265_cov_3.542857,length=265>
+##contig=<ID=NODE_301_length_255_cov_6.535000,length=255>
+##contig=<ID=NODE_302_length_254_cov_8.286432,length=254>
+##contig=<ID=NODE_303_length_253_cov_6.277778,length=253>
+##contig=<ID=NODE_304_length_246_cov_2.643979,length=246>
+##contig=<ID=NODE_305_length_244_cov_10.650794,length=244>
+##contig=<ID=NODE_306_length_243_cov_6.164894,length=243>
+##contig=<ID=NODE_307_length_241_cov_6.225806,length=241>
+##contig=<ID=NODE_308_length_236_cov_7.745856,length=236>
+##contig=<ID=NODE_309_length_235_cov_36.994444,length=235>
+##contig=<ID=NODE_310_length_234_cov_1.324022,length=234>
+##contig=<ID=NODE_311_length_233_cov_7.870787,length=233>
+##contig=<ID=NODE_312_length_225_cov_9.705882,length=225>
+##contig=<ID=NODE_313_length_218_cov_9.245399,length=218>
+##contig=<ID=NODE_314_length_218_cov_5.220859,length=218>
+##contig=<ID=NODE_315_length_216_cov_4.068323,length=216>
+##contig=<ID=NODE_316_length_215_cov_8.087500,length=215>
+##contig=<ID=NODE_317_length_215_cov_5.043750,length=215>
+##contig=<ID=NODE_318_length_213_cov_13.734177,length=213>
+##contig=<ID=NODE_319_length_212_cov_12.127389,length=212>
+##contig=<ID=NODE_320_length_212_cov_8.375796,length=212>
+##contig=<ID=NODE_321_length_208_cov_1.281046,length=208>
+##contig=<ID=NODE_322_length_206_cov_7.860927,length=206>
+##contig=<ID=NODE_323_length_202_cov_6.863946,length=202>
+##contig=<ID=NODE_324_length_201_cov_3.719178,length=201>
+##contig=<ID=NODE_325_length_200_cov_16.531034,length=200>
+##contig=<ID=NODE_326_length_197_cov_8.345070,length=197>
+##contig=<ID=NODE_327_length_192_cov_6.437956,length=192>
+##contig=<ID=NODE_328_length_183_cov_8.312500,length=183>
+##contig=<ID=NODE_329_length_178_cov_6.406504,length=178>
+##contig=<ID=NODE_330_length_173_cov_10.491525,length=173>
+##contig=<ID=NODE_331_length_173_cov_8.881356,length=173>
+##contig=<ID=NODE_332_length_172_cov_4.752137,length=172>
+##contig=<ID=NODE_333_length_171_cov_6.965517,length=171>
+##contig=<ID=NODE_334_length_170_cov_10.426087,length=170>
+##contig=<ID=NODE_335_length_169_cov_33.087719,length=169>
+##contig=<ID=NODE_336_length_169_cov_7.885965,length=169>
+##contig=<ID=NODE_337_length_169_cov_6.754386,length=169>
+##contig=<ID=NODE_338_length_169_cov_5.263158,length=169>
+##contig=<ID=NODE_339_length_168_cov_4.663717,length=168>
+##contig=<ID=NODE_340_length_166_cov_5.783784,length=166>
+##contig=<ID=NODE_341_length_164_cov_11.477064,length=164>
+##contig=<ID=NODE_342_length_163_cov_13.203704,length=163>
+##contig=<ID=NODE_343_length_162_cov_9.102804,length=162>
+##contig=<ID=NODE_344_length_161_cov_10.858491,length=161>
+##contig=<ID=NODE_345_length_161_cov_7.632075,length=161>
+##contig=<ID=NODE_346_length_160_cov_8.447619,length=160>
+##contig=<ID=NODE_347_length_160_cov_4.704762,length=160>
+##contig=<ID=NODE_348_length_159_cov_7.605769,length=159>
+##contig=<ID=NODE_349_length_158_cov_201.000000,length=158>
+##contig=<ID=NODE_350_length_158_cov_11.844660,length=158>
+##contig=<ID=NODE_351_length_158_cov_6.194175,length=158>
+##contig=<ID=NODE_352_length_156_cov_13.544554,length=156>
+##contig=<ID=NODE_353_length_152_cov_16.701031,length=152>
+##contig=<ID=NODE_354_length_152_cov_15.793814,length=152>
+##contig=<ID=NODE_355_length_152_cov_14.773196,length=152>
+##contig=<ID=NODE_356_length_151_cov_8.322917,length=151>
+##contig=<ID=NODE_357_length_148_cov_14.064516,length=148>
+##contig=<ID=NODE_358_length_147_cov_33.619565,length=147>
+##contig=<ID=NODE_359_length_147_cov_23.467391,length=147>
+##contig=<ID=NODE_360_length_145_cov_12.533333,length=145>
+##contig=<ID=NODE_361_length_145_cov_7.244444,length=145>
+##contig=<ID=NODE_362_length_144_cov_6.213483,length=144>
+##contig=<ID=NODE_363_length_143_cov_29.034091,length=143>
+##contig=<ID=NODE_364_length_141_cov_12.232558,length=141>
+##contig=<ID=NODE_365_length_140_cov_4.682353,length=140>
+##contig=<ID=NODE_366_length_138_cov_6.036145,length=138>
+##contig=<ID=NODE_367_length_129_cov_8.148649,length=129>
+##contig=<ID=NODE_368_length_124_cov_6.420290,length=124>
+##contig=<ID=NODE_369_length_123_cov_8.661765,length=123>
+##contig=<ID=NODE_370_length_122_cov_28.328358,length=122>
+##contig=<ID=NODE_371_length_120_cov_25.630769,length=120>
+##contig=<ID=NODE_372_length_119_cov_5.968750,length=119>
+##contig=<ID=NODE_373_length_118_cov_12.571429,length=118>
+##contig=<ID=NODE_374_length_117_cov_4.532258,length=117>
+##contig=<ID=NODE_375_length_116_cov_29.721311,length=116>
+##contig=<ID=NODE_376_length_116_cov_6.737705,length=116>
+##contig=<ID=NODE_377_length_115_cov_27.233333,length=115>
+##contig=<ID=NODE_378_length_114_cov_11.322034,length=114>
+##contig=<ID=NODE_379_length_114_cov_10.237288,length=114>
+##contig=<ID=NODE_380_length_114_cov_7.983051,length=114>
+##contig=<ID=NODE_381_length_114_cov_5.711864,length=114>
+##contig=<ID=NODE_382_length_113_cov_6.465517,length=113>
+##contig=<ID=NODE_383_length_112_cov_12.614035,length=112>
+##contig=<ID=NODE_384_length_112_cov_5.052632,length=112>
+##contig=<ID=NODE_385_length_111_cov_138.178571,length=111>
+##contig=<ID=NODE_386_length_111_cov_87.017857,length=111>
+##contig=<ID=NODE_387_length_111_cov_33.839286,length=111>
+##contig=<ID=NODE_388_length_111_cov_32.321429,length=111>
+##contig=<ID=NODE_389_length_111_cov_18.589286,length=111>
+##contig=<ID=NODE_390_length_111_cov_17.089286,length=111>
+##contig=<ID=NODE_391_length_111_cov_15.071429,length=111>
+##contig=<ID=NODE_392_length_111_cov_14.392857,length=111>
+##contig=<ID=NODE_393_length_111_cov_13.982143,length=111>
+##contig=<ID=NODE_394_length_111_cov_13.357143,length=111>
+##contig=<ID=NODE_395_length_111_cov_13.303571,length=111>
+##contig=<ID=NODE_396_length_111_cov_12.910714,length=111>
+##contig=<ID=NODE_397_length_111_cov_10.696429,length=111>
+##contig=<ID=NODE_398_length_111_cov_10.464286,length=111>
+##contig=<ID=NODE_399_length_111_cov_9.517857,length=111>
+##contig=<ID=NODE_400_length_111_cov_9.482143,length=111>
+##contig=<ID=NODE_401_length_111_cov_9.160714,length=111>
+##contig=<ID=NODE_402_length_111_cov_8.660714,length=111>
+##contig=<ID=NODE_403_length_111_cov_8.517857,length=111>
+##contig=<ID=NODE_404_length_111_cov_8.089286,length=111>
+##contig=<ID=NODE_405_length_111_cov_8.071429,length=111>
+##contig=<ID=NODE_406_length_111_cov_8.053571,length=111>
+##contig=<ID=NODE_407_length_111_cov_7.910714,length=111>
+##contig=<ID=NODE_408_length_111_cov_7.839286,length=111>
+##contig=<ID=NODE_409_length_111_cov_7.732143,length=111>
+##contig=<ID=NODE_410_length_111_cov_7.642857,length=111>
+##contig=<ID=NODE_411_length_111_cov_7.410714,length=111>
+##contig=<ID=NODE_412_length_111_cov_7.357143,length=111>
+##contig=<ID=NODE_413_length_111_cov_7.125000,length=111>
+##contig=<ID=NODE_414_length_111_cov_6.982143,length=111>
+##contig=<ID=NODE_415_length_111_cov_6.964286,length=111>
+##contig=<ID=NODE_416_length_111_cov_6.732143,length=111>
+##contig=<ID=NODE_417_length_111_cov_6.732143,length=111>
+##contig=<ID=NODE_418_length_111_cov_6.625000,length=111>
+##contig=<ID=NODE_419_length_111_cov_6.250000,length=111>
+##contig=<ID=NODE_420_length_111_cov_5.607143,length=111>
+##contig=<ID=NODE_421_length_111_cov_5.214286,length=111>
+##contig=<ID=NODE_422_length_111_cov_5.196429,length=111>
+##contig=<ID=NODE_423_length_111_cov_4.910714,length=111>
+##contig=<ID=NODE_424_length_111_cov_4.785714,length=111>
+##contig=<ID=NODE_425_length_111_cov_4.696429,length=111>
+##contig=<ID=NODE_426_length_111_cov_4.607143,length=111>
+##contig=<ID=NODE_427_length_111_cov_4.589286,length=111>
+##contig=<ID=NODE_428_length_111_cov_3.875000,length=111>
+##contig=<ID=NODE_429_length_111_cov_3.571429,length=111>
+##contig=<ID=NODE_430_length_111_cov_3.125000,length=111>
+##contig=<ID=NODE_431_length_110_cov_13.327273,length=110>
+##contig=<ID=NODE_432_length_110_cov_7.436364,length=110>
+##contig=<ID=NODE_433_length_109_cov_7.851852,length=109>
+##contig=<ID=NODE_434_length_109_cov_6.185185,length=109>
+##contig=<ID=NODE_435_length_108_cov_31.188679,length=108>
+##contig=<ID=NODE_436_length_108_cov_9.452830,length=108>
+##contig=<ID=NODE_437_length_108_cov_7.547170,length=108>
+##contig=<ID=NODE_438_length_107_cov_7.346154,length=107>
+##contig=<ID=NODE_439_length_106_cov_17.568627,length=106>
+##contig=<ID=NODE_440_length_106_cov_4.941176,length=106>
+##contig=<ID=NODE_441_length_105_cov_5.780000,length=105>
+##contig=<ID=NODE_442_length_104_cov_4.816327,length=104>
+##contig=<ID=NODE_443_length_103_cov_12.791667,length=103>
+##contig=<ID=NODE_444_length_103_cov_7.875000,length=103>
+##contig=<ID=NODE_445_length_103_cov_3.354167,length=103>
+##contig=<ID=NODE_446_length_101_cov_21.456522,length=101>
+##contig=<ID=NODE_447_length_100_cov_39.333333,length=100>
+##contig=<ID=NODE_448_length_100_cov_16.133333,length=100>
+##contig=<ID=NODE_449_length_99_cov_11.113636,length=99>
+##contig=<ID=NODE_450_length_98_cov_11.604651,length=98>
+##contig=<ID=NODE_451_length_98_cov_3.139535,length=98>
+##contig=<ID=NODE_452_length_95_cov_8.125000,length=95>
+##contig=<ID=NODE_453_length_95_cov_7.750000,length=95>
+##contig=<ID=NODE_454_length_95_cov_3.675000,length=95>
+##contig=<ID=NODE_455_length_94_cov_23.871795,length=94>
+##contig=<ID=NODE_456_length_94_cov_19.512821,length=94>
+##contig=<ID=NODE_457_length_92_cov_22.378378,length=92>
+##contig=<ID=NODE_458_length_91_cov_8.166667,length=91>
+##contig=<ID=NODE_459_length_90_cov_25.000000,length=90>
+##contig=<ID=NODE_460_length_89_cov_15.764706,length=89>
+##contig=<ID=NODE_461_length_88_cov_144.939394,length=88>
+##contig=<ID=NODE_462_length_88_cov_87.272727,length=88>
+##contig=<ID=NODE_463_length_88_cov_15.878788,length=88>
+##contig=<ID=NODE_464_length_88_cov_6.606061,length=88>
+##contig=<ID=NODE_465_length_88_cov_4.939394,length=88>
+##contig=<ID=NODE_466_length_87_cov_8.093750,length=87>
+##contig=<ID=NODE_467_length_86_cov_13.451613,length=86>
+##contig=<ID=NODE_468_length_85_cov_7.100000,length=85>
+##contig=<ID=NODE_469_length_85_cov_6.033333,length=85>
+##contig=<ID=NODE_470_length_83_cov_46.642857,length=83>
+##contig=<ID=NODE_471_length_83_cov_18.214286,length=83>
+##contig=<ID=NODE_472_length_83_cov_5.392857,length=83>
+##contig=<ID=NODE_473_length_80_cov_27.880000,length=80>
+##contig=<ID=NODE_474_length_80_cov_10.600000,length=80>
+##contig=<ID=NODE_475_length_80_cov_4.040000,length=80>
+##contig=<ID=NODE_476_length_79_cov_46.250000,length=79>
+##contig=<ID=NODE_477_length_78_cov_219.217391,length=78>
+##contig=<ID=NODE_478_length_78_cov_149.913043,length=78>
+##contig=<ID=NODE_479_length_78_cov_71.695652,length=78>
+##contig=<ID=NODE_480_length_78_cov_14.608696,length=78>
+##contig=<ID=NODE_481_length_78_cov_14.217391,length=78>
+##contig=<ID=NODE_482_length_77_cov_23.727273,length=77>
+##contig=<ID=NODE_483_length_77_cov_12.909091,length=77>
+##contig=<ID=NODE_484_length_77_cov_7.409091,length=77>
+##contig=<ID=NODE_485_length_75_cov_11.900000,length=75>
+##contig=<ID=NODE_486_length_75_cov_11.650000,length=75>
+##contig=<ID=NODE_487_length_75_cov_7.800000,length=75>
+##contig=<ID=NODE_488_length_75_cov_4.350000,length=75>
+##contig=<ID=NODE_489_length_74_cov_22.263158,length=74>
+##contig=<ID=NODE_490_length_72_cov_12.352941,length=72>
+##contig=<ID=NODE_491_length_71_cov_17.750000,length=71>
+##contig=<ID=NODE_492_length_68_cov_28.615385,length=68>
+##contig=<ID=NODE_493_length_68_cov_27.230769,length=68>
+##contig=<ID=NODE_494_length_68_cov_22.615385,length=68>
+##contig=<ID=NODE_495_length_68_cov_15.461538,length=68>
+##contig=<ID=NODE_496_length_67_cov_31.583333,length=67>
+##contig=<ID=NODE_497_length_67_cov_20.000000,length=67>
+##contig=<ID=NODE_498_length_67_cov_17.916667,length=67>
+##contig=<ID=NODE_499_length_66_cov_34.818182,length=66>
+##contig=<ID=NODE_500_length_65_cov_21.800000,length=65>
+##contig=<ID=NODE_501_length_65_cov_9.400000,length=65>
+##contig=<ID=NODE_502_length_63_cov_29.375000,length=63>
+##contig=<ID=NODE_503_length_63_cov_15.625000,length=63>
+##contig=<ID=NODE_504_length_63_cov_9.500000,length=63>
+##contig=<ID=NODE_505_length_63_cov_7.625000,length=63>
+##contig=<ID=NODE_506_length_63_cov_7.000000,length=63>
+##contig=<ID=NODE_507_length_62_cov_49.857143,length=62>
+##contig=<ID=NODE_508_length_61_cov_23.000000,length=61>
+##contig=<ID=NODE_509_length_60_cov_10.600000,length=60>
+##contig=<ID=NODE_510_length_60_cov_5.200000,length=60>
+##contig=<ID=NODE_511_length_59_cov_10.500000,length=59>
+##contig=<ID=NODE_512_length_59_cov_4.750000,length=59>
+##contig=<ID=NODE_513_length_58_cov_23.000000,length=58>
+##contig=<ID=NODE_514_length_58_cov_22.333333,length=58>
+##contig=<ID=NODE_515_length_58_cov_15.666667,length=58>
+##contig=<ID=NODE_516_length_57_cov_23.000000,length=57>
+##contig=<ID=NODE_517_length_57_cov_21.500000,length=57>
+##contig=<ID=NODE_518_length_57_cov_18.000000,length=57>
+##contig=<ID=NODE_519_length_57_cov_15.000000,length=57>
+##contig=<ID=NODE_520_length_57_cov_8.000000,length=57>
+##contig=<ID=NODE_521_length_56_cov_129.000000,length=56>
+##contig=<ID=NODE_522_length_56_cov_34.000000,length=56>
+##contig=<ID=NODE_523_length_56_cov_23.000000,length=56>
+##contig=<ID=NODE_524_length_56_cov_21.000000,length=56>
+##contig=<ID=NODE_525_length_56_cov_16.000000,length=56>
+##contig=<ID=NODE_526_length_56_cov_6.000000,length=56>
+##contig=<ID=NODE_527_length_56_cov_4.000000,length=56>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of raw reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of raw reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Read Position Bias (closer to 0 is better)">
+##INFO=<ID=MQBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Mapping Quality Bias (closer to 0 is better)">
+##INFO=<ID=BQBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Base Quality Bias (closer to 0 is better)">
+##INFO=<ID=MQSBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Mapping Quality vs Strand Bias (closer to 0 is better)">
+##INFO=<ID=SCBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Soft-Clip Length Bias (closer to 0 is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric, http://samtools.github.io/bcftools/rd-SegBias.pdf">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths (high-quality bases)">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.22+htslib-1.22.1
+##bcftools_callCommand=call -mv -Ov -o variants/evo1_raw.vcf; Date=Tue Oct 21 06:24:03 2025
+##bcftools_filterVersion=1.22+htslib-1.22.1
+##bcftools_filterCommand=filter -i 'QUAL>20 && DP>10' -o variants/evo1_filtered.vcf variants/evo1_raw.vcf; Date=Tue Oct 21 06:25:17 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	mapping/evo1.sorted.bam
+NODE_2_length_120600_cov_7.276951	117323	.	A	T	228.33	PASS	DP=13;VDB=0.593541;SGB=-0.636426;RPBZ=1.5367;MQBZ=0;MQSBZ=0;BQBZ=1.62747;SCBZ=-2.64575;MQ0F=0;AC=2;AN=2;DP4=0,1,2,5;MQ=60	GT:PL:AD	1/1:255,14,0:1,7
+NODE_3_length_99373_cov_7.379287	8184	.	CCATTANNNNNNNNN	C	228.322	PASS	INDEL;IDV=12;IMF=0.923077;DP=13;VDB=0.0231389;SGB=-0.680642;RPBZ=-1.61695;MQBZ=0;MQSBZ=0;BQBZ=-1.57512;SCBZ=-3.4641;MQ0F=0;AC=2;AN=2;DP4=1,0,5,7;MQ=60	GT:PL:AD	1/1:255,21,0:1,12
+NODE_3_length_99373_cov_7.379287	11668	.	T	A	228.411	PASS	DP=76;VDB=0.0457195;SGB=-0.693147;RPBZ=0.216693;MQBZ=-0.192418;MQSBZ=-1.37693;BQBZ=1.79091;SCBZ=0.312696;MQ0F=0;AC=2;AN=2;DP4=0,1,27,28;MQ=58	GT:PL:AD	1/1:255,151,0:1,55
+NODE_3_length_99373_cov_7.379287	35406	.	T	C	57.2433	PASS	DP=59;VDB=0.917603;SGB=-0.670168;RPBZ=2.61371;MQBZ=-0.961262;MQSBZ=1.01078;BQBZ=-1.10709;SCBZ=1.20879;MQ0F=0.0169492;AC=1;AN=2;DP4=21,10,4,6;MQ=55	GT:PL:AD	0/1:92,0,255:31,9
+NODE_3_length_99373_cov_7.379287	35409	.	G	A	116.954	PASS	DP=61;VDB=0.983426;SGB=-0.680642;RPBZ=2.01674;MQBZ=-1.07818;MQSBZ=0.612313;BQBZ=-0.629447;SCBZ=1.41026;MQ0F=0.0163934;AC=1;AN=2;DP4=22,11,6,6;MQ=54	GT:PL:AD	0/1:151,0,255:33,12
+NODE_3_length_99373_cov_7.379287	76495	.	CCCGCGCCGCGCCGCGCCG	CCCGCGCCGCGCCG	228.295	PASS	INDEL;IDV=82;IMF=0.863158;DP=95;VDB=0.0223699;SGB=-0.693147;RPBZ=-5.77424;MQBZ=0;MQSBZ=0;BQBZ=-2.74105;SCBZ=-2.0824;MQ0F=0;AC=2;AN=2;DP4=2,10,36,41;MQ=60	GT:PL:AD	1/1:255,124,0:12,77
+NODE_3_length_99373_cov_7.379287	88323	.	GNNNNNNNNNN	GNNNN	228.387	PASS	INDEL;IDV=37;IMF=0.902439;DP=41;VDB=0.0695007;SGB=-0.693136;RPBZ=-2.81433;MQBZ=0;MQSBZ=0;BQBZ=-1.73594;SCBZ=-3.8606;MQ0F=0;AC=2;AN=2;DP4=1,2,14,21;MQ=60	GT:PL:AD	1/1:255,75,0:3,35
+NODE_4_length_88325_cov_6.946460	39	.	G	T	225.417	PASS	DP=32;VDB=3.76686e-05;SGB=-0.692562;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,18,4;MQ=60	GT:PL:AD	1/1:255,66,0:0,22
+NODE_4_length_88325_cov_6.946460	42232	.	CAAAAAA	CAAAAAAA	228.065	PASS	INDEL;IDV=35;IMF=0.795455;DP=44;VDB=0.0199415;SGB=-0.693132;RPBZ=0.364043;MQBZ=1.97203;MQSBZ=-1.1094;BQBZ=-1.588;SCBZ=-2.5958;MQ0F=0;AC=2;AN=2;DP4=1,4,20,14;MQ=59	GT:PL:AD	1/1:255,43,0:5,34
+NODE_4_length_88325_cov_6.946460	45749	.	T	C	222.327	PASS	DP=104;VDB=0.426309;SGB=-0.693143;RPBZ=-3.30793;MQBZ=-1.80504;MQSBZ=1.22405;BQBZ=0.567562;SCBZ=2.09818;MQ0F=0;AC=1;AN=2;DP4=26,15,22,16;MQ=59	GT:PL:AD	0/1:255,0,255:41,31
+NODE_4_length_88325_cov_6.946460	45750	.	A	T	222.331	PASS	DP=104;VDB=0.0978129;SGB=-0.693136;RPBZ=-3.56898;MQBZ=-2.00893;MQSBZ=1.46104;BQBZ=-0.190144;SCBZ=2.98284;MQ0F=0;AC=1;AN=2;DP4=26,18,18,17;MQ=59	GT:PL:AD	0/1:255,0,255:44,35
+NODE_4_length_88325_cov_6.946460	45752	.	C	G	37.4168	PASS	DP=103;VDB=0.00739455;SGB=-0.680642;RPBZ=-3.71324;MQBZ=1.07904;MQSBZ=1.13003;BQBZ=0.00712637;SCBZ=0.338798;MQ0F=0;AC=1;AN=2;DP4=41,25,8,4;MQ=59	GT:PL:AD	0/1:73,0,255:66,11
+NODE_4_length_88325_cov_6.946460	45762	.	T	G	64.1722	PASS	DP=126;VDB=0.13909;SGB=-0.690438;RPBZ=-0.208811;MQBZ=-2.10208;MQSBZ=1.49227;BQBZ=-1.75989;SCBZ=0.740941;MQ0F=0;AC=1;AN=2;DP4=52,26,10,7;MQ=58	GT:PL:AD	0/1:100,0,255:78,15
+NODE_4_length_88325_cov_6.946460	45782	.	T	C	43.3722	PASS	DP=138;VDB=0.0271602;SGB=-0.693097;RPBZ=0.918247;MQBZ=-1.7392;MQSBZ=0.497701;BQBZ=-2.13664;SCBZ=-0.72954;MQ0F=0;AC=1;AN=2;DP4=46,26,19,11;MQ=57	GT:PL:AD	0/1:79,0,255:72,12
+NODE_4_length_88325_cov_6.946460	45791	.	G	A	222.402	PASS	DP=147;VDB=0.0031256;SGB=-0.693147;RPBZ=-4.08823;MQBZ=-0.435141;MQSBZ=0.264612;BQBZ=-1.69833;SCBZ=-0.223062;MQ0F=0;AC=1;AN=2;DP4=22,19,43,27;MQ=57	GT:PL:AD	0/1:255,0,255:41,41
+NODE_4_length_88325_cov_6.946460	45794	.	G	T	151.447	PASS	DP=162;VDB=0.00199183;SGB=-0.693054;RPBZ=5.27894;MQBZ=0.930339;MQSBZ=0.566203;BQBZ=-2.42342;SCBZ=-0.716389;MQ0F=0;AC=1;AN=2;DP4=52,43,16,12;MQ=57	GT:PL:AD	0/1:186,0,255:95,28
+NODE_4_length_88325_cov_6.946460	45803	.	G	C	67.8711	PASS	DP=162;VDB=0.0711277;SGB=-0.693127;RPBZ=3.80462;MQBZ=-1.14922;MQSBZ=0.610851;BQBZ=-2.69066;SCBZ=0.0206038;MQ0F=0;AC=1;AN=2;DP4=47,42,17,16;MQ=57	GT:PL:AD	0/1:103,0,255:89,22
+NODE_4_length_88325_cov_6.946460	45815	.	G	A	56.826	PASS	DP=153;VDB=0.239097;SGB=-0.693079;RPBZ=2.19665;MQBZ=-2.22203;MQSBZ=0.321756;BQBZ=-1.8006;SCBZ=-1.07934;MQ0F=0;AC=1;AN=2;DP4=47,39,9,20;MQ=56	GT:PL:AD	0/1:92,0,255:86,18
+NODE_4_length_88325_cov_6.946460	45838	.	C	G	222.145	PASS	DP=129;VDB=0.000169737;SGB=-0.693147;RPBZ=2.41754;MQBZ=-2.74026;MQSBZ=-0.874206;BQBZ=-1.52641;SCBZ=1.46405;MQ0F=0;AC=1;AN=2;DP4=28,30,18,27;MQ=56	GT:PL:AD	0/1:255,0,255:58,38
+NODE_4_length_88325_cov_6.946460	45845	.	T	C	222.393	PASS	DP=102;VDB=1.20875e-05;SGB=-0.693147;RPBZ=4.46565;MQBZ=-3.15696;MQSBZ=-1.38686;BQBZ=-1.18485;SCBZ=3.40125;MQ0F=0;AC=1;AN=2;DP4=25,16,19,27;MQ=55	GT:PL:AD	0/1:255,0,255:41,36
+NODE_4_length_88325_cov_6.946460	45848	.	C	G	222.171	PASS	DP=102;VDB=4.9374e-05;SGB=-0.693139;RPBZ=3.4957;MQBZ=-3.1165;MQSBZ=-0.84535;BQBZ=-1.05237;SCBZ=2.98224;MQ0F=0;AC=1;AN=2;DP4=27,24,15,21;MQ=55	GT:PL:AD	0/1:255,0,255:51,35
+NODE_5_length_81931_cov_7.680187	56202	.	A	C	228.324	PASS	DP=33;VDB=0.835298;SGB=-0.692562;RPBZ=-1.04469;MQBZ=0;MQSBZ=0;BQBZ=2.26649;SCBZ=0.301511;MQ0F=0;AC=2;AN=2;DP4=2,0,8,14;MQ=60	GT:PL:AD	1/1:255,46,0:2,22
+NODE_5_length_81931_cov_7.680187	56211	.	A	T	220.116	PASS	DP=35;VDB=0.566647;SGB=-0.69168;RPBZ=-0.649046;MQBZ=0;MQSBZ=0;BQBZ=2.36728;SCBZ=-1.32694;MQ0F=0;AC=1;AN=2;DP4=4,0,7,12;MQ=60	GT:PL:AD	0/1:255,0,12:4,19
+NODE_5_length_81931_cov_7.680187	65387	.	T	G	225.422	PASS	DP=56;VDB=0.913849;SGB=-0.693146;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,27,17;MQ=60	GT:PL:AD	1/1:255,129,0:0,43
+NODE_5_length_81931_cov_7.680187	65388	.	T	A	225.417	PASS	DP=56;VDB=0.917037;SGB=-0.693146;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,27,17;MQ=60	GT:PL:AD	1/1:255,132,0:0,44
+NODE_5_length_81931_cov_7.680187	81829	.	G	T	71.2263	PASS	DP=55;VDB=0.0917264;SGB=-0.662043;RPBZ=-0.0585988;MQBZ=-2.80815;MQSBZ=-0.629605;BQBZ=-2.03459;SCBZ=0.355115;MQ0F=0;AC=1;AN=2;DP4=12,13,3,6;MQ=55	GT:PL:AD	0/1:106,0,255:25,8
+NODE_6_length_73269_cov_7.320526	62524	.	T	C	221.753	PASS	DP=72;VDB=0.563198;SGB=-0.692352;RPBZ=2.08639;MQBZ=-1.41421;MQSBZ=0.534522;BQBZ=-0.386251;SCBZ=-0.731667;MQ0F=0;AC=1;AN=2;DP4=37,5,12,9;MQ=59	GT:PL:AD	0/1:255,0,255:42,21
+NODE_7_length_68638_cov_7.617033	66964	.	GCNNNNNNNNN	G	228.264	PASS	INDEL;IDV=19;IMF=0.76;DP=25;VDB=0.000105178;SGB=-0.691153;RPBZ=-1.49844;MQBZ=1.77951;MQSBZ=0.57735;BQBZ=-0.819538;SCBZ=-4.32444;MQ0F=0;AC=2;AN=2;DP4=2,2,14,4;MQ=60	GT:PL:AD	1/1:255,27,0:4,18
+NODE_9_length_64525_cov_7.079680	54027	.	A	C	225.417	PASS	DP=62;VDB=0.886172;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,24,23;MQ=60	GT:PL:AD	1/1:255,141,0:0,47
+NODE_11_length_61513_cov_7.480003	267	.	A	C	225.417	PASS	DP=31;VDB=0.474441;SGB=-0.692352;MQSBZ=-1.58114;MQ0F=0;AC=2;AN=2;DP4=0,0,15,6;MQ=59	GT:PL:AD	1/1:255,63,0:0,21
+NODE_12_length_58658_cov_7.086668	49185	.	T	A	228.326	PASS	DP=43;VDB=0.166173;SGB=-0.693054;RPBZ=-0.2082;MQBZ=0;MQSBZ=0;BQBZ=1.8477;SCBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,2,15,13;MQ=60	GT:PL:AD	1/1:255,58,0:2,27
+NODE_13_length_57379_cov_7.171848	29462	.	C	A	228.392	PASS	DP=37;VDB=0.694454;SGB=-0.69311;RPBZ=1.24712;MQBZ=0;MQSBZ=0;BQBZ=1.55241;SCBZ=0.179605;MQ0F=0;AC=2;AN=2;DP4=1,0,21,10;MQ=60	GT:PL:AD	1/1:255,81,0:1,31
+NODE_14_length_56470_cov_7.649880	51622	.	GNNNNNNNNNN	GCTGCCGACCGCNNNNNNNNNN	85.1467	PASS	INDEL;IDV=7;IMF=0.241379;DP=29;VDB=0.0162911;SGB=-0.636426;RPBZ=-4.2491;MQBZ=0.564076;MQSBZ=-0.894427;BQBZ=-1.72857;SCBZ=-4.48195;MQ0F=0;AC=1;AN=2;DP4=5,15,2,5;MQ=59	GT:PL:AD	0/1:116,0,7:20,7
+NODE_14_length_56470_cov_7.649880	51640	.	C	T	225.417	PASS	DP=19;VDB=0.950344;SGB=-0.690438;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,9,8;MQ=60	GT:PL:AD	1/1:255,51,0:0,17
+NODE_14_length_56470_cov_7.649880	56411	.	A	T	206.417	PASS	DP=18;VDB=0.0133293;SGB=-0.688148;MQ0F=0;AC=2;AN=2;DP4=0,0,0,15;MQ=60	GT:PL:AD	1/1:236,45,0:0,15
+NODE_15_length_56309_cov_7.427898	18825	.	G	T	225.421	PASS	DP=30;VDB=0.438381;SGB=-0.692717;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,11,12;MQ=60	GT:PL:AD	1/1:255,66,0:0,22
+NODE_15_length_56309_cov_7.427898	56236	.	C	A	222.41	PASS	DP=97;VDB=0.195178;SGB=-0.692976;RPBZ=-0.338854;MQBZ=-0.808215;MQSBZ=0;BQBZ=-0.0917482;SCBZ=1.2184;MQ0F=0;AC=1;AN=2;DP4=11,15,15,11;MQ=57	GT:PL:AD	0/1:255,0,255:26,25
+NODE_15_length_56309_cov_7.427898	56239	.	TG	T	167.306	PASS	INDEL;IDV=37;IMF=0.397849;DP=93;VDB=0.0107921;SGB=-0.693054;RPBZ=-1.21749;MQBZ=1.02416;MQSBZ=0;BQBZ=-0.0917482;SCBZ=-3.98597;MQ0F=0;AC=1;AN=2;DP4=17,12,11,17;MQ=58	GT:PL:AD	0/1:200,0,238:29,28
+NODE_15_length_56309_cov_7.427898	56244	.	GCC	GC	91.9652	PASS	INDEL;IDV=31;IMF=0.373494;DP=83;VDB=0.000443195;SGB=-0.692352;RPBZ=-2.2238;MQBZ=0.846612;MQSBZ=0;BQBZ=-1.52825;SCBZ=-2.76796;MQ0F=0;AC=1;AN=2;DP4=18,10,8,13;MQ=57	GT:PL:AD	0/1:125,0,230:28,21
+NODE_16_length_52457_cov_7.337792	45662	.	A	T	228.401	PASS	DP=54;VDB=0.145626;SGB=-0.693141;RPBZ=-1.41549;MQBZ=0;MQSBZ=0;BQBZ=1.68634;SCBZ=-2.71653;MQ0F=0;AC=2;AN=2;DP4=1,0,23,14;MQ=60	GT:PL:AD	1/1:255,99,0:1,37
+NODE_17_length_52262_cov_7.016205	47772	.	T	A	228.393	PASS	DP=35;VDB=0.852612;SGB=-0.693021;RPBZ=-1.17784;MQBZ=0;MQSBZ=0;BQBZ=1.75146;SCBZ=-3.60555;MQ0F=0;AC=2;AN=2;DP4=0,1,16,11;MQ=60	GT:PL:AD	1/1:255,70,0:1,27
+NODE_17_length_52262_cov_7.016205	47784	.	T	A	228.333	PASS	DP=35;VDB=0.521862;SGB=-0.692976;RPBZ=-0.447128;MQBZ=0;MQSBZ=0;BQBZ=2.12417;SCBZ=-3.60555;MQ0F=0;AC=2;AN=2;DP4=1,1,15,11;MQ=60	GT:PL:AD	1/1:255,57,0:2,26
+NODE_17_length_52262_cov_7.016205	47785	.	T	A	225.417	PASS	DP=35;VDB=0.635586;SGB=-0.693054;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,16,12;MQ=60	GT:PL:AD	1/1:255,84,0:0,28
+NODE_17_length_52262_cov_7.016205	52184	.	A	C	131.668	PASS	DP=61;VDB=0.0421576;SGB=-0.662043;RPBZ=-0.916815;MQBZ=-0.828417;MQSBZ=0.242536;BQBZ=-0.755215;SCBZ=-0.151874;MQ0F=0.0327869;AC=1;AN=2;DP4=11,16,4,5;MQ=56	GT:PL:AD	0/1:166,0,255:27,8
+NODE_18_length_51341_cov_7.266642	24	.	A	T	225.417	PASS	DP=24;VDB=1.14609e-05;SGB=-0.690438;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,15,2;MQ=60	GT:PL:AD	1/1:255,51,0:0,17
+NODE_18_length_51341_cov_7.266642	12197	.	T	G	225.417	PASS	DP=37;VDB=0.265104;SGB=-0.693079;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,17,12;MQ=60	GT:PL:AD	1/1:255,87,0:0,29
+NODE_18_length_51341_cov_7.266642	51336	.	T	A	225.417	PASS	DP=19;VDB=9.97229e-07;SGB=-0.686358;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,6,8;MQ=59	GT:PL:AD	1/1:255,42,0:0,14
+NODE_19_length_49902_cov_8.214617	73	.	C	A	187.955	PASS	DP=303;VDB=0.198572;SGB=-0.692717;RPBZ=-1.30013;MQBZ=0.55012;MQSBZ=0.422577;BQBZ=0.340403;SCBZ=0.225945;MQ0F=0;AC=1;AN=2;DP4=65,11,19,4;MQ=59	GT:PL:AD	0/1:222,0,255:76,23
+NODE_19_length_49902_cov_8.214617	23175	.	C	T	222.018	PASS	DP=127;VDB=3.12963e-07;SGB=-0.693143;RPBZ=-5.45889;MQBZ=-2.28774;MQSBZ=0.843909;BQBZ=-2.8367;SCBZ=5.71809;MQ0F=0;AC=1;AN=2;DP4=26,22,21,17;MQ=59	GT:PL:AD	0/1:255,0,255:48,33
+NODE_19_length_49902_cov_8.214617	23205	.	T	G	222.31	PASS	DP=141;VDB=0.0610683;SGB=-0.693146;RPBZ=-1.85581;MQBZ=-1.67317;MQSBZ=0.210974;BQBZ=-0.0739903;SCBZ=3.73083;MQ0F=0.0070922;AC=1;AN=2;DP4=27,29,28,16;MQ=58	GT:PL:AD	0/1:255,0,255:56,41
+NODE_19_length_49902_cov_8.214617	23206	.	A	G	222.324	PASS	DP=135;VDB=0.00125449;SGB=-0.693146;RPBZ=-1.25492;MQBZ=-2.48258;MQSBZ=0.295548;BQBZ=0.284595;SCBZ=4.28007;MQ0F=0.00740741;AC=1;AN=2;DP4=27,25,24,20;MQ=58	GT:PL:AD	0/1:255,0,255:52,38
+NODE_19_length_49902_cov_8.214617	23226	.	A	G	222.362	PASS	DP=140;VDB=0.0592274;SGB=-0.693147;RPBZ=-0.904728;MQBZ=-1.71385;MQSBZ=0.608402;BQBZ=-1.13311;SCBZ=3.69869;MQ0F=0;AC=1;AN=2;DP4=22,24,25,23;MQ=59	GT:PL:AD	0/1:255,0,255:46,38
+NODE_19_length_49902_cov_8.214617	23254	.	G	A	222.374	PASS	DP=130;VDB=0.151002;SGB=-0.693147;RPBZ=0.372406;MQBZ=0;MQSBZ=0.150668;BQBZ=-2.19446;SCBZ=0.653012;MQ0F=0;AC=1;AN=2;DP4=22,25,20,28;MQ=59	GT:PL:AD	0/1:255,0,255:47,43
+NODE_19_length_49902_cov_8.214617	23257	.	T	A	222.403	PASS	DP=125;VDB=0.0629767;SGB=-0.693147;RPBZ=0.73476;MQBZ=-1.0328;MQSBZ=-0.868744;BQBZ=0.0238091;SCBZ=0.669745;MQ0F=0;AC=1;AN=2;DP4=18,30,22,23;MQ=59	GT:PL:AD	0/1:255,0,255:48,45
+NODE_19_length_49902_cov_8.214617	30928	.	G	A	222.235	PASS	DP=108;VDB=0.00561027;SGB=-0.693147;RPBZ=-3.50639;MQBZ=1.23303;MQSBZ=-0.311526;BQBZ=-3.00926;SCBZ=-1.57791;MQ0F=0.0185185;AC=1;AN=2;DP4=10,16,36,25;MQ=52	GT:PL:AD	0/1:255,0,255:26,47
+NODE_19_length_49902_cov_8.214617	30972	.	C	G	33.9139	PASS	DP=91;VDB=1.02737e-06;SGB=-0.690438;RPBZ=3.9257;MQBZ=-3.26559;MQSBZ=-1.24644;BQBZ=0.00656558;SCBZ=0.609742;MQ0F=0.010989;AC=1;AN=2;DP4=32,28,3,14;MQ=55	GT:PL:AD	0/1:69,0,255:60,15
+NODE_19_length_49902_cov_8.214617	40567	.	C	T	147.883	PASS	DP=115;VDB=1.85226e-06;SGB=-0.692831;RPBZ=-3.61827;MQBZ=-4.72341;MQSBZ=-1.00348;BQBZ=-2.66704;SCBZ=3.30308;MQ0F=0.00869565;AC=1;AN=2;DP4=27,29,14,10;MQ=55	GT:PL:AD	0/1:182,0,255:56,23
+NODE_19_length_49902_cov_8.214617	40574	.	C	T	89.1103	PASS	DP=128;VDB=2.97111e-05;SGB=-0.692067;RPBZ=-2.5753;MQBZ=-2.93319;MQSBZ=0.876474;BQBZ=-2.47937;SCBZ=1.00374;MQ0F=0.0078125;AC=1;AN=2;DP4=34,30,14,6;MQ=55	GT:PL:AD	0/1:124,0,255:64,19
+NODE_19_length_49902_cov_8.214617	40660	.	C	T	221.656	PASS	DP=114;VDB=0.577436;SGB=-0.693147;RPBZ=-4.14353;MQBZ=0.436795;MQSBZ=0.414408;BQBZ=0.378905;SCBZ=-1.34684;MQ0F=0.00877193;AC=1;AN=2;DP4=12,13,33,25;MQ=55	GT:PL:AD	0/1:255,0,255:25,55
+NODE_19_length_49902_cov_8.214617	40667	.	C	T	221.779	PASS	DP=110;VDB=0.456512;SGB=-0.693147;RPBZ=-4.97345;MQBZ=1.36209;MQSBZ=0.942607;BQBZ=1.7609;SCBZ=-2.25313;MQ0F=0.00909091;AC=1;AN=2;DP4=15,12,29,22;MQ=55	GT:PL:AD	0/1:255,0,255:27,51
+NODE_19_length_49902_cov_8.214617	40688	.	T	C	100.7	PASS	DP=98;VDB=0.00326767;SGB=-0.686358;RPBZ=3.64592;MQBZ=-3.87205;MQSBZ=1.15211;BQBZ=-1.23812;SCBZ=4.54148;MQ0F=0;AC=1;AN=2;DP4=32,27,9,5;MQ=57	GT:PL:AD	0/1:136,0,255:59,13
+NODE_21_length_48101_cov_7.810473	8520	.	TCACC	TCACCACC	228.254	PASS	INDEL;IDV=58;IMF=0.84058;DP=69;VDB=0.349043;SGB=-0.693147;RPBZ=-3.83849;MQBZ=2.29624;MQSBZ=1.09545;BQBZ=-1.72425;SCBZ=-4.47613;MQ0F=0;AC=2;AN=2;DP4=0,9,23,28;MQ=60	GT:PL:AD	1/1:255,78,0:9,51
+NODE_21_length_48101_cov_7.810473	47566	.	A	G	139.328	PASS	DP=169;VDB=1.58696e-05;SGB=-0.692831;RPBZ=-1.68514;MQBZ=1.07627;MQSBZ=-0.135802;BQBZ=1.37842;SCBZ=1.04679;MQ0F=0;AC=1;AN=2;DP4=78,29,18,6;MQ=58	GT:PL:AD	0/1:174,0,255:107,21
+NODE_21_length_48101_cov_7.810473	47569	.	C	G	222.139	PASS	DP=169;VDB=0.0188108;SGB=-0.693147;RPBZ=3.34317;MQBZ=0.350041;MQSBZ=-0.0483476;BQBZ=-0.678601;SCBZ=-1.49664;MQ0F=0;AC=1;AN=2;DP4=69,10,25,26;MQ=58	GT:PL:AD	0/1:255,0,255:79,51
+NODE_21_length_48101_cov_7.810473	47600	.	T	C	222.059	PASS	DP=199;VDB=0.0441676;SGB=-0.693147;RPBZ=1.54682;MQBZ=-0.849067;MQSBZ=0.163676;BQBZ=-0.123112;SCBZ=-1.00813;MQ0F=0.00502513;AC=1;AN=2;DP4=36,14,54,36;MQ=59	GT:PL:AD	0/1:255,0,255:50,89
+NODE_21_length_48101_cov_7.810473	47683	.	A	G	222.335	PASS	DP=181;VDB=0.267735;SGB=-0.693147;RPBZ=0.242485;MQBZ=-1.95333;MQSBZ=0.168696;BQBZ=-0.00452237;SCBZ=1.25354;MQ0F=0;AC=1;AN=2;DP4=51,28,37,26;MQ=59	GT:PL:AD	0/1:255,0,255:79,61
+NODE_21_length_48101_cov_7.810473	47685	.	A	G	221.013	PASS	DP=185;VDB=0.484945;SGB=-0.693132;RPBZ=-0.671841;MQBZ=0.960903;MQSBZ=0.107644;BQBZ=0.62274;SCBZ=0.0736803;MQ0F=0;AC=1;AN=2;DP4=71,41,22,12;MQ=59	GT:PL:AD	0/1:255,0,255:112,33
+NODE_21_length_48101_cov_7.810473	47915	.	A	G	222.363	PASS	DP=240;VDB=0.0216075;SGB=-0.693147;RPBZ=0.618737;MQBZ=1.82516;MQSBZ=1.7636;BQBZ=1.75793;SCBZ=0.894611;MQ0F=0;AC=1;AN=2;DP4=52,40,43,64;MQ=59	GT:PL:AD	0/1:255,0,255:92,103
+NODE_21_length_48101_cov_7.810473	47926	.	C	T	222.334	PASS	DP=244;VDB=0.908886;SGB=-0.693147;RPBZ=-1.50211;MQBZ=-1.79223;MQSBZ=1.91035;BQBZ=-2.77566;SCBZ=-1.44233;MQ0F=0;AC=1;AN=2;DP4=43,67,50,47;MQ=59	GT:PL:AD	0/1:255,0,255:110,97
+NODE_21_length_48101_cov_7.810473	48046	.	C	A	221.639	PASS	DP=212;VDB=2.32402e-11;SGB=-0.693147;RPBZ=2.18446;MQBZ=-0.69498;MQSBZ=-0.656559;BQBZ=-2.31547;SCBZ=-1.49609;MQ0F=0;AC=1;AN=2;DP4=30,77,13,38;MQ=55	GT:PL:AD	0/1:255,0,255:107,50
+NODE_22_length_47574_cov_7.207559	21	.	C	T	225.417	PASS	DP=26;VDB=8.23316e-09;SGB=-0.692352;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,17,4;MQ=60	GT:PL:AD	1/1:255,63,0:0,21
+NODE_22_length_47574_cov_7.207559	40201	.	TCTGATTNNNNNNNNNNCTGATT	TCTGATT	228.107	PASS	INDEL;IDV=25;IMF=0.675676;DP=37;VDB=0.0367712;SGB=-0.692831;RPBZ=-4.18904;MQBZ=0;MQSBZ=0;BQBZ=-0.446473;SCBZ=-4.84892;MQ0F=0;AC=2;AN=2;DP4=4,5,10,14;MQ=60	GT:PL:AD	1/1:255,15,0:9,24
+NODE_23_length_47476_cov_7.643913	33311	.	C	A	228.235	PASS	DP=65;VDB=0.0406514;SGB=-0.693146;RPBZ=-0.152622;MQBZ=0;MQSBZ=0;BQBZ=1.88096;SCBZ=0.435994;MQ0F=0;AC=2;AN=2;DP4=4,0,30,13;MQ=60	GT:PL:AD	1/1:255,70,0:4,43
+NODE_24_length_46911_cov_7.238561	30005	.	A	T	209.17	PASS	DP=107;VDB=0.996696;SGB=-0.692831;RPBZ=-2.58726;MQBZ=-5.33087;MQSBZ=-0.662423;BQBZ=-3.50557;SCBZ=3.9829;MQ0F=0;AC=1;AN=2;DP4=35,17,14,10;MQ=54	GT:PL:AD	0/1:243,0,255:52,24
+NODE_24_length_46911_cov_7.238561	30064	.	A	C	222.079	PASS	DP=118;VDB=1.77519e-07;SGB=-0.69311;RPBZ=0.597854;MQBZ=-4.68853;MQSBZ=0.871437;BQBZ=-0.153614;SCBZ=1.03495;MQ0F=0.00847458;AC=1;AN=2;DP4=16,28,19,12;MQ=52	GT:PL:AD	0/1:255,0,255:44,29
+NODE_24_length_46911_cov_7.238561	30111	.	A	G	222.159	PASS	DP=104;VDB=1.53823e-06;SGB=-0.693097;RPBZ=1.81155;MQBZ=-3.92461;MQSBZ=1.03002;BQBZ=-0.55137;SCBZ=-1.15417;MQ0F=0;AC=1;AN=2;DP4=15,23,16,14;MQ=52	GT:PL:AD	0/1:255,0,255:38,27
+NODE_24_length_46911_cov_7.238561	30124	.	T	G	222.264	PASS	DP=99;VDB=1.21229e-06;SGB=-0.693021;RPBZ=2.35716;MQBZ=-4.56811;MQSBZ=1.42706;BQBZ=2.28873;SCBZ=-1.95366;MQ0F=0;AC=1;AN=2;DP4=12,28,15,12;MQ=52	GT:PL:AD	0/1:255,0,255:40,27
+NODE_24_length_46911_cov_7.238561	30126	.	T	C	222.147	PASS	DP=99;VDB=1.19805e-06;SGB=-0.693054;RPBZ=2.28801;MQBZ=-4.08095;MQSBZ=0.465869;BQBZ=0.45406;SCBZ=-1.98221;MQ0F=0;AC=1;AN=2;DP4=10,29,15,13;MQ=52	GT:PL:AD	0/1:255,0,255:39,26
+NODE_24_length_46911_cov_7.238561	30156	.	A	T	88.0299	PASS	DP=51;VDB=0.000258763;SGB=-0.683931;RPBZ=0.633833;MQBZ=-3.55285;MQSBZ=1.21797;BQBZ=-1.4059;SCBZ=-0.506923;MQ0F=0.0392157;AC=1;AN=2;DP4=7,21,2,11;MQ=47	GT:PL:AD	0/1:122,0,255:28,13
+NODE_24_length_46911_cov_7.238561	30337	.	T	A	22.7124	PASS	DP=28;VDB=0.101965;SGB=-0.616816;RPBZ=-0.859424;MQBZ=-4.40054;MQSBZ=-0.446347;BQBZ=-1.93548;SCBZ=1.1354;MQ0F=0;AC=1;AN=2;DP4=9,6,3,3;MQ=49	GT:PL:AD	0/1:58,0,255:15,6
+NODE_24_length_46911_cov_7.238561	46774	.	A	T	225.417	PASS	DP=41;VDB=0.598719;SGB=-0.693097;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,7,23;MQ=60	GT:PL:AD	1/1:255,90,0:0,30
+NODE_25_length_46435_cov_7.041203	4930	.	G	A	173.061	PASS	DP=120;VDB=1.78491e-09;SGB=-0.693054;RPBZ=2.12872;MQBZ=-0.999023;MQSBZ=0.0529243;BQBZ=-3.80508;SCBZ=1.84296;MQ0F=0.00833333;AC=1;AN=2;DP4=36,24,14,14;MQ=55	GT:PL:AD	0/1:207,0,255:60,26
+NODE_25_length_46435_cov_7.041203	4959	.	G	A	132.043	PASS	DP=91;VDB=2.89627e-12;SGB=-0.692352;RPBZ=3.40313;MQBZ=-0.607643;MQSBZ=-1.03347;BQBZ=-1.70446;SCBZ=0.76852;MQ0F=0;AC=1;AN=2;DP4=30,24,11,10;MQ=54	GT:PL:AD	0/1:166,0,255:54,19
+NODE_25_length_46435_cov_7.041203	4962	.	C	T	160.375	PASS	DP=86;VDB=3.23641e-12;SGB=-0.692831;RPBZ=4.30064;MQBZ=-0.279369;MQSBZ=-1.10936;BQBZ=-1.255;SCBZ=1.03342;MQ0F=0;AC=1;AN=2;DP4=24,23,13,11;MQ=54	GT:PL:AD	0/1:194,0,255:47,19
+NODE_26_length_45752_cov_7.321268	17247	.	G	T	225.417	PASS	DP=66;VDB=0.222296;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,17,35;MQ=60	GT:PL:AD	1/1:255,157,0:0,52
+NODE_26_length_45752_cov_7.321268	25325	.	A	T	228.358	PASS	DP=56;VDB=0.461154;SGB=-0.693146;RPBZ=-0.64753;MQBZ=0;MQSBZ=0;BQBZ=2.18858;SCBZ=-4.69042;MQ0F=0;AC=2;AN=2;DP4=1,1,23,21;MQ=60	GT:PL:AD	1/1:255,107,0:2,44
+NODE_26_length_45752_cov_7.321268	26085	.	A	C	225.417	PASS	DP=82;VDB=0.884394;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,41,27;MQ=60	GT:PL:AD	1/1:255,205,0:0,68
+NODE_27_length_44692_cov_7.163116	23593	.	A	C	225.417	PASS	DP=28;VDB=0.0564923;SGB=-0.692352;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,8,13;MQ=60	GT:PL:AD	1/1:255,63,0:0,21
+NODE_27_length_44692_cov_7.163116	26900	.	A	T	58.2878	PASS	DP=40;VDB=0.024476;SGB=-0.670168;RPBZ=0.0424205;MQBZ=0;MQSBZ=0;BQBZ=-1.84594;SCBZ=1.8856;MQ0F=0;AC=1;AN=2;DP4=16,5,1,9;MQ=60	GT:PL:AD	0/1:92,0,255:21,10
+NODE_27_length_44692_cov_7.163116	36535	.	G	A	197.588	PASS	DP=151;VDB=0.0004635;SGB=-0.692717;RPBZ=0.755484;MQBZ=-0.550779;MQSBZ=0.939159;BQBZ=-2.37499;SCBZ=1.74125;MQ0F=0;AC=1;AN=2;DP4=38,27,9,14;MQ=56	GT:PL:AD	0/1:232,0,255:65,20
+NODE_27_length_44692_cov_7.163116	44502	.	G	A	222.351	PASS	DP=125;VDB=0.319717;SGB=-0.693147;RPBZ=3.0204;MQBZ=0.790903;MQSBZ=-0.179278;BQBZ=0.815076;SCBZ=-1.70101;MQ0F=0.008;AC=1;AN=2;DP4=16,24,15,34;MQ=52	GT:PL:AD	0/1:255,0,255:40,48
+NODE_27_length_44692_cov_7.163116	44503	.	T	A	222.021	PASS	DP=126;VDB=0.0039596;SGB=-0.693147;RPBZ=3.82153;MQBZ=-0.683322;MQSBZ=0.0960922;BQBZ=1.51101;SCBZ=-1.77729;MQ0F=0.00793651;AC=1;AN=2;DP4=13,19,19,39;MQ=52	GT:PL:AD	0/1:255,0,255:32,56
+NODE_27_length_44692_cov_7.163116	44524	.	A	G	222.397	PASS	DP=116;VDB=0.00711331;SGB=-0.693146;RPBZ=1.83972;MQBZ=0.643598;MQSBZ=-1.45856;BQBZ=-0.249889;SCBZ=-2.91299;MQ0F=0.00862069;AC=1;AN=2;DP4=18,19,18,25;MQ=50	GT:PL:AD	0/1:255,0,255:37,41
+NODE_27_length_44692_cov_7.163116	44527	.	C	T	222.216	PASS	DP=114;VDB=0.0306073;SGB=-0.693132;RPBZ=1.88055;MQBZ=-0.40141;MQSBZ=-1.44087;BQBZ=-0.695442;SCBZ=-2.81957;MQ0F=0.00877193;AC=1;AN=2;DP4=18,26,14,20;MQ=51	GT:PL:AD	0/1:255,0,255:44,32
+NODE_27_length_44692_cov_7.163116	44576	.	C	T	82.7672	PASS	DP=78;VDB=0.00263709;SGB=-0.690438;RPBZ=2.08432;MQBZ=-3.88527;MQSBZ=-0.973378;BQBZ=-1.09365;SCBZ=1.03495;MQ0F=0;AC=1;AN=2;DP4=17,29,2,15;MQ=55	GT:PL:AD	0/1:117,0,255:46,16
+NODE_27_length_44692_cov_7.163116	44583	.	T	C	107.96	PASS	DP=81;VDB=0.000232601;SGB=-0.690438;RPBZ=2.76099;MQBZ=-3.08921;MQSBZ=-0.832922;BQBZ=0.114018;SCBZ=0.335343;MQ0F=0;AC=1;AN=2;DP4=16,31,3,14;MQ=54	GT:PL:AD	0/1:142,0,255:47,16
+NODE_28_length_44097_cov_7.682848	5865	.	A	C	228.403	PASS	DP=77;VDB=0.986058;SGB=-0.693147;RPBZ=0.550647;MQBZ=0;MQSBZ=0;BQBZ=1.59174;SCBZ=-3.96863;MQ0F=0;AC=2;AN=2;DP4=1,0,25,37;MQ=60	GT:PL:AD	1/1:255,171,0:1,62
+NODE_28_length_44097_cov_7.682848	9410	.	C	A	33.7652	PASS	DP=67;VDB=0.635956;SGB=-0.676189;RPBZ=1.71979;MQBZ=0.524404;MQSBZ=-1.19523;BQBZ=0.0828753;SCBZ=2.36293;MQ0F=0;AC=1;AN=2;DP4=19,21,11,0;MQ=59	GT:PL:AD	0/1:68,0,255:40,11
+NODE_28_length_44097_cov_7.682848	32376	.	A	C	225.417	PASS	DP=30;VDB=0.0001136;SGB=-0.692562;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,8,14;MQ=60	GT:PL:AD	1/1:255,66,0:0,22
+NODE_28_length_44097_cov_7.682848	43950	.	C	A	221.136	PASS	DP=245;VDB=0.368894;SGB=-0.693145;RPBZ=0.970635;MQBZ=0.75204;MQSBZ=1.54505;BQBZ=-1.29154;SCBZ=0.151621;MQ0F=0;AC=1;AN=2;DP4=64,51,26,15;MQ=58	GT:PL:AD	0/1:255,0,255:115,41
+NODE_29_length_42812_cov_8.142854	41115	.	C	T	222.408	PASS	DP=127;VDB=3.24946e-17;SGB=-0.693147;RPBZ=-5.51259;MQBZ=-7.62683;MQSBZ=1.81603;BQBZ=0.94277;SCBZ=-1.42214;MQ0F=0;AC=1;AN=2;DP4=24,21,35,10;MQ=53	GT:PL:AD	0/1:255,0,255:45,44
+NODE_29_length_42812_cov_8.142854	41121	.	G	A	222.416	PASS	DP=172;VDB=6.01863e-26;SGB=-0.693147;RPBZ=-6.04547;MQBZ=-7.65105;MQSBZ=1.78184;BQBZ=-1.56595;SCBZ=0.738849;MQ0F=0;AC=1;AN=2;DP4=27,22,42,21;MQ=53	GT:PL:AD	0/1:255,0,255:49,61
+NODE_29_length_42812_cov_8.142854	41166	.	C	T	222.178	PASS	DP=186;VDB=3.02368e-25;SGB=-0.693147;RPBZ=-1.46846;MQBZ=-7.31671;MQSBZ=-0.24216;BQBZ=2.91819;SCBZ=2.29583;MQ0F=0;AC=1;AN=2;DP4=21,20,30,35;MQ=52	GT:PL:AD	0/1:255,0,255:41,65
+NODE_29_length_42812_cov_8.142854	41172	.	T	C	221.983	PASS	DP=185;VDB=5.11139e-24;SGB=-0.693147;RPBZ=-0.799576;MQBZ=-7.17197;MQSBZ=-0.24216;BQBZ=5.15694;SCBZ=2.23551;MQ0F=0;AC=1;AN=2;DP4=20,20,31,35;MQ=52	GT:PL:AD	0/1:255,0,255:40,65
+NODE_29_length_42812_cov_8.142854	41175	.	C	G	222.121	PASS	DP=185;VDB=3.6662e-25;SGB=-0.693147;RPBZ=-1.2161;MQBZ=-6.99267;MQSBZ=-0.24216;BQBZ=5.44528;SCBZ=2.3565;MQ0F=0;AC=1;AN=2;DP4=22,20,29,35;MQ=52	GT:PL:AD	0/1:255,0,255:42,64
+NODE_29_length_42812_cov_8.142854	41178	.	C	A	222.101	PASS	DP=186;VDB=5.31524e-25;SGB=-0.693147;RPBZ=-0.641282;MQBZ=-7.28031;MQSBZ=-0.2495;BQBZ=5.09245;SCBZ=2.15255;MQ0F=0;AC=1;AN=2;DP4=22,19,30,34;MQ=52	GT:PL:AD	0/1:255,0,255:41,64
+NODE_29_length_42812_cov_8.142854	41180	.	G	C	222.11	PASS	DP=185;VDB=2.00171e-25;SGB=-0.693147;RPBZ=-0.462548;MQBZ=-7.24562;MQSBZ=-0.510569;BQBZ=4.90357;SCBZ=2.25983;MQ0F=0;AC=1;AN=2;DP4=22,18,30,35;MQ=52	GT:PL:AD	0/1:255,0,255:40,65
+NODE_29_length_42812_cov_8.142854	41181	.	T	A	171.592	PASS	DP=188;VDB=7.53063e-07;SGB=-0.691153;RPBZ=-0.700464;MQBZ=-4.45004;MQSBZ=-0.335317;BQBZ=0.40288;SCBZ=-0.0608657;MQ0F=0;AC=1;AN=2;DP4=43,46,8,10;MQ=52	GT:PL:AD	0/1:207,0,255:89,18
+NODE_29_length_42812_cov_8.142854	41184	.	A	C	222.13	PASS	DP=189;VDB=3.36368e-25;SGB=-0.693147;RPBZ=0.157102;MQBZ=-7.45555;MQSBZ=-0.23315;BQBZ=4.87556;SCBZ=2.36615;MQ0F=0;AC=1;AN=2;DP4=22,21,30,35;MQ=52	GT:PL:AD	0/1:255,0,255:43,65
+NODE_29_length_42812_cov_8.142854	41212	.	G	A	222.23	PASS	DP=199;VDB=2.59384e-23;SGB=-0.693147;RPBZ=3.61625;MQBZ=-7.73299;MQSBZ=-1.47527;BQBZ=6.48155;SCBZ=2.45096;MQ0F=0;AC=1;AN=2;DP4=28,21,28,37;MQ=53	GT:PL:AD	0/1:255,0,255:49,64
+NODE_29_length_42812_cov_8.142854	41241	.	T	C	222.305	PASS	DP=194;VDB=3.3837e-26;SGB=-0.693147;RPBZ=5.21276;MQBZ=-7.6707;MQSBZ=-1.51774;BQBZ=4.90847;SCBZ=2.23654;MQ0F=0;AC=1;AN=2;DP4=26,24,23,39;MQ=53	GT:PL:AD	0/1:255,0,255:50,62
+NODE_29_length_42812_cov_8.142854	41264	.	A	G	180.048	PASS	DP=107;VDB=1.44521e-08;SGB=-0.693127;RPBZ=5.56945;MQBZ=-6.12164;MQSBZ=-2.80044;BQBZ=-1.1677;SCBZ=2.3403;MQ0F=0;AC=1;AN=2;DP4=21,24,2,31;MQ=55	GT:PL:AD	0/1:213,0,255:45,30
+NODE_31_length_40620_cov_7.179071	24634	.	C	T	225.422	PASS	DP=50;VDB=0.135106;SGB=-0.693143;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,25,13;MQ=60	GT:PL:AD	1/1:255,111,0:0,37
+NODE_32_length_40516_cov_7.631176	284	.	G	A	228.411	PASS	DP=69;VDB=0.412332;SGB=-0.693147;RPBZ=0.951651;MQBZ=0;MQSBZ=0;BQBZ=1.74712;SCBZ=0.141421;MQ0F=0;AC=2;AN=2;DP4=1,0,28,22;MQ=60	GT:PL:AD	1/1:255,136,0:1,50
+NODE_33_length_38803_cov_7.737044	21250	.	G	A	49.2529	PASS	DP=90;VDB=6.42186e-06;SGB=-0.690438;RPBZ=-3.15713;MQBZ=-3.43254;MQSBZ=0.633539;BQBZ=-3.81423;SCBZ=4.01848;MQ0F=0.0111111;AC=1;AN=2;DP4=27,23,8,9;MQ=57	GT:PL:AD	0/1:85,0,255:50,13
+NODE_33_length_38803_cov_7.737044	21257	.	T	C	221.598	PASS	DP=92;VDB=0.131;SGB=-0.693147;RPBZ=4.42517;MQBZ=2.39593;MQSBZ=0.137554;BQBZ=0.476495;SCBZ=-3.65193;MQ0F=0.0108696;AC=1;AN=2;DP4=10,12,26,21;MQ=56	GT:PL:AD	0/1:255,0,255:22,45
+NODE_33_length_38803_cov_7.737044	21361	.	A	G	221.963	PASS	DP=110;VDB=3.93771e-06;SGB=-0.693021;RPBZ=4.26888;MQBZ=-2.50265;MQSBZ=-0.457415;BQBZ=0.675796;SCBZ=1.86912;MQ0F=0.00909091;AC=1;AN=2;DP4=29,26,9,18;MQ=58	GT:PL:AD	0/1:255,0,255:55,26
+NODE_33_length_38803_cov_7.737044	36292	.	G	T	225.422	PASS	DP=68;VDB=0.983887;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,22,26;MQ=60	GT:PL:AD	1/1:255,141,0:0,47
+NODE_33_length_38803_cov_7.737044	37761	.	A	T	228.361	PASS	DP=63;VDB=0.541673;SGB=-0.693147;RPBZ=0.430035;MQBZ=-0.206284;MQSBZ=0.94054;BQBZ=2.00591;SCBZ=0.364764;MQ0F=0;AC=2;AN=2;DP4=0,2,26,21;MQ=59	GT:PL:AD	1/1:255,116,0:2,47
+NODE_33_length_38803_cov_7.737044	38763	.	T	A	228.304	PASS	DP=45;VDB=4.35654e-05;SGB=-0.692717;RPBZ=0.0402943;MQBZ=0;MQSBZ=0;BQBZ=2.50995;SCBZ=0.650109;MQ0F=0;AC=2;AN=2;DP4=1,2,7,16;MQ=60	GT:PL:AD	1/1:255,42,0:3,23
+NODE_34_length_38002_cov_7.454107	35674	.	T	C	79.6886	PASS	DP=53;VDB=0.066319;SGB=-0.616816;RPBZ=-2.34985;MQBZ=-2.38048;MQSBZ=1.29099;BQBZ=0.98952;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=11,23,4,2;MQ=59	GT:PL:AD	0/1:115,0,255:34,5
+NODE_34_length_38002_cov_7.454107	35675	.	C	T	67.4811	PASS	DP=53;VDB=0.034401;SGB=-0.636426;RPBZ=-2.32263;MQBZ=-2.20389;MQSBZ=1.25;BQBZ=-0.280538;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=11,23,5,2;MQ=59	GT:PL:AD	0/1:103,0,255:34,5
+NODE_34_length_38002_cov_7.454107	35683	.	A	G	106.23	PASS	DP=57;VDB=0.138791;SGB=-0.662043;RPBZ=-2.62055;MQBZ=-2.82111;MQSBZ=1.80287;BQBZ=-0.0611265;SCBZ=1.97203;MQ0F=0;AC=1;AN=2;DP4=10,25,7,2;MQ=59	GT:PL:AD	0/1:141,0,255:35,7
+NODE_34_length_38002_cov_7.454107	35749	.	G	A	222.382	PASS	DP=71;VDB=0.696645;SGB=-0.693097;RPBZ=2.36108;MQBZ=3.243;MQSBZ=0.282383;BQBZ=-3.71233;SCBZ=-3.24351;MQ0F=0;AC=1;AN=2;DP4=11,8,11,19;MQ=57	GT:PL:AD	0/1:255,0,255:19,30
+NODE_34_length_38002_cov_7.454107	35752	.	A	G	222.313	PASS	DP=70;VDB=0.676372;SGB=-0.693097;RPBZ=2.10444;MQBZ=3.243;MQSBZ=0.390253;BQBZ=-3.04068;SCBZ=-3.24351;MQ0F=0;AC=1;AN=2;DP4=11,8,10,20;MQ=57	GT:PL:AD	0/1:255,0,255:19,30
+NODE_34_length_38002_cov_7.454107	35836	.	C	T	215.358	PASS	DP=63;VDB=0.00407982;SGB=-0.686358;RPBZ=3.87662;MQBZ=-3.48244;MQSBZ=-1.16753;BQBZ=-0.0788746;SCBZ=2.09555;MQ0F=0;AC=1;AN=2;DP4=15,16,6,8;MQ=57	GT:PL:AD	0/1:249,0,255:31,13
+NODE_34_length_38002_cov_7.454107	35842	.	A	G	206.376	PASS	DP=66;VDB=0.00143795;SGB=-0.683931;RPBZ=4.23624;MQBZ=-3.77722;MQSBZ=-1.27246;BQBZ=0.726479;SCBZ=2.41976;MQ0F=0;AC=1;AN=2;DP4=18,16,5,8;MQ=57	GT:PL:AD	0/1:240,0,255:34,13
+NODE_34_length_38002_cov_7.454107	35848	.	G	A	107.398	PASS	DP=63;VDB=0.000368483;SGB=-0.670168;RPBZ=3.25117;MQBZ=-4.85183;MQSBZ=-1.35311;BQBZ=0.276161;SCBZ=-0.764471;MQ0F=0;AC=1;AN=2;DP4=18,17,2,8;MQ=57	GT:PL:AD	0/1:142,0,255:35,9
+NODE_34_length_38002_cov_7.454107	35851	.	C	T	93.3887	PASS	DP=62;VDB=0.000333273;SGB=-0.662043;RPBZ=2.91162;MQBZ=-5.12111;MQSBZ=-1.40261;BQBZ=0.902625;SCBZ=-0.725428;MQ0F=0;AC=1;AN=2;DP4=19,16,1,8;MQ=57	GT:PL:AD	0/1:128,0,255:35,9
+NODE_34_length_38002_cov_7.454107	35856	.	C	T	94.1864	PASS	DP=61;VDB=0.0362545;SGB=-0.670168;RPBZ=2.18508;MQBZ=-5.3019;MQSBZ=-0.847582;BQBZ=-0.220625;SCBZ=-0.764471;MQ0F=0;AC=1;AN=2;DP4=19,16,2,8;MQ=56	GT:PL:AD	0/1:129,0,255:35,10
+NODE_34_length_38002_cov_7.454107	35857	.	G	A	82.1578	PASS	DP=61;VDB=0.0405813;SGB=-0.670168;RPBZ=2.15805;MQBZ=-5.3019;MQSBZ=-0.847582;BQBZ=0.0990786;SCBZ=-0.534522;MQ0F=0;AC=1;AN=2;DP4=19,16,2,8;MQ=56	GT:PL:AD	0/1:117,0,255:35,8
+NODE_34_length_38002_cov_7.454107	35943	.	G	A	37.7694	PASS	DP=76;VDB=0.00457853;SGB=-0.662043;RPBZ=-0.250634;MQBZ=-5.36551;MQSBZ=1.82552;BQBZ=-1.19732;SCBZ=1.26262;MQ0F=0;AC=1;AN=2;DP4=17,29,5,4;MQ=57	GT:PL:AD	0/1:74,0,255:46,8
+NODE_34_length_38002_cov_7.454107	36004	.	G	A	211.954	PASS	DP=89;VDB=0.715153;SGB=-0.689466;RPBZ=-1.39342;MQBZ=-5.7788;MQSBZ=2.01191;BQBZ=0.0343161;SCBZ=-0.589768;MQ0F=0;AC=1;AN=2;DP4=22,24,9,7;MQ=56	GT:PL:AD	0/1:246,0,255:46,16
+NODE_34_length_38002_cov_7.454107	36013	.	G	A	221.187	PASS	DP=87;VDB=0.80169;SGB=-0.690438;RPBZ=-1.32896;MQBZ=-5.48997;MQSBZ=1.95824;BQBZ=0.330273;SCBZ=-0.621582;MQ0F=0;AC=1;AN=2;DP4=22,22,9,8;MQ=56	GT:PL:AD	0/1:255,0,255:44,17
+NODE_34_length_38002_cov_7.454107	36016	.	A	G	221.219	PASS	DP=84;VDB=0.635363;SGB=-0.690438;RPBZ=-1.2089;MQBZ=-5.54447;MQSBZ=1.56427;BQBZ=0.264064;SCBZ=0.695903;MQ0F=0;AC=1;AN=2;DP4=21,24,8,9;MQ=56	GT:PL:AD	0/1:255,0,255:45,16
+NODE_34_length_38002_cov_7.454107	36061	.	A	G	221.983	PASS	DP=80;VDB=0.356192;SGB=-0.691153;RPBZ=-1.57417;MQBZ=-4.48583;MQSBZ=-0.676132;BQBZ=3.43124;SCBZ=0.76517;MQ0F=0;AC=1;AN=2;DP4=26,14,9,9;MQ=57	GT:PL:AD	0/1:255,0,255:40,17
+NODE_34_length_38002_cov_7.454107	36090	.	A	G	222.288	PASS	DP=69;VDB=0.4108;SGB=-0.691153;RPBZ=0.842276;MQBZ=-3.99565;MQSBZ=-0.749226;BQBZ=3.3028;SCBZ=-0.124761;MQ0F=0;AC=1;AN=2;DP4=20,11,10,8;MQ=57	GT:PL:AD	0/1:255,0,255:31,17
+NODE_34_length_38002_cov_7.454107	36136	.	T	C	180.088	PASS	DP=63;VDB=0.00032762;SGB=-0.680642;RPBZ=2.92983;MQBZ=-2.9378;MQSBZ=-1.98067;BQBZ=-0.437834;SCBZ=1.54309;MQ0F=0;AC=1;AN=2;DP4=18,15,7,5;MQ=59	GT:PL:AD	0/1:214,0,255:33,10
+NODE_34_length_38002_cov_7.454107	36157	.	T	A	110.332	PASS	DP=64;VDB=0.255821;SGB=-0.651104;RPBZ=1.78337;MQBZ=-2.29778;MQSBZ=-0.873953;BQBZ=0.6858;SCBZ=0.626667;MQ0F=0;AC=1;AN=2;DP4=20,16,6,2;MQ=58	GT:PL:AD	0/1:145,0,255:36,8
+NODE_34_length_38002_cov_7.454107	36169	.	T	G	112.315	PASS	DP=68;VDB=0.453493;SGB=-0.670168;RPBZ=2.44698;MQBZ=-4.0746;MQSBZ=-1.18519;BQBZ=0.101479;SCBZ=0.507389;MQ0F=0;AC=1;AN=2;DP4=22,17,5,5;MQ=58	GT:PL:AD	0/1:147,0,255:39,10
+NODE_34_length_38002_cov_7.454107	36316	.	A	G	221.544	PASS	DP=75;VDB=0.0190538;SGB=-0.686358;RPBZ=1.20568;MQBZ=-2.98311;MQSBZ=-0.37453;BQBZ=1.90896;SCBZ=0.348072;MQ0F=0;AC=1;AN=2;DP4=15,25,8,6;MQ=58	GT:PL:AD	0/1:255,0,255:40,14
+NODE_34_length_38002_cov_7.454107	36346	.	G	A	211.347	PASS	DP=68;VDB=0.00503202;SGB=-0.686358;RPBZ=2.764;MQBZ=-2.2903;MQSBZ=0.0388989;BQBZ=0.301189;SCBZ=0.277035;MQ0F=0;AC=1;AN=2;DP4=18,21,7,7;MQ=58	GT:PL:AD	0/1:245,0,255:39,14
+NODE_34_length_38002_cov_7.454107	36394	.	C	A	79.0779	PASS	DP=60;VDB=0.984446;SGB=-0.676189;RPBZ=-0.226639;MQBZ=-4.1987;MQSBZ=0.65367;BQBZ=-1.28703;SCBZ=-0.552771;MQ0F=0;AC=1;AN=2;DP4=22,14,7,4;MQ=56	GT:PL:AD	0/1:114,0,255:36,10
+NODE_34_length_38002_cov_7.454107	36415	.	C	T	94.3248	PASS	DP=62;VDB=0.850567;SGB=-0.680642;RPBZ=-0.465246;MQBZ=-5.66737;MQSBZ=0.706711;BQBZ=-1.63532;SCBZ=1.73205;MQ0F=0;AC=1;AN=2;DP4=20,16,8,4;MQ=56	GT:PL:AD	0/1:129,0,255:36,11
+NODE_34_length_38002_cov_7.454107	36424	.	G	C	113.511	PASS	DP=63;VDB=0.0028438;SGB=-0.670168;RPBZ=-1.94877;MQBZ=-5.36884;MQSBZ=1.02815;BQBZ=0.225678;SCBZ=2.71293;MQ0F=0;AC=1;AN=2;DP4=19,17,7,3;MQ=57	GT:PL:AD	0/1:148,0,255:36,10
+NODE_34_length_38002_cov_7.454107	36427	.	T	C	123.89	PASS	DP=65;VDB=0.062152;SGB=-0.683931;RPBZ=-0.697514;MQBZ=-4.62958;MQSBZ=0.919773;BQBZ=0.929733;SCBZ=1.52045;MQ0F=0;AC=1;AN=2;DP4=18,17,10,3;MQ=57	GT:PL:AD	0/1:158,0,255:35,10
+NODE_34_length_38002_cov_7.454107	36487	.	G	A	221.669	PASS	DP=85;VDB=0.923684;SGB=-0.69168;RPBZ=-0.539156;MQBZ=-5.75638;MQSBZ=2.08316;BQBZ=0.94778;SCBZ=0.497859;MQ0F=0;AC=1;AN=2;DP4=19,20,12,7;MQ=55	GT:PL:AD	0/1:255,0,255:39,19
+NODE_34_length_38002_cov_7.454107	36532	.	A	G	221.821	PASS	DP=95;VDB=0.356847;SGB=-0.692562;RPBZ=-0.387168;MQBZ=-5.44668;MQSBZ=1.18736;BQBZ=0.604143;SCBZ=0.77147;MQ0F=0;AC=1;AN=2;DP4=29,17,13,9;MQ=56	GT:PL:AD	0/1:255,0,255:46,21
+NODE_34_length_38002_cov_7.454107	36535	.	G	A	221.854	PASS	DP=94;VDB=0.455631;SGB=-0.692717;RPBZ=-0.584389;MQBZ=-5.42167;MQSBZ=0.784151;BQBZ=1.80799;SCBZ=0.768668;MQ0F=0;AC=1;AN=2;DP4=25,23,10,13;MQ=56	GT:PL:AD	0/1:255,0,255:48,22
+NODE_34_length_38002_cov_7.454107	36658	.	G	A	73.499	PASS	DP=78;VDB=0.00162288;SGB=-0.662043;RPBZ=2.51493;MQBZ=-2.33333;MQSBZ=-0.870388;BQBZ=0.418369;SCBZ=1.3926;MQ0F=0;AC=1;AN=2;DP4=24,25,1,8;MQ=59	GT:PL:AD	0/1:109,0,255:49,9
+NODE_34_length_38002_cov_7.454107	36661	.	A	G	84.6319	PASS	DP=78;VDB=6.63021e-05;SGB=-0.676189;RPBZ=3.32948;MQBZ=-2.04495;MQSBZ=-0.822478;BQBZ=0.0416585;SCBZ=2.9177;MQ0F=0;AC=1;AN=2;DP4=22,24,1,10;MQ=59	GT:PL:AD	0/1:120,0,255:46,9
+NODE_34_length_38002_cov_7.454107	36664	.	C	A	77.4798	PASS	DP=82;VDB=0.00147557;SGB=-0.662043;RPBZ=2.79559;MQBZ=-2.35702;MQSBZ=-0.799305;BQBZ=0.608773;SCBZ=1.41202;MQ0F=0;AC=1;AN=2;DP4=22,28,1,8;MQ=59	GT:PL:AD	0/1:113,0,255:50,9
+NODE_35_length_36553_cov_7.143789	36506	.	A	C	225.417	PASS	DP=27;VDB=0.0971751;SGB=-0.689466;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,4,12;MQ=60	GT:PL:AD	1/1:255,48,0:0,16
+NODE_35_length_36553_cov_7.143789	36542	.	T	A	225.417	PASS	DP=20;VDB=2.81945e-06;SGB=-0.680642;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,4,8;MQ=60	GT:PL:AD	1/1:255,36,0:0,12
+NODE_36_length_36414_cov_7.373718	21335	.	C	T	225.417	PASS	DP=28;VDB=0.244851;SGB=-0.691153;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,10,8;MQ=60	GT:PL:AD	1/1:255,51,0:0,17
+NODE_36_length_36414_cov_7.373718	21359	.	C	A	225.417	PASS	DP=30;VDB=0.273059;SGB=-0.692067;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,10,10;MQ=60	GT:PL:AD	1/1:255,60,0:0,20
+NODE_37_length_34987_cov_7.205141	34338	.	C	T	43.021	PASS	DP=81;VDB=0.15874;SGB=-0.670168;RPBZ=-0.252693;MQBZ=-3.36294;MQSBZ=1.78202;BQBZ=1.03369;SCBZ=0.509949;MQ0F=0.0246914;AC=1;AN=2;DP4=25,24,5,5;MQ=49	GT:PL:AD	0/1:79,0,255:49,10
+NODE_37_length_34987_cov_7.205141	34360	.	T	C	90.7593	PASS	DP=89;VDB=0.842816;SGB=-0.683931;RPBZ=0.229454;MQBZ=-2.64564;MQSBZ=1.78906;BQBZ=0.301219;SCBZ=1.14132;MQ0F=0.0224719;AC=1;AN=2;DP4=25,25,8,5;MQ=50	GT:PL:AD	0/1:126,0,255:50,11
+NODE_37_length_34987_cov_7.205141	34378	.	T	C	81.7334	PASS	DP=94;VDB=0.788754;SGB=-0.686358;RPBZ=0.039239;MQBZ=-4.14671;MQSBZ=1.17561;BQBZ=0.748098;SCBZ=-1.19649;MQ0F=0.0106383;AC=1;AN=2;DP4=26,26,11,3;MQ=53	GT:PL:AD	0/1:117,0,255:52,11
+NODE_37_length_34987_cov_7.205141	34389	.	C	G	222.401	PASS	DP=87;VDB=0.838284;SGB=-0.693127;RPBZ=-2.34346;MQBZ=-3.63396;MQSBZ=1.32928;BQBZ=1.1935;SCBZ=-1.01752;MQ0F=0.0114943;AC=1;AN=2;DP4=12,17,24,9;MQ=54	GT:PL:AD	0/1:255,0,255:29,33
+NODE_37_length_34987_cov_7.205141	34397	.	G	A	222.354	PASS	DP=89;VDB=0.252465;SGB=-0.693097;RPBZ=2.51074;MQBZ=2.52759;MQSBZ=0.865487;BQBZ=-1.85163;SCBZ=0.607084;MQ0F=0.011236;AC=1;AN=2;DP4=26,8,14,16;MQ=53	GT:PL:AD	0/1:255,0,255:34,28
+NODE_37_length_34987_cov_7.205141	34468	.	T	G	221.972	PASS	DP=123;VDB=0.735373;SGB=-0.693147;RPBZ=0.301615;MQBZ=-2.06361;MQSBZ=-3.08916;BQBZ=1.20296;SCBZ=-1.1079;MQ0F=0;AC=1;AN=2;DP4=17,16,34,24;MQ=58	GT:PL:AD	0/1:255,0,255:33,57
+NODE_37_length_34987_cov_7.205141	34470	.	GT	GTT	111.039	PASS	INDEL;IDV=32;IMF=0.271186;DP=118;VDB=0.0096385;SGB=-0.692976;RPBZ=-1.54255;MQBZ=1.65594;MQSBZ=-3.08916;BQBZ=1.20296;SCBZ=0.294171;MQ0F=0;AC=1;AN=2;DP4=36,25,15,11;MQ=58	GT:PL:AD	0/1:144,0,158:61,26
+NODE_37_length_34987_cov_7.205141	34475	.	GTTT	GTT	41.5634	PASS	INDEL;IDV=34;IMF=0.283333;DP=120;VDB=0.0144719;SGB=-0.692831;RPBZ=-0.780903;MQBZ=1.57292;MQSBZ=-3.01638;BQBZ=-3.64836;SCBZ=-0.0286754;MQ0F=0;AC=1;AN=2;DP4=35,24,14,10;MQ=58	GT:PL:AD	0/1:75,0,168:59,24
+NODE_37_length_34987_cov_7.205141	34496	.	C	T	221.073	PASS	DP=124;VDB=0.174806;SGB=-0.692352;RPBZ=1.26633;MQBZ=-0.780915;MQSBZ=-2.64503;BQBZ=-0.345379;SCBZ=-0.21167;MQ0F=0;AC=1;AN=2;DP4=34,29,14,7;MQ=59	GT:PL:AD	0/1:255,0,255:63,20
+NODE_37_length_34987_cov_7.205141	34509	.	G	T	222.235	PASS	DP=122;VDB=0.100986;SGB=-0.693147;RPBZ=1.82527;MQBZ=-1.46042;MQSBZ=-2.10472;BQBZ=0.347172;SCBZ=-0.556867;MQ0F=0;AC=1;AN=2;DP4=20,14,29,20;MQ=59	GT:PL:AD	0/1:255,0,255:34,49
+NODE_37_length_34987_cov_7.205141	34529	.	A	G	222.37	PASS	DP=123;VDB=0.412239;SGB=-0.693146;RPBZ=1.22117;MQBZ=-2.09919;MQSBZ=-2.57233;BQBZ=1.04585;SCBZ=-0.588949;MQ0F=0;AC=1;AN=2;DP4=21,15,23,20;MQ=59	GT:PL:AD	0/1:255,0,255:36,42
+NODE_37_length_34987_cov_7.205141	34597	.	T	C	222.406	PASS	DP=84;VDB=0.107972;SGB=-0.693021;RPBZ=0.271022;MQBZ=4.08303;MQSBZ=0;BQBZ=0.713039;SCBZ=0.300019;MQ0F=0.0119048;AC=1;AN=2;DP4=13,23,15,12;MQ=52	GT:PL:AD	0/1:255,0,255:36,27
+NODE_37_length_34987_cov_7.205141	34598	.	T	G	222.397	PASS	DP=84;VDB=0.0796765;SGB=-0.692976;RPBZ=0.935784;MQBZ=4.1019;MQSBZ=0.199121;BQBZ=1.65249;SCBZ=-0.0127954;MQ0F=0.0119048;AC=1;AN=2;DP4=15,22,14,12;MQ=51	GT:PL:AD	0/1:255,0,255:37,26
+NODE_37_length_34987_cov_7.205141	34620	.	G	T	65.0648	PASS	DP=68;VDB=0.00114085;SGB=-0.670168;RPBZ=2.23978;MQBZ=-2.47767;MQSBZ=-1.34637;BQBZ=0.205094;SCBZ=0.0442929;MQ0F=0;AC=1;AN=2;DP4=26,18,1,9;MQ=52	GT:PL:AD	0/1:100,0,255:44,10
+NODE_37_length_34987_cov_7.205141	34621	.	A	T	222.406	PASS	DP=68;VDB=0.650441;SGB=-0.693054;RPBZ=1.61099;MQBZ=-4.24188;MQSBZ=-1.34637;BQBZ=0.108973;SCBZ=0.344346;MQ0F=0;AC=1;AN=2;DP4=18,8,9,19;MQ=52	GT:PL:AD	0/1:255,0,255:26,28
+NODE_37_length_34987_cov_7.205141	34661	.	G	A	148.207	PASS	DP=62;VDB=0.145409;SGB=-0.690438;RPBZ=2.6789;MQBZ=-6.17406;MQSBZ=-0.828079;BQBZ=-2.11479;SCBZ=-0.707107;MQ0F=0;AC=1;AN=2;DP4=17,17,7,10;MQ=52	GT:PL:AD	0/1:182,0,255:34,17
+NODE_37_length_34987_cov_7.205141	34668	.	G	A	117.834	PASS	DP=56;VDB=0.177717;SGB=-0.689466;RPBZ=2.50559;MQBZ=-5.63775;MQSBZ=-0.258299;BQBZ=-1.6862;SCBZ=-0.707107;MQ0F=0;AC=1;AN=2;DP4=15,17,7,9;MQ=52	GT:PL:AD	0/1:152,0,255:32,14
+NODE_37_length_34987_cov_7.205141	34677	.	T	C	96.9693	PASS	DP=52;VDB=0.0407487;SGB=-0.686358;RPBZ=1.01799;MQBZ=-4.61285;MQSBZ=0.613761;BQBZ=-1.24596;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=11,16,8,6;MQ=53	GT:PL:AD	0/1:131,0,255:27,11
+NODE_37_length_34987_cov_7.205141	34693	.	A	G	122.787	PASS	DP=61;VDB=0.948641;SGB=-0.683931;RPBZ=-0.181275;MQBZ=-6.28685;MQSBZ=1.13938;BQBZ=-0.911795;SCBZ=-0.600925;MQ0F=0;AC=1;AN=2;DP4=14,22,8,5;MQ=53	GT:PL:AD	0/1:157,0,255:36,13
+NODE_37_length_34987_cov_7.205141	34699	.	A	G	136.152	PASS	DP=61;VDB=0.99154;SGB=-0.688148;RPBZ=0.227922;MQBZ=-5.65912;MQSBZ=0.79872;BQBZ=-0.371172;SCBZ=-0.664211;MQ0F=0;AC=1;AN=2;DP4=14,20,10,5;MQ=53	GT:PL:AD	0/1:170,0,255:34,14
+NODE_37_length_34987_cov_7.205141	34721	.	G	T	181.37	PASS	DP=75;VDB=0.9994;SGB=-0.692067;RPBZ=-0.28253;MQBZ=-4.59353;MQSBZ=0.174562;BQBZ=-2.17272;SCBZ=-0.707107;MQ0F=0;AC=1;AN=2;DP4=18,22,13,7;MQ=56	GT:PL:AD	0/1:215,0,255:40,19
+NODE_37_length_34987_cov_7.205141	34759	.	T	A	215.879	PASS	DP=74;VDB=7.84823e-06;SGB=-0.692352;RPBZ=-2.84227;MQBZ=-3.07425;MQSBZ=0.303663;BQBZ=-0.79653;SCBZ=-1.07473;MQ0F=0;AC=1;AN=2;DP4=18,19,12,9;MQ=58	GT:PL:AD	0/1:249,0,255:37,21
+NODE_37_length_34987_cov_7.205141	34873	.	C	T	216.259	PASS	DP=58;VDB=0.0657303;SGB=-0.693097;RPBZ=-0.807703;MQBZ=-3.27972;MQSBZ=0.772377;BQBZ=-0.223646;SCBZ=-0.73252;MQ0F=0.0862069;AC=1;AN=2;DP4=3,12,7,23;MQ=42	GT:PL:AD	0/1:249,0,232:15,28
+NODE_37_length_34987_cov_7.205141	34895	.	T	C	166.408	PASS	DP=52;VDB=0.000482903;SGB=-0.692831;RPBZ=-0.357731;MQBZ=-4.86163;MQSBZ=1.47661;BQBZ=1.37644;SCBZ=-0.411396;MQ0F=0.0961538;AC=1;AN=2;DP4=2,15,6,18;MQ=40	GT:PL:AD	0/1:199,0,240:17,23
+NODE_37_length_34987_cov_7.205141	34913	.	C	T	116.399	PASS	DP=44;VDB=2.40118e-05;SGB=-0.692717;RPBZ=-0.0941781;MQBZ=-4.84499;MQSBZ=2.64531;BQBZ=0.438969;SCBZ=-0.610038;MQ0F=0.113636;AC=1;AN=2;DP4=1,13,5,18;MQ=38	GT:PL:AD	0/1:149,0,201:14,22
+NODE_38_length_34835_cov_7.392266	12712	.	G	A	228.307	PASS	DP=25;VDB=0.998623;SGB=-0.691153;RPBZ=-0.182815;MQBZ=-0.235702;MQSBZ=-0.948683;BQBZ=0.649934;SCBZ=0.664726;MQ0F=0;AC=2;AN=2;DP4=1,0,8,10;MQ=59	GT:PL:AD	1/1:255,42,0:1,18
+NODE_39_length_34487_cov_7.449988	29981	.	C	A	33.2538	PASS	DP=36;VDB=0.0887706;SGB=-0.651104;RPBZ=2.69629;MQBZ=0;MQSBZ=0;BQBZ=-2.42627;SCBZ=2.29209;MQ0F=0;AC=1;AN=2;DP4=6,12,7,1;MQ=60	GT:PL:AD	0/1:68,0,255:18,7
+NODE_40_length_34254_cov_7.307758	29556	.	GCCCC	GCCC	225.417	PASS	INDEL;IDV=94;IMF=0.979167;DP=96;VDB=0.00550248;SGB=-0.693147;RPBZ=1.79782;MQBZ=0;MQSBZ=0;BQBZ=-2.12146;SCBZ=0.296373;MQ0F=0;AC=2;AN=2;DP4=0,0,48,41;MQ=60	GT:PL:AD	1/1:255,255,0:0,89
+NODE_43_length_32434_cov_7.428735	16987	.	T	A	228.406	PASS	DP=70;VDB=0.996874;SGB=-0.693147;RPBZ=-0.312071;MQBZ=0;MQSBZ=0;BQBZ=1.61399;SCBZ=-3.24055;MQ0F=0;AC=2;AN=2;DP4=0,1,25,24;MQ=60	GT:PL:AD	1/1:255,134,0:1,49
+NODE_43_length_32434_cov_7.428735	32065	.	T	C	117.011	PASS	DP=90;VDB=1.3166e-11;SGB=-0.693127;RPBZ=-6.06038;MQBZ=-7.32134;MQSBZ=4.30663;BQBZ=1.28707;SCBZ=5.51596;MQ0F=0.0222222;AC=1;AN=2;DP4=16,22,31,2;MQ=45	GT:PL:AD	0/1:150,0,255:38,30
+NODE_43_length_32434_cov_7.428735	32073	.	C	T	35.7333	PASS	DP=103;VDB=3.7017e-06;SGB=-0.686358;RPBZ=-2.56101;MQBZ=-3.73023;MQSBZ=3.55784;BQBZ=0.875501;SCBZ=1.95484;MQ0F=0.0194175;AC=1;AN=2;DP4=37,26,10,4;MQ=46	GT:PL:AD	0/1:72,0,255:63,14
+NODE_43_length_32434_cov_7.428735	32088	.	C	T	222.395	PASS	DP=118;VDB=2.56817e-20;SGB=-0.693147;RPBZ=-5.76866;MQBZ=-6.79115;MQSBZ=3.86058;BQBZ=-0.116494;SCBZ=4.11058;MQ0F=0.0169492;AC=1;AN=2;DP4=14,28,44,7;MQ=47	GT:PL:AD	0/1:255,0,255:42,47
+NODE_43_length_32434_cov_7.428735	32112	.	A	G	116.475	PASS	DP=164;VDB=0.00330241;SGB=-0.692067;RPBZ=2.26247;MQBZ=-2.97121;MQSBZ=2.50151;BQBZ=2.6434;SCBZ=1.62599;MQ0F=0.00609756;AC=1;AN=2;DP4=71,27,13,7;MQ=50	GT:PL:AD	0/1:152,0,255:98,19
+NODE_43_length_32434_cov_7.428735	32122	.	A	G	221.485	PASS	DP=179;VDB=0.574024;SGB=-0.693141;RPBZ=3.34343;MQBZ=4.38742;MQSBZ=2.15734;BQBZ=-2.37284;SCBZ=-2.27092;MQ0F=0.00558659;AC=1;AN=2;DP4=74,18,21,16;MQ=51	GT:PL:AD	0/1:255,0,255:92,36
+NODE_43_length_32434_cov_7.428735	32151	.	A	C	222.375	PASS	DP=223;VDB=0.000129568;SGB=-0.693147;RPBZ=-2.59135;MQBZ=-0.735265;MQSBZ=1.94688;BQBZ=3.25589;SCBZ=0.143019;MQ0F=0.00896861;AC=1;AN=2;DP4=42,20,74,18;MQ=52	GT:PL:AD	0/1:255,0,255:62,61
+NODE_43_length_32434_cov_7.428735	32170	.	T	G	22.172	PASS	DP=249;VDB=0.0623478;SGB=-0.693021;RPBZ=-0.700085;MQBZ=-0.0998853;MQSBZ=2.17432;BQBZ=-1.66644;SCBZ=-0.466738;MQ0F=0.00401606;AC=1;AN=2;DP4=113,37,25,2;MQ=55	GT:PL:AD	0/1:58,0,255:150,22
+NODE_43_length_32434_cov_7.428735	32171	.	C	T	170.194	PASS	DP=246;VDB=0.215588;SGB=-0.693139;RPBZ=2.57408;MQBZ=3.02352;MQSBZ=2.17793;BQBZ=-2.45631;SCBZ=-1.33305;MQ0F=0.00406504;AC=1;AN=2;DP4=113,27,24,12;MQ=55	GT:PL:AD	0/1:205,0,255:140,34
+NODE_43_length_32434_cov_7.428735	32172	.	T	G	199.313	PASS	DP=244;VDB=0.121233;SGB=-0.693145;RPBZ=2.04584;MQBZ=2.27844;MQSBZ=2.13034;BQBZ=-3.38311;SCBZ=-0.223227;MQ0F=0.00409836;AC=1;AN=2;DP4=109,26,28,12;MQ=55	GT:PL:AD	0/1:234,0,255:135,36
+NODE_43_length_32434_cov_7.428735	32208	.	A	G	221.883	PASS	DP=235;VDB=0.00839978;SGB=-0.693147;RPBZ=1.94442;MQBZ=1.33001;MQSBZ=0.467813;BQBZ=-1.0891;SCBZ=-1.46536;MQ0F=0;AC=1;AN=2;DP4=80,30,34,24;MQ=58	GT:PL:AD	0/1:255,0,255:110,57
+NODE_43_length_32434_cov_7.428735	32220	.	T	A	200.236	PASS	DP=252;VDB=0.758422;SGB=-0.693139;RPBZ=-0.380498;MQBZ=-1.39043;MQSBZ=0.216023;BQBZ=-1.17044;SCBZ=-1.00488;MQ0F=0;AC=1;AN=2;DP4=100,45,26,10;MQ=58	GT:PL:AD	0/1:235,0,255:145,36
+NODE_43_length_32434_cov_7.428735	32233	.	T	G	220.566	PASS	DP=243;VDB=0.512319;SGB=-0.693132;RPBZ=0.691789;MQBZ=1.24301;MQSBZ=-0.81739;BQBZ=0.646886;SCBZ=0.563688;MQ0F=0;AC=1;AN=2;DP4=91,45,21,13;MQ=59	GT:PL:AD	0/1:255,0,255:136,33
+NODE_43_length_32434_cov_7.428735	32244	.	C	A	222.34	PASS	DP=231;VDB=0.951999;SGB=-0.693147;RPBZ=-0.776036;MQBZ=-0.358893;MQSBZ=-0.436226;BQBZ=0.580358;SCBZ=1.31076;MQ0F=0;AC=1;AN=2;DP4=55,41,44,28;MQ=59	GT:PL:AD	0/1:255,0,255:96,70
+NODE_43_length_32434_cov_7.428735	32261	.	C	A	70.0168	PASS	DP=232;VDB=0.52371;SGB=-0.692562;RPBZ=1.86828;MQBZ=-1.27827;MQSBZ=-3.17249;BQBZ=-0.0173091;SCBZ=0.46646;MQ0F=0;AC=1;AN=2;DP4=72,72,15,7;MQ=58	GT:PL:AD	0/1:106,0,255:144,22
+NODE_43_length_32434_cov_7.428735	32262	.	T	G	176.872	PASS	DP=231;VDB=0.465814;SGB=-0.693097;RPBZ=-0.755111;MQBZ=0.43353;MQSBZ=-3.50451;BQBZ=-1.27937;SCBZ=-1.18604;MQ0F=0;AC=1;AN=2;DP4=68,64,16,14;MQ=58	GT:PL:AD	0/1:212,0,255:132,29
+NODE_43_length_32434_cov_7.428735	32301	.	A	T	221.056	PASS	DP=224;VDB=0.928771;SGB=-0.693145;RPBZ=-0.645155;MQBZ=-1.96532;MQSBZ=-2.35822;BQBZ=-0.110125;SCBZ=1.65487;MQ0F=0;AC=1;AN=2;DP4=39,78,12,28;MQ=53	GT:PL:AD	0/1:255,0,255:117,38
+NODE_43_length_32434_cov_7.428735	32313	.	A	G	222.066	PASS	DP=213;VDB=0.0040663;SGB=-0.693147;RPBZ=0.532676;MQBZ=-0.139991;MQSBZ=-1.70594;BQBZ=0.0160318;SCBZ=0.211513;MQ0F=0;AC=1;AN=2;DP4=22,74,17,40;MQ=51	GT:PL:AD	0/1:255,0,255:96,53
+NODE_43_length_32434_cov_7.428735	32317	.	G	T	221.157	PASS	DP=215;VDB=0.0662612;SGB=-0.693141;RPBZ=-0.0234609;MQBZ=1.62267;MQSBZ=-1.93386;BQBZ=-0.520413;SCBZ=0.315379;MQ0F=0;AC=1;AN=2;DP4=23,93,14,23;MQ=51	GT:PL:AD	0/1:255,0,255:116,37
+NODE_43_length_32434_cov_7.428735	32358	.	A	T	220.976	PASS	DP=178;VDB=0.00134918;SGB=-0.69311;RPBZ=0.978931;MQBZ=0.183165;MQSBZ=-1.53701;BQBZ=-1.4996;SCBZ=-1.09843;MQ0F=0;AC=1;AN=2;DP4=20,75,8,23;MQ=48	GT:PL:AD	0/1:255,0,255:95,31
+NODE_43_length_32434_cov_7.428735	32361	.	G	A	74.4203	PASS	DP=176;VDB=0.00219114;SGB=-0.692976;RPBZ=-0.575613;MQBZ=-1.77761;MQSBZ=-1.1901;BQBZ=-0.511369;SCBZ=1.94324;MQ0F=0;AC=1;AN=2;DP4=26,76,3,23;MQ=48	GT:PL:AD	0/1:109,0,255:102,26
+NODE_43_length_32434_cov_7.428735	32364	.	A	G	83.5558	PASS	DP=161;VDB=9.92913e-05;SGB=-0.693021;RPBZ=-0.587014;MQBZ=-2.68865;MQSBZ=-0.747625;BQBZ=-1.68767;SCBZ=2.17777;MQ0F=0;AC=1;AN=2;DP4=22,68,2,25;MQ=46	GT:PL:AD	0/1:118,0,255:90,24
+NODE_43_length_32434_cov_7.428735	32370	.	A	G	221.822	PASS	DP=155;VDB=0.0495102;SGB=-0.693139;RPBZ=-1.30256;MQBZ=1.6516;MQSBZ=-0.48851;BQBZ=1.17248;SCBZ=-0.743713;MQ0F=0;AC=1;AN=2;DP4=10,68,13,23;MQ=46	GT:PL:AD	0/1:255,0,255:78,35
+NODE_43_length_32434_cov_7.428735	32379	.	G	A	222.398	PASS	DP=138;VDB=1.13918e-15;SGB=-0.693147;RPBZ=1.20474;MQBZ=-3.06306;MQSBZ=-0.813974;BQBZ=-0.729963;SCBZ=1.09581;MQ0F=0;AC=1;AN=2;DP4=13,33,7,48;MQ=44	GT:PL:AD	0/1:255,0,255:46,54
+NODE_43_length_32434_cov_7.428735	32387	.	T	C	222.09	PASS	DP=128;VDB=1.10755e-18;SGB=-0.693147;RPBZ=0.356134;MQBZ=0.631902;MQSBZ=0.267469;BQBZ=3.05961;SCBZ=1.08348;MQ0F=0;AC=1;AN=2;DP4=12,31,7,48;MQ=43	GT:PL:AD	0/1:255,0,255:43,55
+NODE_43_length_32434_cov_7.428735	32395	.	T	C	87.6315	PASS	DP=123;VDB=5.02335e-06;SGB=-0.69168;RPBZ=-0.0234221;MQBZ=1.15129;MQSBZ=0.315261;BQBZ=0.0714735;SCBZ=0.280443;MQ0F=0;AC=1;AN=2;DP4=15,61,1,18;MQ=43	GT:PL:AD	0/1:122,0,255:76,19
+NODE_44_length_32014_cov_8.919647	5673	.	G	T	20.4746	PASS	DP=35;VDB=0.0444025;SGB=-0.662043;RPBZ=-1.3201;MQBZ=0;MQSBZ=0;BQBZ=-3.17195;SCBZ=3.26166;MQ0F=0;AC=1;AN=2;DP4=14,6,0,9;MQ=60	GT:PL:AD	0/1:55,0,255:20,9
+NODE_45_length_31819_cov_7.574298	28292	.	G	GC	228.341	PASS	INDEL;IDV=57;IMF=0.919355;DP=62;VDB=0.112669;SGB=-0.693147;RPBZ=-2.21223;MQBZ=0;MQSBZ=0;BQBZ=-1.67982;SCBZ=-2.87421;MQ0F=0;AC=2;AN=2;DP4=1,3,27,21;MQ=60	GT:PL:AD	1/1:255,102,0:4,48
+NODE_46_length_31756_cov_7.187029	5358	.	T	A	228.335	PASS	DP=21;VDB=0.62439;SGB=-0.686358;RPBZ=0.464572;MQBZ=-0.267261;MQSBZ=-0.603023;BQBZ=1.56275;SCBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,1,4,10;MQ=59	GT:PL:AD	1/1:255,31,0:1,14
+NODE_48_length_30911_cov_8.008880	11988	.	G	T	228.403	PASS	DP=49;VDB=0.695219;SGB=-0.693143;RPBZ=-1.15654;MQBZ=0;MQSBZ=0;BQBZ=1.67201;SCBZ=0.162221;MQ0F=0;AC=2;AN=2;DP4=0,1,20,18;MQ=60	GT:PL:AD	1/1:255,101,0:1,38
+NODE_50_length_30329_cov_7.244500	56	.	C	A	24.5815	PASS	DP=70;VDB=0.0267105;SGB=-0.662043;RPBZ=-0.430054;MQBZ=-1.24574;MQSBZ=-1.42576;BQBZ=-1.96112;SCBZ=1.11711;MQ0F=0.0428571;AC=1;AN=2;DP4=22,11,7,2;MQ=44	GT:PL:AD	0/1:60,0,255:33,8
+NODE_50_length_30329_cov_7.244500	81	.	C	A	122.386	PASS	DP=87;VDB=0.00066293;SGB=-0.683931;RPBZ=-1.85035;MQBZ=-0.435701;MQSBZ=-1.03323;BQBZ=-2.62927;SCBZ=-0.623476;MQ0F=0;AC=1;AN=2;DP4=29,10,10,3;MQ=54	GT:PL:AD	0/1:157,0,255:39,13
+NODE_50_length_30329_cov_7.244500	115	.	C	T	221.711	PASS	DP=135;VDB=0.0667243;SGB=-0.692976;RPBZ=-1.27721;MQBZ=0.729065;MQSBZ=-0.183839;BQBZ=0.888396;SCBZ=-1.22629;MQ0F=0;AC=1;AN=2;DP4=47,15,19,7;MQ=55	GT:PL:AD	0/1:255,0,255:62,24
+NODE_50_length_30329_cov_7.244500	128	.	A	T	222.112	PASS	DP=135;VDB=0.104553;SGB=-0.693127;RPBZ=0.435828;MQBZ=2.10143;MQSBZ=-0.530499;BQBZ=-0.379118;SCBZ=-0.552751;MQ0F=0.00740741;AC=1;AN=2;DP4=42,15,25,8;MQ=55	GT:PL:AD	0/1:255,0,255:57,33
+NODE_50_length_30329_cov_7.244500	134	.	G	A	222.244	PASS	DP=136;VDB=0.0762241;SGB=-0.693141;RPBZ=-0.227889;MQBZ=2.34808;MQSBZ=-1.13829;BQBZ=-0.653832;SCBZ=0.933823;MQ0F=0.00735294;AC=1;AN=2;DP4=38,18,27,10;MQ=55	GT:PL:AD	0/1:255,0,255:56,35
+NODE_50_length_30329_cov_7.244500	146	.	A	G	222.284	PASS	DP=133;VDB=0.0251703;SGB=-0.693141;RPBZ=-1.15028;MQBZ=2.91262;MQSBZ=-1.04649;BQBZ=0.313652;SCBZ=0.442572;MQ0F=0.0075188;AC=1;AN=2;DP4=37,20,25,12;MQ=55	GT:PL:AD	0/1:255,0,255:57,37
+NODE_50_length_30329_cov_7.244500	155	.	C	T	222.266	PASS	DP=138;VDB=0.0217528;SGB=-0.693143;RPBZ=-0.566137;MQBZ=3.55176;MQSBZ=-0.151098;BQBZ=-0.646604;SCBZ=0.432794;MQ0F=0.00724638;AC=1;AN=2;DP4=36,22,26,12;MQ=54	GT:PL:AD	0/1:255,0,255:58,37
+NODE_50_length_30329_cov_7.244500	183	.	T	A	183.051	PASS	DP=141;VDB=0.955023;SGB=-0.692067;RPBZ=-0.709596;MQBZ=-5.88538;MQSBZ=-0.454227;BQBZ=-0.432649;SCBZ=-0.10921;MQ0F=0;AC=1;AN=2;DP4=39,32,12,8;MQ=55	GT:PL:AD	0/1:218,0,255:71,20
+NODE_50_length_30329_cov_7.244500	217	.	G	A	196.586	PASS	DP=131;VDB=0.39844;SGB=-0.692831;RPBZ=-1.56548;MQBZ=-4.39974;MQSBZ=-2.0065;BQBZ=-2.05515;SCBZ=2.4517;MQ0F=0;AC=1;AN=2;DP4=25,39,9,15;MQ=53	GT:PL:AD	0/1:231,0,255:64,23
+NODE_50_length_30329_cov_7.244500	236	.	T	C	221.098	PASS	DP=126;VDB=0.0922681;SGB=-0.692976;RPBZ=-1.30137;MQBZ=-4.69311;MQSBZ=-2.1165;BQBZ=-1.09875;SCBZ=1.0715;MQ0F=0;AC=1;AN=2;DP4=23,34,7,19;MQ=52	GT:PL:AD	0/1:255,0,255:57,24
+NODE_50_length_30329_cov_7.244500	269	.	T	C	221.214	PASS	DP=115;VDB=0.0316169;SGB=-0.693021;RPBZ=0.986766;MQBZ=-1.33253;MQSBZ=-1.87914;BQBZ=-1.74521;SCBZ=-0.694448;MQ0F=0;AC=1;AN=2;DP4=17,43,7,20;MQ=53	GT:PL:AD	0/1:255,0,255:60,24
+NODE_50_length_30329_cov_7.244500	287	.	G	T	131.069	PASS	DP=111;VDB=0.00322719;SGB=-0.691153;RPBZ=2.64764;MQBZ=-0.217061;MQSBZ=-2.43885;BQBZ=-3.06758;SCBZ=-0.205254;MQ0F=0.00900901;AC=1;AN=2;DP4=19,46,3,15;MQ=53	GT:PL:AD	0/1:166,0,255:65,18
+NODE_50_length_30329_cov_7.244500	293	.	T	G	192.305	PASS	DP=116;VDB=0.252224;SGB=-0.692352;RPBZ=-0.402735;MQBZ=-2.7479;MQSBZ=-2.48186;BQBZ=1.7453;SCBZ=3.20658;MQ0F=0.00862069;AC=1;AN=2;DP4=22,42,2,19;MQ=53	GT:PL:AD	0/1:226,0,255:64,20
+NODE_50_length_30329_cov_7.244500	353	.	T	C	66.9355	PASS	DP=77;VDB=0.00170007;SGB=-0.683931;RPBZ=2.67524;MQBZ=-1.43225;MQSBZ=-2.43497;BQBZ=-0.943457;SCBZ=3.87834;MQ0F=0;AC=1;AN=2;DP4=24,23,2,11;MQ=56	GT:PL:AD	0/1:102,0,255:47,11
+NODE_50_length_30329_cov_7.244500	22965	.	C	T	222.378	PASS	DP=114;VDB=0.000182056;SGB=-0.693145;RPBZ=7.35805;MQBZ=-0.128505;MQSBZ=-0.693629;BQBZ=-0.605283;SCBZ=-2.71852;MQ0F=0;AC=1;AN=2;DP4=26,7,24,17;MQ=57	GT:PL:AD	0/1:255,0,255:33,41
+NODE_56_length_27107_cov_7.555153	65	.	T	A	24.9887	PASS	DP=28;VDB=0.0941126;SGB=-0.511536;RPBZ=-0.0532064;MQBZ=0.420084;MQSBZ=0.420084;BQBZ=0.707167;SCBZ=0.347789;MQ0F=0;AC=1;AN=2;DP4=14,3,3,0;MQ=59	GT:PL:AD	0/1:60,0,255:17,3
+NODE_57_length_26843_cov_7.203188	3730	.	A	T	222.184	PASS	DP=46;VDB=8.69016e-06;SGB=-0.686358;RPBZ=-3.3267;MQBZ=-1.75734;MQSBZ=-1.03642;BQBZ=-0.752746;SCBZ=1.99161;MQ0F=0;AC=1;AN=2;DP4=9,12,3,11;MQ=59	GT:PL:AD	0/1:255,0,255:21,14
+NODE_57_length_26843_cov_7.203188	3751	.	T	C	222.289	PASS	DP=54;VDB=0.0637154;SGB=-0.689466;RPBZ=-0.897804;MQBZ=-1.75412;MQSBZ=-1.05097;BQBZ=0.417531;SCBZ=1.79262;MQ0F=0;AC=1;AN=2;DP4=9,15,5,11;MQ=59	GT:PL:AD	0/1:255,0,255:24,16
+NODE_57_length_26843_cov_7.203188	3754	.	C	T	222.226	PASS	DP=51;VDB=0.16114;SGB=-0.689466;RPBZ=-0.0153403;MQBZ=-1.64253;MQSBZ=-1.11857;BQBZ=-1.39733;SCBZ=1.61492;MQ0F=0;AC=1;AN=2;DP4=9,12,5,11;MQ=59	GT:PL:AD	0/1:255,0,255:21,15
+NODE_57_length_26843_cov_7.203188	3779	.	C	T	222.341	PASS	DP=58;VDB=0.130536;SGB=-0.691153;RPBZ=1.98549;MQBZ=0;MQSBZ=0;BQBZ=0.714533;SCBZ=-1.21519;MQ0F=0;AC=1;AN=2;DP4=14,9,8,10;MQ=60	GT:PL:AD	0/1:255,0,255:23,18
+NODE_57_length_26843_cov_7.203188	3780	.	C	T	222.375	PASS	DP=53;VDB=0.0987076;SGB=-0.69168;RPBZ=3.42116;MQBZ=0;MQSBZ=0;BQBZ=1.34608;SCBZ=-0.0236726;MQ0F=0;AC=1;AN=2;DP4=12,6,9,10;MQ=60	GT:PL:AD	0/1:255,0,255:18,18
+NODE_57_length_26843_cov_7.203188	3814	.	T	C	222.396	PASS	DP=60;VDB=0.0540215;SGB=-0.691153;RPBZ=2.93581;MQBZ=0;MQSBZ=0;BQBZ=-0.397446;SCBZ=-2.02907;MQ0F=0;AC=1;AN=2;DP4=12,7,10,8;MQ=60	GT:PL:AD	0/1:255,0,255:19,17
+NODE_57_length_26843_cov_7.203188	3841	.	T	G	222.059	PASS	DP=60;VDB=0.0418809;SGB=-0.683931;RPBZ=3.25105;MQBZ=-1.44115;MQSBZ=0.733799;BQBZ=1.4014;SCBZ=-0.196221;MQ0F=0;AC=1;AN=2;DP4=18,9,8,5;MQ=59	GT:PL:AD	0/1:255,0,255:27,13
+NODE_57_length_26843_cov_7.203188	23999	.	T	A	20.5218	PASS	DP=43;VDB=0.509904;SGB=-0.511536;RPBZ=-0.645219;MQBZ=0;MQSBZ=0;BQBZ=0.418329;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=8,18,1,2;MQ=60	GT:PL:AD	0/1:57,0,255:26,3
+NODE_60_length_26444_cov_7.460912	26394	.	A	T	225.417	PASS	DP=16;VDB=0.236165;SGB=-0.676189;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,2,9;MQ=60	GT:PL:AD	1/1:255,33,0:0,11
+NODE_62_length_26162_cov_7.462252	11864	.	A	C	228.401	PASS	DP=41;VDB=0.861052;SGB=-0.693136;RPBZ=-0.0963615;MQBZ=0;MQSBZ=0;BQBZ=1.91975;SCBZ=0;MQ0F=0;AC=2;AN=2;DP4=1,0,19,16;MQ=60	GT:PL:AD	1/1:255,93,0:1,35
+NODE_63_length_26132_cov_7.472524	1324	.	A	T	225.421	PASS	DP=35;VDB=0.973055;SGB=-0.693054;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,11,17;MQ=60	GT:PL:AD	1/1:255,81,0:0,27
+NODE_63_length_26132_cov_7.472524	1325	.	G	T	228.311	PASS	DP=35;VDB=0.985872;SGB=-0.692976;RPBZ=0.223965;MQBZ=0;MQSBZ=0;BQBZ=1.72882;SCBZ=0.399704;MQ0F=0;AC=2;AN=2;DP4=0,2,10,16;MQ=60	GT:PL:AD	1/1:255,57,0:2,26
+NODE_64_length_25223_cov_7.322063	232	.	A	G	225.426	PASS	DP=65;VDB=0.999823;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,31,19;MQ=60	GT:PL:AD	1/1:255,144,0:0,48
+NODE_65_length_24740_cov_7.854365	267	.	T	C	222.381	PASS	DP=138;VDB=0.679515;SGB=-0.693147;RPBZ=0.900243;MQBZ=-0.92582;MQSBZ=-1.03923;BQBZ=0.692024;SCBZ=0.522161;MQ0F=0.00724638;AC=1;AN=2;DP4=28,20,26,30;MQ=59	GT:PL:AD	0/1:255,0,255:48,56
+NODE_65_length_24740_cov_7.854365	417	.	C	T	222.017	PASS	DP=85;VDB=0.16173;SGB=-0.693145;RPBZ=-2.6707;MQBZ=3.0455;MQSBZ=-0.852739;BQBZ=0.607024;SCBZ=-0.57416;MQ0F=0;AC=1;AN=2;DP4=3,20,20,20;MQ=58	GT:PL:AD	0/1:255,0,255:23,40
+NODE_65_length_24740_cov_7.854365	465	.	A	G	138.152	PASS	DP=71;VDB=1.0183e-05;SGB=-0.683931;RPBZ=2.90847;MQBZ=-3.97898;MQSBZ=-1.7933;BQBZ=0.590812;SCBZ=1.69607;MQ0F=0;AC=1;AN=2;DP4=18,20,1,12;MQ=58	GT:PL:AD	0/1:172,0,255:38,12
+NODE_66_length_24421_cov_8.134655	18717	.	A	T	225.417	PASS	DP=50;VDB=0.406687;SGB=-0.693127;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,20,13;MQ=60	GT:PL:AD	1/1:255,99,0:0,33
+NODE_66_length_24421_cov_8.134655	18726	.	A	T	225.417	PASS	DP=51;VDB=0.447008;SGB=-0.693127;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,18,15;MQ=60	GT:PL:AD	1/1:255,99,0:0,33
+NODE_67_length_24421_cov_7.135804	12941	.	T	A	46.9557	PASS	DP=48;VDB=0.00444784;SGB=-0.680642;RPBZ=2.32204;MQBZ=0;MQSBZ=0;BQBZ=-1.70836;SCBZ=5.06242;MQ0F=0;AC=1;AN=2;DP4=13,16,12,0;MQ=60	GT:PL:AD	0/1:81,0,255:29,12
+NODE_67_length_24421_cov_7.135804	24284	.	C	T	225.417	PASS	DP=21;VDB=0.0596272;SGB=-0.690438;MQSBZ=1.19523;MQ0F=0;AC=2;AN=2;DP4=0,0,7,10;MQ=59	GT:PL:AD	1/1:255,51,0:0,17
+NODE_68_length_23980_cov_7.171285	2245	.	G	T	98.5768	PASS	DP=91;VDB=6.84717e-05;SGB=-0.692914;RPBZ=-2.3789;MQBZ=-7.22222;MQSBZ=1.80717;BQBZ=-1.91623;SCBZ=5.02806;MQ0F=0.021978;AC=1;AN=2;DP4=24,22,15,10;MQ=44	GT:PL:AD	0/1:133,0,255:46,25
+NODE_72_length_22189_cov_6.610102	13530	.	G	A	225.421	PASS	DP=66;VDB=0.782423;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,27,22;MQ=60	GT:PL:AD	1/1:255,135,0:0,45
+NODE_72_length_22189_cov_6.610102	14782	.	T	A	22.461	PASS	DP=65;VDB=0.0157474;SGB=-0.670168;RPBZ=-0.64774;MQBZ=0;MQSBZ=0;BQBZ=-0.167391;SCBZ=-1.05913;MQ0F=0;AC=1;AN=2;DP4=15,23,10,0;MQ=60	GT:PL:AD	0/1:57,0,255:38,10
+NODE_73_length_21621_cov_7.174627	1510	.	GCGAATGTNNNNNNNNNNCGAATGT	GCGAATGT	228.114	PASS	INDEL;IDV=47;IMF=0.723077;DP=65;VDB=3.69725e-06;SGB=-0.693147;RPBZ=-6.22407;MQBZ=0;MQSBZ=0;BQBZ=-1.78118;SCBZ=-6.10946;MQ0F=0;AC=2;AN=2;DP4=11,2,25,21;MQ=60	GT:PL:AD	1/1:255,34,0:13,46
+NODE_73_length_21621_cov_7.174627	1538	.	A	G	225.417	PASS	DP=59;VDB=0.146644;SGB=-0.689466;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,8,8;MQ=60	GT:PL:AD	1/1:255,48,0:0,16
+NODE_73_length_21621_cov_7.174627	15430	.	A	T	228.378	PASS	DP=37;VDB=0.0919891;SGB=-0.693097;RPBZ=1.34272;MQBZ=0;MQSBZ=0;BQBZ=1.72304;SCBZ=-2.83248;MQ0F=0;AC=2;AN=2;DP4=0,1,15,15;MQ=60	GT:PL:AD	1/1:255,77,0:1,30
+NODE_76_length_20743_cov_7.940255	118	.	A	G	106.688	PASS	DP=87;VDB=0.021643;SGB=-0.670168;RPBZ=-2.35858;MQBZ=-1.2046;MQSBZ=-0.758308;BQBZ=0.136406;SCBZ=5.35728;MQ0F=0;AC=1;AN=2;DP4=36,12,7,3;MQ=59	GT:PL:AD	0/1:142,0,255:48,8
+NODE_76_length_20743_cov_7.940255	20449	.	T	A	225.417	PASS	DP=22;VDB=0.913289;SGB=-0.690438;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,13,4;MQ=60	GT:PL:AD	1/1:255,51,0:0,17
+NODE_79_length_19292_cov_6.769455	13212	.	A	G	228.4	PASS	DP=47;VDB=0.185863;SGB=-0.693079;RPBZ=-1.56041;MQBZ=0;MQSBZ=0;BQBZ=1.72774;SCBZ=-3.87298;MQ0F=0;AC=2;AN=2;DP4=1,0,16,13;MQ=60	GT:PL:AD	1/1:255,76,0:1,29
+NODE_81_length_19135_cov_7.476363	19120	.	C	A	228.289	PASS	DP=31;VDB=7.12044e-13;SGB=-0.692352;RPBZ=-1.60927;MQBZ=0;MQSBZ=0;BQBZ=1.41756;SCBZ=1.44835;MQ0F=0;AC=2;AN=2;DP4=1,0,2,19;MQ=60	GT:PL:AD	1/1:255,37,0:1,21
+NODE_83_length_18988_cov_7.052871	12581	.	A	C	228.348	PASS	DP=65;VDB=0.697913;SGB=-0.693147;RPBZ=1.21329;MQBZ=0;MQSBZ=0;BQBZ=0.112313;SCBZ=0.252502;MQ0F=0;AC=2;AN=2;DP4=1,0,25,24;MQ=60	GT:PL:AD	1/1:255,113,0:1,49
+NODE_86_length_17993_cov_6.722935	17964	.	T	G	221.417	PASS	DP=12;VDB=0.000944534;SGB=-0.670168;MQSBZ=-0.816497;MQ0F=0;AC=2;AN=2;DP4=0,0,4,6;MQ=58	GT:PL:AD	1/1:251,30,0:0,10
+NODE_86_length_17993_cov_6.722935	17969	.	T	G	225.417	PASS	DP=12;VDB=0.000510696;SGB=-0.670168;MQSBZ=-0.816497;MQ0F=0;AC=2;AN=2;DP4=0,0,4,6;MQ=58	GT:PL:AD	1/1:255,30,0:0,10
+NODE_87_length_17545_cov_6.862722	641	.	A	C	225.417	PASS	DP=31;VDB=0.861669;SGB=-0.693054;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,12,16;MQ=60	GT:PL:AD	1/1:255,84,0:0,28
+NODE_88_length_17353_cov_7.156434	5483	.	A	C	225.417	PASS	DP=55;VDB=0.737435;SGB=-0.693145;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,20,21;MQ=60	GT:PL:AD	1/1:255,123,0:0,41
+NODE_88_length_17353_cov_7.156434	5484	.	A	C	225.417	PASS	DP=54;VDB=0.699862;SGB=-0.693145;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,19,22;MQ=60	GT:PL:AD	1/1:255,123,0:0,41
+NODE_88_length_17353_cov_7.156434	16341	.	C	A	106.816	PASS	DP=77;VDB=0.000658326;SGB=-0.662043;RPBZ=-3.08496;MQBZ=-3.98851;MQSBZ=0.794517;BQBZ=0.498276;SCBZ=3.98851;MQ0F=0;AC=1;AN=2;DP4=18,28,7,2;MQ=58	GT:PL:AD	0/1:142,0,255:46,9
+NODE_88_length_17353_cov_7.156434	16343	.	A	G	70.5346	PASS	DP=76;VDB=0.000228072;SGB=-0.670168;RPBZ=-3.15364;MQBZ=-4.31527;MQSBZ=1.16275;BQBZ=-0.822965;SCBZ=4.31566;MQ0F=0;AC=1;AN=2;DP4=18,26,8,2;MQ=57	GT:PL:AD	0/1:106,0,255:44,9
+NODE_88_length_17353_cov_7.156434	16348	.	A	T	162.219	PASS	DP=78;VDB=0.0028438;SGB=-0.670168;RPBZ=-2.8097;MQBZ=-2.10008;MQSBZ=0.946444;BQBZ=0.825049;SCBZ=2.10008;MQ0F=0;AC=1;AN=2;DP4=16,27,6,4;MQ=58	GT:PL:AD	0/1:197,0,255:43,9
+NODE_88_length_17353_cov_7.156434	16407	.	T	A	222.326	PASS	DP=76;VDB=0.048946;SGB=-0.692717;RPBZ=-2.80064;MQBZ=-1.41745;MQSBZ=-0.317061;BQBZ=1.4527;SCBZ=0.87542;MQ0F=0;AC=1;AN=2;DP4=14,19,19,4;MQ=57	GT:PL:AD	0/1:255,0,255:33,23
+NODE_88_length_17353_cov_7.156434	16636	.	C	T	221.824	PASS	DP=104;VDB=0.0236436;SGB=-0.693079;RPBZ=-0.149261;MQBZ=0.841021;MQSBZ=-0.654654;BQBZ=-3.77597;SCBZ=-0.841021;MQ0F=0;AC=1;AN=2;DP4=14,27,7,22;MQ=59	GT:PL:AD	0/1:255,0,255:41,27
+NODE_88_length_17353_cov_7.156434	16664	.	C	A	222.406	PASS	DP=78;VDB=0.975474;SGB=-0.693079;RPBZ=1.23853;MQBZ=-0.964901;MQSBZ=-0.774597;BQBZ=-0.891784;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=12,15,9,20;MQ=59	GT:PL:AD	0/1:255,0,255:27,29
+NODE_88_length_17353_cov_7.156434	16803	.	C	T	222.223	PASS	DP=90;VDB=0.924438;SGB=-0.692914;RPBZ=-0.186102;MQBZ=0;MQSBZ=0;BQBZ=-2.15589;SCBZ=1.09545;MQ0F=0;AC=1;AN=2;DP4=15,15,16,9;MQ=60	GT:PL:AD	0/1:255,0,255:30,24
+NODE_88_length_17353_cov_7.156434	17101	.	A	T	96.1973	PASS	DP=19;VDB=0.906964;SGB=-0.616816;RPBZ=0.258768;MQBZ=0;MQSBZ=0;BQBZ=-0.523937;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=5,3,5,1;MQ=60	GT:PL:AD	0/1:129,0,207:8,6
+NODE_88_length_17353_cov_7.156434	17118	.	ATTTTT	ATTTT	53.1884	PASS	INDEL;IDV=7;IMF=0.368421;DP=19;VDB=0.422204;SGB=-0.636426;RPBZ=-1.2298;MQBZ=0;MQSBZ=0;BQBZ=-1.61602;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=7,4,3,4;MQ=60	GT:PL:AD	0/1:86,0,138:11,7
+NODE_88_length_17353_cov_7.156434	17221	.	C	T	222.391	PASS	DP=48;VDB=0.288901;SGB=-0.686358;RPBZ=0.196469;MQBZ=0;MQSBZ=0;BQBZ=-0.42822;SCBZ=-1.05602;MQ0F=0;AC=1;AN=2;DP4=7,8,8,6;MQ=60	GT:PL:AD	0/1:255,0,255:15,14
+NODE_92_length_16204_cov_7.535575	8436	.	ATTTTTTTT	ATTTTTTT	228.384	PASS	INDEL;IDV=61;IMF=0.968254;DP=63;VDB=0.0229602;SGB=-0.693147;RPBZ=-1.76537;MQBZ=0;MQSBZ=0;BQBZ=-2.38221;SCBZ=-4.31111;MQ0F=0;AC=2;AN=2;DP4=1,0,30,30;MQ=60	GT:PL:AD	1/1:255,166,0:1,60
+NODE_102_length_14208_cov_6.850420	379	.	G	A	225.417	PASS	DP=45;VDB=0.290709;SGB=-0.693139;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,20,16;MQ=60	GT:PL:AD	1/1:255,108,0:0,36
+NODE_108_length_13775_cov_6.998251	6833	.	T	A	228.387	PASS	DP=27;VDB=0.444327;SGB=-0.692067;RPBZ=-0.496402;MQBZ=0;MQSBZ=0;BQBZ=1.55607;SCBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,1,9,11;MQ=60	GT:PL:AD	1/1:255,47,0:1,19
+NODE_116_length_12913_cov_7.683621	8696	.	C	G	48.888	PASS	DP=37;VDB=0.112085;SGB=-0.556411;RPBZ=0.408789;MQBZ=0;MQSBZ=0;BQBZ=0.796438;SCBZ=3.59882;MQ0F=0;AC=1;AN=2;DP4=15,6,3,1;MQ=60	GT:PL:AD	0/1:84,0,255:21,3
+NODE_116_length_12913_cov_7.683621	8717	.	A	G	96.7709	PASS	DP=41;VDB=0.552878;SGB=-0.590765;RPBZ=-0.837984;MQBZ=-3.15323;MQSBZ=0.811844;BQBZ=1.52071;SCBZ=3.93104;MQ0F=0;AC=1;AN=2;DP4=18,6,4,1;MQ=59	GT:PL:AD	0/1:131,0,255:24,5
+NODE_116_length_12913_cov_7.683621	8726	.	A	T	59.7623	PASS	DP=41;VDB=0.121375;SGB=-0.590765;RPBZ=-1.73269;MQBZ=-3.93104;MQSBZ=-0.230717;BQBZ=-0.212105;SCBZ=4.62133;MQ0F=0;AC=1;AN=2;DP4=18,6,3,2;MQ=59	GT:PL:AD	0/1:95,0,255:24,5
+NODE_116_length_12913_cov_7.683621	8729	.	C	G	98.5676	PASS	DP=41;VDB=0.106656;SGB=-0.616816;RPBZ=-1.23904;MQBZ=-3.51297;MQSBZ=-0.230717;BQBZ=0.450079;SCBZ=4.12986;MQ0F=0;AC=1;AN=2;DP4=17,6,4,2;MQ=59	GT:PL:AD	0/1:133,0,255:23,5
+NODE_116_length_12913_cov_7.683621	8735	.	C	G	117.896	PASS	DP=40;VDB=0.0674392;SGB=-0.616816;RPBZ=-1.93889;MQBZ=-3.51297;MQSBZ=-0.230717;BQBZ=0.659894;SCBZ=4.12986;MQ0F=0;AC=1;AN=2;DP4=17,6,4,2;MQ=59	GT:PL:AD	0/1:152,0,255:23,6
+NODE_116_length_12913_cov_7.683621	8765	.	C	T	177.438	PASS	DP=48;VDB=0.056073;SGB=-0.676189;RPBZ=-0.239392;MQBZ=-3.43523;MQSBZ=0.490719;BQBZ=-0.482536;SCBZ=2.58081;MQ0F=0;AC=1;AN=2;DP4=15,8,9,2;MQ=58	GT:PL:AD	0/1:211,0,255:23,8
+NODE_116_length_12913_cov_7.683621	8775	.	T	A	142.926	PASS	DP=52;VDB=0.00768808;SGB=-0.670168;RPBZ=0.500014;MQBZ=-4.07668;MQSBZ=0.140911;BQBZ=-0.605096;SCBZ=2.42953;MQ0F=0;AC=1;AN=2;DP4=24,6,7,3;MQ=59	GT:PL:AD	0/1:177,0,255:30,10
+NODE_116_length_12913_cov_7.683621	8788	.	T	G	132.891	PASS	DP=50;VDB=0.000193683;SGB=-0.670168;RPBZ=2.02794;MQBZ=-4.01356;MQSBZ=0.17212;BQBZ=0.351933;SCBZ=2.44301;MQ0F=0;AC=1;AN=2;DP4=22,7,8,2;MQ=58	GT:PL:AD	0/1:167,0,255:29,8
+NODE_116_length_12913_cov_7.683621	8789	.	G	A	118.901	PASS	DP=51;VDB=0.000637039;SGB=-0.651104;RPBZ=2.31823;MQBZ=-4.70734;MQSBZ=0.140911;BQBZ=1.35965;SCBZ=2.95474;MQ0F=0;AC=1;AN=2;DP4=25,7,6,2;MQ=59	GT:PL:AD	0/1:153,0,255:32,8
+NODE_116_length_12913_cov_7.683621	8800	.	T	C	104.563	PASS	DP=49;VDB=0.000196909;SGB=-0.636426;RPBZ=3.07178;MQBZ=-4.96684;MQSBZ=-0.0961323;BQBZ=1.28973;SCBZ=2.29465;MQ0F=0;AC=1;AN=2;DP4=25,6,6,1;MQ=58	GT:PL:AD	0/1:139,0,255:31,7
+NODE_117_length_12855_cov_6.597734	302	.	A	T	228.377	PASS	DP=38;VDB=0.880926;SGB=-0.693054;RPBZ=0.837486;MQBZ=-0.188982;MQSBZ=-1.0351;BQBZ=1.49238;SCBZ=0.398628;MQ0F=0;AC=2;AN=2;DP4=0,1,15,13;MQ=59	GT:PL:AD	1/1:255,72,0:1,28
+NODE_120_length_12014_cov_7.273518	11924	.	T	G	117.409	PASS	DP=44;VDB=7.99229e-06;SGB=-0.676189;RPBZ=-2.20877;MQBZ=-3.57983;MQSBZ=0.466069;BQBZ=2.2097;SCBZ=3.57983;MQ0F=0.0681818;AC=1;AN=2;DP4=3,12,7,4;MQ=44	GT:PL:AD	0/1:151,0,255:15,11
+NODE_120_length_12014_cov_7.273518	11977	.	G	T	86.2963	PASS	DP=11;VDB=0.0560361;SGB=-0.511536;RPBZ=0.57735;MQBZ=-0.888523;MQSBZ=-1.08821;BQBZ=-0.296174;SCBZ=-0.296174;MQ0F=0;AC=1;AN=2;DP4=0,2,1,2;MQ=51	GT:PL:AD	0/1:119,0,79:2,3
+NODE_124_length_11002_cov_6.811821	8756	.	G	C	228.398	PASS	DP=42;VDB=0.957077;SGB=-0.69311;RPBZ=-0.0541978;MQBZ=0;MQSBZ=0;BQBZ=1.6733;SCBZ=0.258065;MQ0F=0;AC=2;AN=2;DP4=0,1,16,15;MQ=60	GT:PL:AD	1/1:255,81,0:1,31
+NODE_126_length_10827_cov_7.194300	10681	.	T	C	139.396	PASS	DP=74;VDB=0.152186;SGB=-0.662043;RPBZ=-2.68918;MQBZ=-3.72837;MQSBZ=2.12958;BQBZ=0.833717;SCBZ=3.01232;MQ0F=0;AC=1;AN=2;DP4=16,24,4,5;MQ=58	GT:PL:AD	0/1:174,0,255:40,9
+NODE_126_length_10827_cov_7.194300	10756	.	T	C	222.031	PASS	DP=55;VDB=0.184302;SGB=-0.676189;RPBZ=-2.20607;MQBZ=0.897993;MQSBZ=-0.484341;BQBZ=2.94426;SCBZ=1.00615;MQ0F=0;AC=1;AN=2;DP4=1,27,3,8;MQ=59	GT:PL:AD	0/1:255,0,255:28,11
+NODE_130_length_10165_cov_7.431850	7	.	G	C	151.416	PASS	DP=11;VDB=1.22528e-05;SGB=-0.670168;MQ0F=0;AC=2;AN=2;DP4=0,0,10,0;MQ=60	GT:PL:AD	1/1:181,30,0:0,10
+NODE_150_length_7783_cov_6.313276	3064	.	G	A	225.417	PASS	DP=45;VDB=0.200989;SGB=-0.693143;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,22,16;MQ=60	GT:PL:AD	1/1:255,114,0:0,38
+NODE_154_length_7179_cov_7.366929	55	.	CTT	CT	164.416	PASS	INDEL;IDV=18;IMF=1;DP=18;VDB=0.00405007;SGB=-0.686358;MQSBZ=0;BQBZ=-1.8313;MQ0F=0;AC=2;AN=2;DP4=0,0,12,2;MQ=58	GT:PL:AD	1/1:194,42,0:0,14
+NODE_155_length_7109_cov_8.441310	93	.	C	A	222.157	PASS	DP=128;VDB=0.00910232;SGB=-0.693145;RPBZ=-0.822763;MQBZ=-0.544777;MQSBZ=1.78571;BQBZ=-3.38784;SCBZ=-1.20521;MQ0F=0;AC=1;AN=2;DP4=36,13,32,9;MQ=58	GT:PL:AD	0/1:255,0,255:49,41
+NODE_155_length_7109_cov_8.441310	97	.	G	C	222.34	PASS	DP=133;VDB=0.0206975;SGB=-0.693146;RPBZ=-0.288149;MQBZ=-0.771741;MQSBZ=1.78117;BQBZ=-1.67648;SCBZ=-1.063;MQ0F=0;AC=1;AN=2;DP4=38,12,35,9;MQ=58	GT:PL:AD	0/1:255,0,255:50,42
+NODE_155_length_7109_cov_8.441310	98	.	T	C	222.344	PASS	DP=132;VDB=0.0127045;SGB=-0.693146;RPBZ=0.330305;MQBZ=-0.843887;MQSBZ=1.89013;BQBZ=-0.778575;SCBZ=-1.17835;MQ0F=0;AC=1;AN=2;DP4=36,15,35,8;MQ=58	GT:PL:AD	0/1:255,0,255:51,42
+NODE_155_length_7109_cov_8.441310	100	.	A	G	222.404	PASS	DP=131;VDB=0.0291573;SGB=-0.693147;RPBZ=0.0454114;MQBZ=-1.03716;MQSBZ=1.83449;BQBZ=-0.00778609;SCBZ=-1.17897;MQ0F=0;AC=1;AN=2;DP4=32,16,38,8;MQ=58	GT:PL:AD	0/1:255,0,255:48,43
+NODE_155_length_7109_cov_8.441310	112	.	G	A	222.385	PASS	DP=133;VDB=0.45412;SGB=-0.693147;RPBZ=0.252182;MQBZ=-2.59027;MQSBZ=1.65698;BQBZ=-1.54766;SCBZ=1.12078;MQ0F=0;AC=1;AN=2;DP4=31,20,38,10;MQ=59	GT:PL:AD	0/1:255,0,255:51,48
+NODE_155_length_7109_cov_8.441310	982	.	A	G	222.41	PASS	DP=146;VDB=0.904902;SGB=-0.693147;RPBZ=-0.394929;MQBZ=-1.92356;MQSBZ=-0.250433;BQBZ=1.01045;SCBZ=0.101561;MQ0F=0;AC=1;AN=2;DP4=37,23,31,24;MQ=59	GT:PL:AD	0/1:255,0,255:60,54
+NODE_155_length_7109_cov_8.441310	1045	.	T	C	222.406	PASS	DP=139;VDB=0.361459;SGB=-0.693147;RPBZ=0.502716;MQBZ=2.48207;MQSBZ=0.9828;BQBZ=0.649065;SCBZ=-0.264315;MQ0F=0.00719424;AC=1;AN=2;DP4=31,26,22,31;MQ=57	GT:PL:AD	0/1:255,0,255:57,53
+NODE_155_length_7109_cov_8.441310	1047	.	T	A	222.409	PASS	DP=147;VDB=0.890893;SGB=-0.693147;RPBZ=0.0929859;MQBZ=2.3014;MQSBZ=0.722867;BQBZ=1.18544;SCBZ=-0.124187;MQ0F=0.00680272;AC=1;AN=2;DP4=34,29,26,28;MQ=57	GT:PL:AD	0/1:255,0,255:63,53
+NODE_155_length_7109_cov_8.441310	1085	.	T	C	222.397	PASS	DP=154;VDB=0.977704;SGB=-0.693147;RPBZ=0.372446;MQBZ=-2.93401;MQSBZ=0.158214;BQBZ=0.79688;SCBZ=-0.0973796;MQ0F=0;AC=1;AN=2;DP4=23,32,33,27;MQ=58	GT:PL:AD	0/1:255,0,255:55,58
+NODE_155_length_7109_cov_8.441310	2297	.	C	G	221.523	PASS	DP=102;VDB=0.00337756;SGB=-0.692717;RPBZ=3.04217;MQBZ=-2.95513;MQSBZ=0.316704;BQBZ=-0.59658;SCBZ=3.35806;MQ0F=0;AC=1;AN=2;DP4=22,30,12,11;MQ=58	GT:PL:AD	0/1:255,0,255:52,23
+NODE_155_length_7109_cov_8.441310	2308	.	A	G	147.656	PASS	DP=90;VDB=0.00404136;SGB=-0.691153;RPBZ=2.44116;MQBZ=-4.31729;MQSBZ=-0.582732;BQBZ=-1.70182;SCBZ=2.32148;MQ0F=0;AC=1;AN=2;DP4=25,27,7,11;MQ=58	GT:PL:AD	0/1:182,0,255:52,17
+NODE_155_length_7109_cov_8.441310	2310	.	G	T	98.0011	PASS	DP=90;VDB=0.043225;SGB=-0.691153;RPBZ=2.25233;MQBZ=-2.82644;MQSBZ=-0.90585;BQBZ=-3.40683;SCBZ=2.32148;MQ0F=0;AC=1;AN=2;DP4=25,27,7,11;MQ=58	GT:PL:AD	0/1:133,0,255:52,17
+NODE_155_length_7109_cov_8.441310	2347	.	G	C	125.276	PASS	DP=88;VDB=0.371752;SGB=-0.688148;RPBZ=-2.17636;MQBZ=-7.14854;MQSBZ=-0.458904;BQBZ=-1.07194;SCBZ=2.78319;MQ0F=0;AC=1;AN=2;DP4=19,35,3,12;MQ=56	GT:PL:AD	0/1:160,0,255:54,14
+NODE_155_length_7109_cov_8.441310	2374	.	T	C	156.638	PASS	DP=82;VDB=0.0519615;SGB=-0.690438;RPBZ=-1.68084;MQBZ=-7.17853;MQSBZ=0.367064;BQBZ=-2.34552;SCBZ=1.33636;MQ0F=0.0121951;AC=1;AN=2;DP4=15,31,5,12;MQ=55	GT:PL:AD	0/1:191,0,255:46,17
+NODE_155_length_7109_cov_8.441310	2419	.	G	A	221.687	PASS	DP=86;VDB=0.440576;SGB=-0.692562;RPBZ=-1.55575;MQBZ=-4.52589;MQSBZ=-0.626238;BQBZ=-0.757043;SCBZ=-2.10109;MQ0F=0.0116279;AC=1;AN=2;DP4=17,25,12,10;MQ=55	GT:PL:AD	0/1:255,0,255:42,22
+NODE_155_length_7109_cov_8.441310	2422	.	C	T	221.887	PASS	DP=84;VDB=0.525655;SGB=-0.692717;RPBZ=-1.52122;MQBZ=-5.01614;MQSBZ=-0.684049;BQBZ=-0.385585;SCBZ=-1.86271;MQ0F=0.0119048;AC=1;AN=2;DP4=17,23,12,11;MQ=54	GT:PL:AD	0/1:255,0,255:40,23
+NODE_155_length_7109_cov_8.441310	2470	.	G	A	222.109	PASS	DP=92;VDB=0.809968;SGB=-0.69312;RPBZ=-3.34516;MQBZ=-2.16315;MQSBZ=-0.258377;BQBZ=-4.28097;SCBZ=-5.94642;MQ0F=0;AC=1;AN=2;DP4=9,23,26,6;MQ=57	GT:PL:AD	0/1:255,0,255:32,30
+NODE_155_length_7109_cov_8.441310	2482	.	T	C	222.399	PASS	DP=83;VDB=0.319073;SGB=-0.693079;RPBZ=-4.30896;MQBZ=-1.491;MQSBZ=-0.486538;BQBZ=0.0954597;SCBZ=-6.13957;MQ0F=0;AC=1;AN=2;DP4=6,24,24,5;MQ=58	GT:PL:AD	0/1:255,0,255:30,29
+NODE_156_length_7010_cov_7.473472	6263	.	A	T	84.8477	PASS	DP=35;VDB=1.07278e-07;SGB=-0.680642;RPBZ=4.62267;MQBZ=0;MQSBZ=0;BQBZ=-1.89921;SCBZ=3.62713;MQ0F=0;AC=1;AN=2;DP4=14,4,0,12;MQ=60	GT:PL:AD	0/1:118,0,255:18,12
+NODE_158_length_6674_cov_6.838193	6669	.	C	A	225.417	PASS	DP=27;VDB=1.2599e-13;SGB=-0.692831;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,5,19;MQ=60	GT:PL:AD	1/1:255,72,0:0,24
+NODE_161_length_6555_cov_7.799692	294	.	G	C	222.404	PASS	DP=109;VDB=0.658233;SGB=-0.693141;RPBZ=0.976182;MQBZ=0;MQSBZ=0;BQBZ=0.582682;SCBZ=1.05267;MQ0F=0;AC=1;AN=2;DP4=25,16,18,19;MQ=60	GT:PL:AD	0/1:255,0,255:41,37
+NODE_161_length_6555_cov_7.799692	363	.	G	A	222.395	PASS	DP=78;VDB=0.390664;SGB=-0.693054;RPBZ=-0.427248;MQBZ=0;MQSBZ=0;BQBZ=0.613678;SCBZ=1.91177;MQ0F=0;AC=1;AN=2;DP4=18,15,14,14;MQ=60	GT:PL:AD	0/1:255,0,255:33,28
+NODE_161_length_6555_cov_7.799692	623	.	T	C	101.035	PASS	DP=35;VDB=0.038698;SGB=-0.651104;RPBZ=2.54744;MQBZ=-1.41421;MQSBZ=-1.41421;BQBZ=-1.39995;SCBZ=1.41421;MQ0F=0;AC=1;AN=2;DP4=12,4,4,4;MQ=58	GT:PL:AD	0/1:135,0,255:16,6
+NODE_161_length_6555_cov_7.799692	640	.	A	T	118.152	PASS	DP=38;VDB=0.131006;SGB=-0.651104;RPBZ=2.332;MQBZ=-1.45774;MQSBZ=-1.33333;BQBZ=-1.66018;SCBZ=1.45774;MQ0F=0;AC=1;AN=2;DP4=12,5,4,4;MQ=58	GT:PL:AD	0/1:152,0,255:17,7
+NODE_161_length_6555_cov_7.799692	641	.	T	G	92.4398	PASS	DP=37;VDB=0.0243383;SGB=-0.590765;RPBZ=2.95569;MQBZ=-1.94936;MQSBZ=-1.41421;BQBZ=-0.341065;SCBZ=1.94936;MQ0F=0;AC=1;AN=2;DP4=14,5,2,3;MQ=58	GT:PL:AD	0/1:127,0,255:19,5
+NODE_161_length_6555_cov_7.799692	655	.	A	G	39.3301	PASS	DP=40;VDB=0.0124503;SGB=-0.590765;RPBZ=3.02788;MQBZ=-2.04939;MQSBZ=-1.26491;BQBZ=-1.68575;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=15,6,1,4;MQ=58	GT:PL:AD	0/1:75,0,255:21,5
+NODE_161_length_6555_cov_7.799692	3301	.	T	C	64.1164	PASS	DP=54;VDB=1.82474e-05;SGB=-0.651104;RPBZ=3.90128;MQBZ=0;MQSBZ=0;BQBZ=-1.04279;SCBZ=0.592216;MQ0F=0;AC=1;AN=2;DP4=21,11,1,7;MQ=60	GT:PL:AD	0/1:99,0,255:32,8
+NODE_164_length_6307_cov_7.089891	616	.	A	T	225.417	PASS	DP=15;VDB=0.954548;SGB=-0.676189;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,6,5;MQ=60	GT:PL:AD	1/1:255,33,0:0,11
+NODE_165_length_6288_cov_6.858174	4888	.	T	G	228.178	PASS	DP=47;VDB=0.0872937;SGB=-0.693136;RPBZ=1.2043;MQBZ=0;MQSBZ=0;BQBZ=2.25791;SCBZ=-4.10198;MQ0F=0;AC=2;AN=2;DP4=0,4,26,9;MQ=60	GT:PL:AD	1/1:255,55,0:4,35
+NODE_171_length_5434_cov_6.430377	4851	.	A	C	220.746	PASS	DP=46;VDB=0.000218389;SGB=-0.693097;RPBZ=-2.75751;MQBZ=0;MQSBZ=0;BQBZ=2.60151;SCBZ=-3.77269;MQ0F=0;AC=1;AN=2;DP4=7,0,16,14;MQ=60	GT:PL:AD	0/1:255,0,11:7,30
+NODE_171_length_5434_cov_6.430377	4864	.	A	T	218.837	PASS	DP=53;VDB=0.880416;SGB=-0.69311;RPBZ=-2.75384;MQBZ=-0.813198;MQSBZ=-1.61847;BQBZ=3.94922;SCBZ=-2.53397;MQ0F=0;AC=1;AN=2;DP4=10,0,13,18;MQ=59	GT:PL:AD	0/1:255,0,25:10,31
+NODE_171_length_5434_cov_6.430377	4871	.	T	G	176.724	PASS	DP=46;VDB=0.0133786;SGB=-0.662043;RPBZ=-4.27066;MQBZ=-2.34521;MQSBZ=-1.48034;BQBZ=1.74724;SCBZ=3.20706;MQ0F=0;AC=1;AN=2;DP4=12,12,5,4;MQ=59	GT:PL:AD	0/1:210,0,255:24,9
+NODE_171_length_5434_cov_6.430377	4905	.	A	G	222.333	PASS	DP=68;VDB=0.302099;SGB=-0.692562;RPBZ=-1.60917;MQBZ=1.59615;MQSBZ=-1.53136;BQBZ=0.245538;SCBZ=0.725138;MQ0F=0;AC=1;AN=2;DP4=11,16,10,12;MQ=59	GT:PL:AD	0/1:255,0,255:27,18
+NODE_173_length_5181_cov_7.728443	480	.	A	C	225.417	PASS	DP=78;VDB=0.954365;SGB=-0.693147;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,30,26;MQ=60	GT:PL:AD	1/1:255,169,0:0,56
+NODE_176_length_4622_cov_6.150646	20	.	C	A	225.417	PASS	DP=17;VDB=0.000307425;SGB=-0.686358;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,8,6;MQ=60	GT:PL:AD	1/1:255,42,0:0,14
+NODE_176_length_4622_cov_6.150646	33	.	A	T	225.417	PASS	DP=20;VDB=0.000651918;SGB=-0.690438;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,11,6;MQ=60	GT:PL:AD	1/1:255,51,0:0,17
+NODE_176_length_4622_cov_6.150646	4604	.	G	T	220.417	PASS	DP=16;VDB=4.88162e-06;SGB=-0.686358;MQSBZ=1.58114;MQ0F=0;AC=2;AN=2;DP4=0,0,4,10;MQ=58	GT:PL:AD	1/1:250,42,0:0,14
+NODE_176_length_4622_cov_6.150646	4611	.	T	A	225.417	PASS	DP=14;VDB=5.20597e-07;SGB=-0.683931;MQSBZ=1.82574;MQ0F=0;AC=2;AN=2;DP4=0,0,3,10;MQ=58	GT:PL:AD	1/1:255,39,0:0,13
+NODE_185_length_4234_cov_12.229481	315	.	A	G	85.7115	PASS	DP=47;VDB=0.0923727;SGB=-0.686358;RPBZ=3.17597;MQBZ=-1.25858;MQSBZ=0.532721;BQBZ=-0.224675;SCBZ=1.41421;MQ0F=0;AC=1;AN=2;DP4=12,16,1,13;MQ=57	GT:PL:AD	0/1:119,0,255:28,13
+NODE_185_length_4234_cov_12.229481	4176	.	G	T	212.335	PASS	DP=81;VDB=0.000516571;SGB=-0.690438;RPBZ=0.353768;MQBZ=-3.51876;MQSBZ=-0.422206;BQBZ=-1.58319;SCBZ=0.76718;MQ0F=0.0123457;AC=1;AN=2;DP4=13,23,5,12;MQ=55	GT:PL:AD	0/1:246,0,255:36,16
+NODE_185_length_4234_cov_12.229481	4179	.	A	C	221.56	PASS	DP=81;VDB=0.000625102;SGB=-0.690438;RPBZ=0.592836;MQBZ=-3.03008;MQSBZ=-0.539005;BQBZ=-0.655364;SCBZ=0.437044;MQ0F=0.0123457;AC=1;AN=2;DP4=12,24,5,12;MQ=55	GT:PL:AD	0/1:255,0,255:36,17
+NODE_186_length_4232_cov_7.558774	99	.	T	G	180.865	PASS	DP=88;VDB=0.00243008;SGB=-0.686358;RPBZ=-3.44496;MQBZ=-1.75862;MQSBZ=-0.384236;BQBZ=-0.0716466;SCBZ=2.2282;MQ0F=0;AC=1;AN=2;DP4=34,12,11,3;MQ=58	GT:PL:AD	0/1:215,0,255:46,13
+NODE_186_length_4232_cov_7.558774	127	.	T	C	221.826	PASS	DP=102;VDB=0.000364963;SGB=-0.692831;RPBZ=-3.38572;MQBZ=-2.43275;MQSBZ=1.11136;BQBZ=-0.086061;SCBZ=2.23448;MQ0F=0;AC=1;AN=2;DP4=34,12,16,8;MQ=59	GT:PL:AD	0/1:255,0,255:46,22
+NODE_186_length_4232_cov_7.558774	135	.	G	A	221.698	PASS	DP=106;VDB=0.000156721;SGB=-0.692562;RPBZ=-3.29544;MQBZ=-2.67386;MQSBZ=1.0788;BQBZ=1.23967;SCBZ=2.53973;MQ0F=0;AC=1;AN=2;DP4=40,11,13,9;MQ=59	GT:PL:AD	0/1:255,0,255:51,22
+NODE_186_length_4232_cov_7.558774	216	.	T	C	222.104	PASS	DP=113;VDB=0.483497;SGB=-0.693147;RPBZ=-1.63584;MQBZ=1.32506;MQSBZ=0.210431;BQBZ=-2.07878;SCBZ=-1.81558;MQ0F=0.00884956;AC=1;AN=2;DP4=8,17,32,18;MQ=57	GT:PL:AD	0/1:255,0,255:25,49
+NODE_186_length_4232_cov_7.558774	290	.	G	T	30.4058	PASS	DP=78;VDB=0.00265308;SGB=-0.680642;RPBZ=2.48654;MQBZ=-5.32697;MQSBZ=-1.30216;BQBZ=-1.9497;SCBZ=4.29651;MQ0F=0;AC=1;AN=2;DP4=19,32,1,11;MQ=57	GT:PL:AD	0/1:66,0,255:51,12
+NODE_189_length_3893_cov_7.575821	3843	.	A	T	225.417	PASS	DP=15;VDB=0.0891753;SGB=-0.670168;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,3,7;MQ=60	GT:PL:AD	1/1:255,30,0:0,10
+NODE_190_length_3718_cov_6.526072	3614	.	T	C	167.416	PASS	DP=15;VDB=0.00279214;SGB=-0.676189;MQ0F=0;AC=2;AN=2;DP4=0,0,0,11;MQ=56	GT:PL:AD	1/1:197,33,0:0,11
+NODE_190_length_3718_cov_6.526072	3637	.	T	G	132.416	PASS	DP=11;VDB=0.00262538;SGB=-0.670168;MQ0F=0;AC=2;AN=2;DP4=0,0,0,10;MQ=57	GT:PL:AD	1/1:162,30,0:0,10
+NODE_194_length_2951_cov_6.288329	766	.	T	A	225.417	PASS	DP=29;VDB=0.650951;SGB=-0.69168;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,5,14;MQ=60	GT:PL:AD	1/1:255,57,0:0,19
+NODE_199_length_2817_cov_7.327299	2789	.	A	T	228.328	PASS	DP=21;VDB=0.527611;SGB=-0.688148;RPBZ=0.326841;MQBZ=-0.258199;MQSBZ=1.13389;BQBZ=1.31717;SCBZ=0.569976;MQ0F=0;AC=2;AN=2;DP4=1,0,6,9;MQ=59	GT:PL:AD	1/1:255,34,0:1,15
+NODE_201_length_2803_cov_6.635371	1920	.	A	T	30.6241	PASS	DP=24;VDB=0.1;SGB=-0.453602;RPBZ=0.211828;MQBZ=0.353553;MQSBZ=-0.894427;BQBZ=1.78124;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=7,9,1,1;MQ=58	GT:PL:AD	0/1:66,0,255:16,2
+NODE_205_length_2654_cov_53.740669	702	.	C	G	117.65	PASS	DP=248;VDB=0.0229807;SGB=-0.693132;RPBZ=2.10523;MQBZ=0;MQSBZ=0;BQBZ=-1.22997;SCBZ=1.10305;MQ0F=0;AC=1;AN=2;DP4=92,71,14,20;MQ=60	GT:PL:AD	0/1:153,0,255:163,32
+NODE_205_length_2654_cov_53.740669	708	.	G	C	160.023	PASS	DP=248;VDB=0.0205553;SGB=-0.693127;RPBZ=2.46607;MQBZ=0;MQSBZ=0;BQBZ=1.43125;SCBZ=0.715374;MQ0F=0;AC=1;AN=2;DP4=94,72,14,19;MQ=60	GT:PL:AD	0/1:195,0,255:166,32
+NODE_205_length_2654_cov_53.740669	712	.	C	T	134.798	PASS	DP=249;VDB=0.0260432;SGB=-0.693127;RPBZ=2.15488;MQBZ=0;MQSBZ=0;BQBZ=0.0378031;SCBZ=1.27873;MQ0F=0;AC=1;AN=2;DP4=91,75,14,19;MQ=60	GT:PL:AD	0/1:170,0,255:166,32
+NODE_205_length_2654_cov_53.740669	714	.	A	C	170.928	PASS	DP=250;VDB=0.018617;SGB=-0.693141;RPBZ=2.2942;MQBZ=0;MQSBZ=0;BQBZ=-0.212891;SCBZ=1.68409;MQ0F=0;AC=1;AN=2;DP4=91,72,15,22;MQ=60	GT:PL:AD	0/1:206,0,255:163,33
+NODE_205_length_2654_cov_53.740669	754	.	C	T	49.091	PASS	DP=236;VDB=0.733881;SGB=-0.693127;RPBZ=0.309716;MQBZ=0;MQSBZ=0;BQBZ=-3.23362;SCBZ=0.135939;MQ0F=0;AC=1;AN=2;DP4=92,70,17,16;MQ=60	GT:PL:AD	0/1:85,0,255:162,29
+NODE_205_length_2654_cov_53.740669	785	.	A	T	67.6368	PASS	DP=247;VDB=0.961195;SGB=-0.693139;RPBZ=-1.2313;MQBZ=0.468521;MQSBZ=0.717741;BQBZ=-1.96801;SCBZ=0.0912563;MQ0F=0;AC=1;AN=2;DP4=114,50,18,18;MQ=59	GT:PL:AD	0/1:103,0,255:164,36
+NODE_205_length_2654_cov_53.740669	1196	.	T	C	69.5435	PASS	DP=250;VDB=0.880076;SGB=-0.693139;RPBZ=-0.551394;MQBZ=0;MQSBZ=0;BQBZ=-2.07107;SCBZ=1.49435;MQ0F=0;AC=1;AN=2;DP4=96,76,20,16;MQ=60	GT:PL:AD	0/1:105,0,255:172,35
+NODE_205_length_2654_cov_53.740669	1445	.	A	C	21.0702	PASS	DP=248;VDB=0.564067;SGB=-0.69311;RPBZ=-0.171097;MQBZ=-1.37848;MQSBZ=-1.5116;BQBZ=-1.05551;SCBZ=0.31114;MQ0F=0;AC=1;AN=2;DP4=93,79,15,16;MQ=59	GT:PL:AD	0/1:57,0,255:172,25
+NODE_205_length_2654_cov_53.740669	2531	.	C	G	170.007	PASS	DP=250;VDB=0.0365528;SGB=-0.69312;RPBZ=1.62313;MQBZ=-2.20794;MQSBZ=1.18754;BQBZ=0.833621;SCBZ=-0.95036;MQ0F=0;AC=1;AN=2;DP4=63,93,15,17;MQ=59	GT:PL:AD	0/1:205,0,255:156,29
+NODE_205_length_2654_cov_53.740669	2562	.	A	G	221.588	PASS	DP=245;VDB=0.000390947;SGB=-0.693147;RPBZ=0.96342;MQBZ=-0.0139429;MQSBZ=-1.38956;BQBZ=1.15177;SCBZ=-0.934539;MQ0F=0;AC=1;AN=2;DP4=52,77,19,34;MQ=59	GT:PL:AD	0/1:255,0,255:129,49
+NODE_205_length_2654_cov_53.740669	2563	.	T	C	221.4	PASS	DP=239;VDB=0.000322323;SGB=-0.693147;RPBZ=1.842;MQBZ=-0.746336;MQSBZ=-1.4384;BQBZ=-0.735659;SCBZ=-1.81534;MQ0F=0;AC=1;AN=2;DP4=49,76,23,32;MQ=59	GT:PL:AD	0/1:255,0,255:125,48
+NODE_209_length_2408_cov_7.124522	2254	.	A	G	221.81	PASS	DP=64;VDB=1.84041e-09;SGB=-0.689466;RPBZ=-5.26969;MQBZ=-1.22474;MQSBZ=1.05131;BQBZ=-2.43161;SCBZ=4.10574;MQ0F=0;AC=1;AN=2;DP4=8,16,11,5;MQ=59	GT:PL:AD	0/1:255,0,255:24,16
+NODE_209_length_2408_cov_7.124522	2325	.	C	T	221.266	PASS	DP=105;VDB=2.06798e-05;SGB=-0.69168;RPBZ=3.06796;MQBZ=1.90731;MQSBZ=-0.132904;BQBZ=-4.59027;SCBZ=-3.89099;MQ0F=0.00952381;AC=1;AN=2;DP4=20,20,8,11;MQ=54	GT:PL:AD	0/1:255,0,255:40,18
+NODE_209_length_2408_cov_7.124522	2339	.	GTTTTTT	GTTTTT	67.2769	PASS	INDEL;IDV=20;IMF=0.212766;DP=94;VDB=8.79911e-05;SGB=-0.69168;RPBZ=0.272779;MQBZ=1.27164;MQSBZ=-0.0201467;BQBZ=-1.52877;SCBZ=1.60995;MQ0F=0;AC=1;AN=2;DP4=20,22,9,10;MQ=54	GT:PL:AD	0/1:101,0,233:42,19
+NODE_214_length_1860_cov_5.168421	165	.	ATTTTT	ATTTTTT	184.375	PASS	INDEL;IDV=16;IMF=0.842105;DP=19;VDB=0.826571;SGB=-0.686358;RPBZ=-0.224;MQBZ=0;MQSBZ=0;BQBZ=-2.14052;SCBZ=-2.35117;MQ0F=0;AC=2;AN=2;DP4=1,0,7,7;MQ=60	GT:PL:AD	1/1:211,33,0:1,14
+NODE_216_length_1694_cov_8.062843	56	.	T	C	216.417	PASS	DP=12;VDB=0.0476592;SGB=-0.616816;MQSBZ=-1.47561;MQ0F=0;AC=2;AN=2;DP4=0,0,4,2;MQ=49	GT:PL:AD	1/1:246,18,0:0,6
+NODE_216_length_1694_cov_8.062843	465	.	A	G	141.42	PASS	DP=18;VDB=0.0165977;SGB=-0.690438;MQ0F=0;AC=2;AN=2;DP4=0,0,17,0;MQ=35	GT:PL:AD	1/1:171,48,0:0,16
+NODE_216_length_1694_cov_8.062843	486	.	T	C	225.417	PASS	DP=21;VDB=0.121953;SGB=-0.69168;MQSBZ=1.41141;MQ0F=0;AC=2;AN=2;DP4=0,0,18,1;MQ=37	GT:PL:AD	1/1:255,57,0:0,19
+NODE_216_length_1694_cov_8.062843	510	.	G	A	225.417	PASS	DP=29;VDB=0.562783;SGB=-0.692717;MQSBZ=1.59904;MQ0F=0;AC=2;AN=2;DP4=0,0,21,2;MQ=43	GT:PL:AD	1/1:255,69,0:0,23
+NODE_216_length_1694_cov_8.062843	636	.	C	T	225.417	PASS	DP=46;VDB=0.0819812;SGB=-0.69312;MQSBZ=-0.968719;MQ0F=0;AC=2;AN=2;DP4=0,0,10,22;MQ=58	GT:PL:AD	1/1:255,96,0:0,32
+NODE_216_length_1694_cov_8.062843	765	.	G	A	153.416	PASS	DP=12;VDB=0.00245507;SGB=-0.670168;MQ0F=0;AC=2;AN=2;DP4=0,0,0,10;MQ=47	GT:PL:AD	1/1:183,30,0:0,10
+NODE_218_length_1641_cov_5.552963	1175	.	T	A	32.6629	PASS	DP=18;VDB=0.23997;SGB=-0.556411;RPBZ=1.00435;MQBZ=0;MQSBZ=0;BQBZ=-0.313378;SCBZ=-0.666667;MQ0F=0;AC=1;AN=2;DP4=2,7,4,0;MQ=60	GT:PL:AD	0/1:66,0,199:9,4
+NODE_223_length_1434_cov_8.416244	695	.	T	A	58.4156	PASS	DP=79;VDB=0.0188473;SGB=-0.662043;RPBZ=1.58321;MQBZ=-3.40487;MQSBZ=0.187385;BQBZ=0.269384;SCBZ=2.60092;MQ0F=0;AC=1;AN=2;DP4=21,25,4,5;MQ=56	GT:PL:AD	0/1:94,0,255:46,9
+NODE_226_length_1403_cov_5.760386	607	.	A	G	51.3953	PASS	DP=17;VDB=0.0264014;SGB=-0.511536;RPBZ=-1.22474;MQBZ=0;MQSBZ=0;BQBZ=0.421893;SCBZ=3.12694;MQ0F=0;AC=1;AN=2;DP4=1,7,3,0;MQ=60	GT:PL:AD	0/1:85,0,215:8,3
+NODE_226_length_1403_cov_5.760386	623	.	G	A	76.0102	PASS	DP=16;VDB=0.44936;SGB=-0.590765;RPBZ=-0.640467;MQBZ=0;MQSBZ=0;BQBZ=-0.377352;SCBZ=2.09762;MQ0F=0;AC=1;AN=2;DP4=2,4,2,3;MQ=60	GT:PL:AD	0/1:109,0,196:6,3
+NODE_226_length_1403_cov_5.760386	638	.	G	A	173.979	PASS	DP=18;VDB=0.954682;SGB=-0.670168;RPBZ=-0.507791;MQBZ=0;MQSBZ=0;BQBZ=-2.05682;SCBZ=-3.43776;MQ0F=0;AC=1;AN=2;DP4=2,1,5,5;MQ=60	GT:PL:AD	0/1:207,0,114:3,9
+NODE_226_length_1403_cov_5.760386	642	.	T	C	72.3366	PASS	DP=19;VDB=0.0560361;SGB=-0.511536;RPBZ=0.507791;MQBZ=0;MQSBZ=0;BQBZ=0.882294;SCBZ=3.43776;MQ0F=0;AC=1;AN=2;DP4=5,5,2,1;MQ=60	GT:PL:AD	0/1:106,0,255:10,3
+NODE_226_length_1403_cov_5.760386	646	.	G	A	93.7859	PASS	DP=22;VDB=0.193383;SGB=-0.556411;RPBZ=-0.283466;MQBZ=0;MQSBZ=0;BQBZ=0.796413;SCBZ=3.54897;MQ0F=0;AC=1;AN=2;DP4=5,5,2,2;MQ=60	GT:PL:AD	0/1:127,0,255:10,4
+NODE_226_length_1403_cov_5.760386	653	.	A	G	193.343	PASS	DP=21;VDB=0.452509;SGB=-0.651104;RPBZ=-0.294392;MQBZ=0;MQSBZ=0;BQBZ=-1.22254;SCBZ=-3.35008;MQ0F=0;AC=1;AN=2;DP4=2,3,5,3;MQ=60	GT:PL:AD	0/1:226,0,193:5,8
+NODE_226_length_1403_cov_5.760386	694	.	G	A	167.247	PASS	DP=28;VDB=0.353391;SGB=-0.590765;RPBZ=1.87063;MQBZ=0;MQSBZ=0;BQBZ=2.21526;SCBZ=2.74643;MQ0F=0;AC=1;AN=2;DP4=7,4,2,3;MQ=59	GT:PL:AD	0/1:200,0,253:11,5
+NODE_226_length_1403_cov_5.760386	703	.	G	A	25.0119	PASS	DP=29;VDB=0.554416;SGB=-0.556411;RPBZ=2.22346;MQBZ=0;MQSBZ=0;BQBZ=-1.91371;SCBZ=2.43374;MQ0F=0;AC=1;AN=2;DP4=6,5,1,3;MQ=59	GT:PL:AD	0/1:60,0,255:11,4
+NODE_226_length_1403_cov_5.760386	1039	.	T	C	137.127	PASS	DP=79;VDB=1.69593e-09;SGB=-0.688148;RPBZ=-4.99843;MQBZ=-3.08384;MQSBZ=0.273933;BQBZ=0.600316;SCBZ=6.05762;MQ0F=0;AC=1;AN=2;DP4=23,23,13,2;MQ=59	GT:PL:AD	0/1:171,0,255:46,15
+NODE_226_length_1403_cov_5.760386	1052	.	C	A	140.889	PASS	DP=80;VDB=4.5125e-06;SGB=-0.689466;RPBZ=-3.61594;MQBZ=-2.9211;MQSBZ=0.239708;BQBZ=-2.03308;SCBZ=5.54012;MQ0F=0;AC=1;AN=2;DP4=22,22,14,2;MQ=59	GT:PL:AD	0/1:175,0,255:44,16
+NODE_226_length_1403_cov_5.760386	1053	.	A	C	146.206	PASS	DP=80;VDB=1.5706e-05;SGB=-0.689466;RPBZ=-3.54799;MQBZ=-2.9211;MQSBZ=0.239708;BQBZ=-0.546181;SCBZ=5.52831;MQ0F=0;AC=1;AN=2;DP4=23,21,13,3;MQ=59	GT:PL:AD	0/1:180,0,255:44,15
+NODE_226_length_1403_cov_5.760386	1054	.	C	T	148.863	PASS	DP=79;VDB=4.06039e-10;SGB=-0.689466;RPBZ=-4.10022;MQBZ=-2.9211;MQSBZ=0.239708;BQBZ=-1.79857;SCBZ=5.51619;MQ0F=0;AC=1;AN=2;DP4=22,22,14,2;MQ=59	GT:PL:AD	0/1:183,0,255:44,15
+NODE_235_length_1202_cov_34.973845	189	.	A	G	222.378	PASS	DP=248;VDB=0.977306;SGB=-0.693147;RPBZ=-0.382222;MQBZ=-1.153;MQSBZ=0.715158;BQBZ=2.08044;SCBZ=0.271388;MQ0F=0;AC=1;AN=2;DP4=74,39,57,28;MQ=59	GT:PL:AD	0/1:255,0,255:113,82
+NODE_240_length_1120_cov_7.524883	1065	.	T	C	51.8078	PASS	DP=49;VDB=1.69126e-05;SGB=-0.662043;RPBZ=-4.4227;MQBZ=-5.2602;MQSBZ=-1.27951;BQBZ=-1.52402;SCBZ=-1.84723;MQ0F=0;AC=1;AN=2;DP4=8,18,1,8;MQ=50	GT:PL:AD	0/1:87,0,255:26,9
+NODE_252_length_861_cov_4.545906	498	.	T	G	225.417	PASS	DP=22;VDB=0.0251786;SGB=-0.689466;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,13,3;MQ=60	GT:PL:AD	1/1:255,48,0:0,16
+NODE_252_length_861_cov_4.545906	529	.	C	T	225.426	PASS	DP=27;VDB=0.547624;SGB=-0.69168;MQSBZ=-1.93649;MQ0F=0;AC=2;AN=2;DP4=0,0,15,4;MQ=57	GT:PL:AD	1/1:255,45,0:0,15
+NODE_252_length_861_cov_4.545906	548	.	G	T	228.378	PASS	DP=24;VDB=0.496386;SGB=-0.689466;RPBZ=0;MQBZ=4;MQSBZ=-1.54919;BQBZ=1.7148;SCBZ=-2.14825;MQ0F=0;AC=2;AN=2;DP4=0,1,12,4;MQ=57	GT:PL:AD	1/1:255,39,0:1,16
+NODE_252_length_861_cov_4.545906	562	.	T	C	228.343	PASS	DP=24;VDB=0.936001;SGB=-0.689466;RPBZ=1.22625;MQBZ=2.55104;MQSBZ=-1.74233;BQBZ=1.5709;SCBZ=-2.45514;MQ0F=0;AC=2;AN=2;DP4=0,1,10,6;MQ=57	GT:PL:AD	1/1:255,37,0:1,16
+NODE_252_length_861_cov_4.545906	599	.	G	T	225.417	PASS	DP=19;VDB=0.492201;SGB=-0.686358;MQSBZ=-1.1547;MQ0F=0;AC=2;AN=2;DP4=0,0,8,6;MQ=59	GT:PL:AD	1/1:255,42,0:0,14
+NODE_252_length_861_cov_4.545906	611	.	G	A	228.331	PASS	DP=20;VDB=0.417808;SGB=-0.680642;RPBZ=-0.534522;MQBZ=-0.288675;MQSBZ=-0.92582;BQBZ=1.34934;SCBZ=0.54219;MQ0F=0;AC=2;AN=2;DP4=1,0,5,7;MQ=59	GT:PL:AD	1/1:255,27,0:1,12
+NODE_252_length_861_cov_4.545906	624	.	G	T	225.417	PASS	DP=19;VDB=0.506326;SGB=-0.683931;MQSBZ=-0.92582;MQ0F=0;AC=2;AN=2;DP4=0,0,6,7;MQ=59	GT:PL:AD	1/1:255,39,0:0,13
+NODE_252_length_861_cov_4.545906	638	.	G	A	225.227	PASS	DP=21;VDB=0.611175;SGB=-0.686358;RPBZ=-1.62019;MQBZ=-0.267261;MQSBZ=-0.707107;BQBZ=0.119751;SCBZ=0.496337;MQ0F=0;AC=2;AN=2;DP4=1,0,4,10;MQ=59	GT:PL:AD	1/1:255,8,3:1,13
+NODE_252_length_861_cov_4.545906	676	.	A	C	225.417	PASS	DP=25;VDB=0.703087;SGB=-0.691153;MQSBZ=-0.242536;MQ0F=0;AC=2;AN=2;DP4=0,0,1,17;MQ=59	GT:PL:AD	1/1:255,54,0:0,18
+NODE_252_length_861_cov_4.545906	706	.	T	G	225.417	PASS	DP=26;VDB=0.119131;SGB=-0.691153;MQSBZ=0.638228;MQ0F=0;AC=2;AN=2;DP4=0,0,3,15;MQ=57	GT:PL:AD	1/1:255,54,0:0,18
+NODE_252_length_861_cov_4.545906	749	.	A	T	225.417	PASS	DP=22;VDB=0.000158332;SGB=-0.689466;MQSBZ=0.442326;MQ0F=0;AC=2;AN=2;DP4=0,0,4,12;MQ=56	GT:PL:AD	1/1:255,48,0:0,16
+NODE_252_length_861_cov_4.545906	755	.	G	T	225.417	PASS	DP=21;VDB=3.82238e-05;SGB=-0.688148;MQSBZ=0.310906;MQ0F=0;AC=2;AN=2;DP4=0,0,4,11;MQ=55	GT:PL:AD	1/1:255,45,0:0,15
+NODE_252_length_861_cov_4.545906	767	.	C	T	225.417	PASS	DP=21;VDB=1.67158e-05;SGB=-0.688148;MQSBZ=0.310906;MQ0F=0;AC=2;AN=2;DP4=0,0,4,11;MQ=55	GT:PL:AD	1/1:255,45,0:0,15
+NODE_252_length_861_cov_4.545906	794	.	G	A	225.417	PASS	DP=14;VDB=0.000127726;SGB=-0.670168;MQSBZ=-0.147087;MQ0F=0;AC=2;AN=2;DP4=0,0,2,8;MQ=54	GT:PL:AD	1/1:255,30,0:0,10
+NODE_259_length_777_cov_9.196676	430	.	G	A	101.397	PASS	DP=64;VDB=0.0597886;SGB=-0.676189;RPBZ=-2.77754;MQBZ=-2.68735;MQSBZ=1.36579;BQBZ=-0.658383;SCBZ=2.51419;MQ0F=0;AC=1;AN=2;DP4=18,18,8,3;MQ=57	GT:PL:AD	0/1:136,0,255:36,11
+NODE_260_length_767_cov_32.889045	166	.	G	C	222.247	PASS	DP=230;VDB=0.153489;SGB=-0.693147;RPBZ=-0.159665;MQBZ=0;MQSBZ=0;BQBZ=-0.699744;SCBZ=-0.206622;MQ0F=0;AC=1;AN=2;DP4=47,43,33,30;MQ=60	GT:PL:AD	0/1:255,0,255:90,62
+NODE_260_length_767_cov_32.889045	385	.	C	T	221.599	PASS	DP=227;VDB=8.91836e-07;SGB=-0.693147;RPBZ=-6.98238;MQBZ=-2.72326;MQSBZ=2.75117;BQBZ=0.398053;SCBZ=0.933056;MQ0F=0;AC=1;AN=2;DP4=73,40,41,9;MQ=54	GT:PL:AD	0/1:255,0,255:113,48
+NODE_260_length_767_cov_32.889045	394	.	T	C	222.12	PASS	DP=240;VDB=0.00848106;SGB=-0.693147;RPBZ=2.43341;MQBZ=4.2782;MQSBZ=2.72081;BQBZ=2.6844;SCBZ=-5.30415;MQ0F=0;AC=1;AN=2;DP4=87,26,34,23;MQ=55	GT:PL:AD	0/1:255,0,255:113,56
+NODE_260_length_767_cov_32.889045	531	.	A	G	221.96	PASS	DP=250;VDB=0.0185414;SGB=-0.693147;RPBZ=1.05201;MQBZ=-1.29546;MQSBZ=-2.55675;BQBZ=2.31544;SCBZ=4.13765;MQ0F=0;AC=1;AN=2;DP4=87,54,31,38;MQ=59	GT:PL:AD	0/1:255,0,255:141,67
+NODE_260_length_767_cov_32.889045	585	.	T	A	221.722	PASS	DP=243;VDB=0.998795;SGB=-0.693147;RPBZ=0.634011;MQBZ=-0.431553;MQSBZ=-1.11299;BQBZ=-0.0443827;SCBZ=-0.519234;MQ0F=0.00411523;AC=1;AN=2;DP4=91,45,35,26;MQ=59	GT:PL:AD	0/1:255,0,255:136,59
+NODE_260_length_767_cov_32.889045	590	.	A	T	221.682	PASS	DP=250;VDB=0.997684;SGB=-0.693147;RPBZ=1.19493;MQBZ=-0.421547;MQSBZ=-0.999904;BQBZ=0.388855;SCBZ=0.368683;MQ0F=0.004;AC=1;AN=2;DP4=85,52,38,24;MQ=59	GT:PL:AD	0/1:255,0,255:137,58
+NODE_260_length_767_cov_32.889045	712	.	G	C	222.395	PASS	DP=180;VDB=2.20534e-09;SGB=-0.693147;RPBZ=-1.34689;MQBZ=0.29679;MQSBZ=-2.91101;BQBZ=0.874657;SCBZ=0.0692396;MQ0F=0.00555556;AC=1;AN=2;DP4=25,55,28,43;MQ=54	GT:PL:AD	0/1:255,0,255:80,71
+NODE_261_length_666_cov_7.769231	442	.	T	G	32.6062	PASS	DP=99;VDB=1.34415e-05;SGB=-0.691153;RPBZ=-3.97711;MQBZ=-5.61539;MQSBZ=-0.893855;BQBZ=-0.177996;SCBZ=1.57212;MQ0F=0.010101;AC=1;AN=2;DP4=28,27,9,9;MQ=50	GT:PL:AD	0/1:68,0,255:55,18
+NODE_261_length_666_cov_7.769231	443	.	T	C	39.4324	PASS	DP=100;VDB=0.000174353;SGB=-0.69168;RPBZ=-3.86516;MQBZ=-5.44743;MQSBZ=-1.03819;BQBZ=-0.403167;SCBZ=1.71139;MQ0F=0.01;AC=1;AN=2;DP4=29,27,10,9;MQ=50	GT:PL:AD	0/1:75,0,255:56,17
+NODE_261_length_666_cov_7.769231	459	.	C	T	109.395	PASS	DP=112;VDB=0.00317521;SGB=-0.693021;RPBZ=-3.04484;MQBZ=-4.72178;MQSBZ=-0.0865932;BQBZ=-2.76088;SCBZ=1.39373;MQ0F=0.0178571;AC=1;AN=2;DP4=27,29,13,14;MQ=48	GT:PL:AD	0/1:144,0,255:56,23
+NODE_261_length_666_cov_7.769231	498	.	A	G	47.5302	PASS	DP=196;VDB=0.000492004;SGB=-0.693054;RPBZ=-2.11036;MQBZ=-1.56779;MQSBZ=0.842278;BQBZ=-1.9932;SCBZ=-0.647202;MQ0F=0.0102041;AC=1;AN=2;DP4=47,59,6,22;MQ=48	GT:PL:AD	0/1:83,0,255:106,20
+NODE_261_length_666_cov_7.769231	511	.	G	C	221.386	PASS	DP=233;VDB=0.81851;SGB=-0.693147;RPBZ=4.79131;MQBZ=2.56119;MQSBZ=1.01694;BQBZ=-3.54648;SCBZ=-1.58598;MQ0F=0.00858369;AC=1;AN=2;DP4=45,62,18,31;MQ=47	GT:PL:AD	0/1:255,0,255:107,43
+NODE_261_length_666_cov_7.769231	572	.	A	T,C	193.242	PASS	DP=196;VDB=4.18748e-14;SGB=-0.693147;RPBZ=1.00555;MQBZ=0.181061;MQSBZ=-0.777489;BQBZ=2.96555;SCBZ=-0.504655;MQ0F=0.00510204;AC=1,1;AN=2;DP4=6,0,44,82;MQ=51	GT:PL:AD	1/2:255,255,149,255,0,255:6,102,24
+NODE_261_length_666_cov_7.769231	580	.	A	G	56.1573	PASS	DP=190;VDB=0.00203044;SGB=-0.693054;RPBZ=0.31724;MQBZ=-3.53235;MQSBZ=-0.365752;BQBZ=-3.4288;SCBZ=-1.82955;MQ0F=0.00526316;AC=1;AN=2;DP4=47,54,6,22;MQ=50	GT:PL:AD	0/1:92,0,255:101,17
+NODE_261_length_666_cov_7.769231	611	.	G	A	222.136	PASS	DP=131;VDB=3.37437e-11;SGB=-0.693146;RPBZ=-0.202832;MQBZ=-2.07697;MQSBZ=0.296414;BQBZ=-1.16121;SCBZ=-0.718034;MQ0F=0.0152672;AC=1;AN=2;DP4=21,32,16,27;MQ=49	GT:PL:AD	0/1:255,0,255:53,36
+NODE_269_length_526_cov_13.842887	56	.	A	G	222.403	PASS	DP=88;VDB=0.000979171;SGB=-0.69311;RPBZ=-0.437448;MQBZ=-0.274474;MQSBZ=0.164593;BQBZ=0.942011;SCBZ=-0.367807;MQ0F=0.0113636;AC=1;AN=2;DP4=23,6,25,6;MQ=55	GT:PL:AD	0/1:255,0,255:29,28
+NODE_278_length_405_cov_5.034286	359	.	G	T	33.6053	PASS	DP=18;VDB=0.0483573;SGB=-0.556411;RPBZ=1.42385;MQBZ=-0.723255;MQSBZ=-1.28865;BQBZ=-1.26332;SCBZ=-0.864281;MQ0F=0;AC=1;AN=2;DP4=2,5,0,4;MQ=51	GT:PL:AD	0/1:67,0,217:7,4
+NODE_278_length_405_cov_5.034286	362	.	C	T	35.8644	PASS	DP=18;VDB=0.0516381;SGB=-0.556411;RPBZ=1.42385;MQBZ=-0.723255;MQSBZ=-1.28865;BQBZ=-1.92971;SCBZ=-0.864281;MQ0F=0;AC=1;AN=2;DP4=2,5,0,4;MQ=51	GT:PL:AD	0/1:69,0,182:7,4
+NODE_280_length_399_cov_12.534884	127	.	T	A	140.267	PASS	DP=86;VDB=6.82068e-06;SGB=-0.692067;RPBZ=-4.55748;MQBZ=-2.93606;MQSBZ=1.17099;BQBZ=-3.85918;SCBZ=0.133816;MQ0F=0;AC=1;AN=2;DP4=28,13,18,2;MQ=58	GT:PL:AD	0/1:174,0,255:41,20
+NODE_280_length_399_cov_12.534884	134	.	A	G	106.714	PASS	DP=89;VDB=0.00465744;SGB=-0.691153;RPBZ=-3.14308;MQBZ=-3.23972;MQSBZ=1.14541;BQBZ=-2.73052;SCBZ=1.04398;MQ0F=0;AC=1;AN=2;DP4=32,13,16,2;MQ=58	GT:PL:AD	0/1:141,0,255:45,16
+NODE_280_length_399_cov_12.534884	137	.	T	A	146.876	PASS	DP=88;VDB=6.56785e-09;SGB=-0.692067;RPBZ=-4.37209;MQBZ=-1.90394;MQSBZ=1.34644;BQBZ=-3.84896;SCBZ=0.559106;MQ0F=0;AC=1;AN=2;DP4=26,17,18,2;MQ=58	GT:PL:AD	0/1:181,0,255:43,19
+NODE_280_length_399_cov_12.534884	172	.	C	A	222.306	PASS	DP=122;VDB=0.662241;SGB=-0.693143;RPBZ=5.95751;MQBZ=2.17546;MQSBZ=0.792765;BQBZ=-0.66793;SCBZ=-2.36346;MQ0F=0;AC=1;AN=2;DP4=41,10,20,18;MQ=58	GT:PL:AD	0/1:255,0,255:51,38
+NODE_280_length_399_cov_12.534884	178	.	T	A	24.9634	PASS	DP=133;VDB=0.004262;SGB=-0.662043;RPBZ=-1.71643;MQBZ=-3.3909;MQSBZ=0.847177;BQBZ=0.954698;SCBZ=2.82343;MQ0F=0;AC=1;AN=2;DP4=59,27,5,4;MQ=58	GT:PL:AD	0/1:62,0,255:86,9
+NODE_280_length_399_cov_12.534884	200	.	A	G	221.234	PASS	DP=185;VDB=0.440442;SGB=-0.693079;RPBZ=1.97478;MQBZ=0.70291;MQSBZ=-0.240242;BQBZ=0.745503;SCBZ=1.02734;MQ0F=0;AC=1;AN=2;DP4=57,30,14,15;MQ=58	GT:PL:AD	0/1:255,0,255:87,29
+NODE_280_length_399_cov_12.534884	221	.	A	G	219.969	PASS	DP=213;VDB=0.000595102;SGB=-0.692717;RPBZ=-0.444732;MQBZ=1.36774;MQSBZ=0.368996;BQBZ=-0.589544;SCBZ=-1.36775;MQ0F=0;AC=1;AN=2;DP4=58,46,13,10;MQ=58	GT:PL:AD	0/1:255,0,255:104,22
+NODE_280_length_399_cov_12.534884	245	.	C	T	220.434	PASS	DP=229;VDB=0.311975;SGB=-0.693097;RPBZ=0.69845;MQBZ=0.809226;MQSBZ=-1.26225;BQBZ=-4.36314;SCBZ=0.889603;MQ0F=0.00436681;AC=1;AN=2;DP4=50,47,10,20;MQ=57	GT:PL:AD	0/1:255,0,255:97,30
+NODE_280_length_399_cov_12.534884	248	.	C	T	220.2	PASS	DP=230;VDB=0.280376;SGB=-0.69311;RPBZ=1.03217;MQBZ=0.854119;MQSBZ=-1.29233;BQBZ=-4.91635;SCBZ=1.14337;MQ0F=0.00434783;AC=1;AN=2;DP4=50,47,11,20;MQ=57	GT:PL:AD	0/1:255,0,255:97,30
+NODE_280_length_399_cov_12.534884	286	.	C	T	220.175	PASS	DP=213;VDB=0.00862204;SGB=-0.692717;RPBZ=0.679615;MQBZ=0.872329;MQSBZ=-2.27588;BQBZ=-1.14718;SCBZ=-1.36778;MQ0F=0.00938967;AC=1;AN=2;DP4=45,59,7,16;MQ=56	GT:PL:AD	0/1:255,0,255:104,23
+NODE_280_length_399_cov_12.534884	293	.	A	G	221.262	PASS	DP=198;VDB=0.12489;SGB=-0.693139;RPBZ=0.0945432;MQBZ=1.30344;MQSBZ=-2.8297;BQBZ=-3.31447;SCBZ=2.12582;MQ0F=0.010101;AC=1;AN=2;DP4=34,50,11,25;MQ=55	GT:PL:AD	0/1:255,0,255:84,33
+NODE_280_length_399_cov_12.534884	296	.	T	C	219.954	PASS	DP=187;VDB=0.237135;SGB=-0.69168;RPBZ=-1.22069;MQBZ=0.1281;MQSBZ=-2.00002;BQBZ=0.730488;SCBZ=0.444731;MQ0F=0.0106952;AC=1;AN=2;DP4=32,64,9,10;MQ=55	GT:PL:AD	0/1:255,0,255:96,19
+NODE_280_length_399_cov_12.534884	299	.	T	C	94.1353	PASS	DP=171;VDB=0.00714525;SGB=-0.686358;RPBZ=-0.196772;MQBZ=-1.17849;MQSBZ=-2.31476;BQBZ=1.54404;SCBZ=-0.209201;MQ0F=0.0116959;AC=1;AN=2;DP4=28,66,7,7;MQ=55	GT:PL:AD	0/1:130,0,255:94,13
+NODE_280_length_399_cov_12.534884	341	.	T	C	129.39	PASS	DP=82;VDB=8.50896e-10;SGB=-0.693141;RPBZ=-0.0998209;MQBZ=-2.79989;MQSBZ=-1.14254;BQBZ=-2.4293;SCBZ=-1.72031;MQ0F=0;AC=1;AN=2;DP4=10,18,1,36;MQ=51	GT:PL:AD	0/1:162,0,255:28,36
+NODE_280_length_399_cov_12.534884	344	.	C	T	125.329	PASS	DP=82;VDB=1.48708e-09;SGB=-0.693139;RPBZ=-0.119312;MQBZ=-2.9615;MQSBZ=-1.14254;BQBZ=-3.19355;SCBZ=-1.64231;MQ0F=0;AC=1;AN=2;DP4=10,19,1,35;MQ=51	GT:PL:AD	0/1:158,0,255:29,35
+NODE_280_length_399_cov_12.534884	356	.	C	T	168.932	PASS	DP=70;VDB=0.00109239;SGB=-0.676189;RPBZ=0.186727;MQBZ=1.01206;MQSBZ=-1.83771;BQBZ=0.906411;SCBZ=2.43903;MQ0F=0;AC=1;AN=2;DP4=4,41,5,6;MQ=51	GT:PL:AD	0/1:203,0,255:45,11
+NODE_280_length_399_cov_12.534884	367	.	C	T	38.6875	PASS	DP=66;VDB=1.37128e-06;SGB=-0.69168;RPBZ=0.232678;MQBZ=-1.4393;MQSBZ=-0.974974;BQBZ=-3.15095;SCBZ=-0.863756;MQ0F=0.0151515;AC=1;AN=2;DP4=8,23,0,19;MQ=49	GT:PL:AD	0/1:73,0,255:31,11
+NODE_281_length_393_cov_13.079882	240	.	A	G	222.317	PASS	DP=87;VDB=0.178548;SGB=-0.693054;RPBZ=-0.823879;MQBZ=0;MQSBZ=0;BQBZ=-0.344048;SCBZ=0.693437;MQ0F=0;AC=1;AN=2;DP4=15,20,9,19;MQ=59	GT:PL:AD	0/1:255,0,255:35,26
+NODE_283_length_387_cov_36.243976	91	.	C	T	221.2	PASS	DP=240;VDB=0.410766;SGB=-0.693147;RPBZ=-2.4096;MQBZ=-1.07093;MQSBZ=1.01367;BQBZ=0.180571;SCBZ=-0.565554;MQ0F=0;AC=1;AN=2;DP4=56,22,36,9;MQ=59	GT:PL:AD	0/1:255,0,255:78,26
+NODE_283_length_387_cov_36.243976	96	.	A	C	76.9923	PASS	DP=244;VDB=0.358529;SGB=-0.689466;RPBZ=-0.744516;MQBZ=-0.746188;MQSBZ=1.20416;BQBZ=1.49615;SCBZ=-0.428901;MQ0F=0;AC=1;AN=2;DP4=85,29,11,5;MQ=59	GT:PL:AD	0/1:113,0,255:114,15
+NODE_283_length_387_cov_36.243976	104	.	C	A	214.612	PASS	DP=249;VDB=0.650961;SGB=-0.69311;RPBZ=3.15658;MQBZ=0.77876;MQSBZ=0.90952;BQBZ=-2.3915;SCBZ=2.61503;MQ0F=0;AC=1;AN=2;DP4=71,32,24,7;MQ=59	GT:PL:AD	0/1:249,0,255:103,31
+NODE_283_length_387_cov_36.243976	187	.	C	T	210.056	PASS	DP=245;VDB=0.642831;SGB=-0.693127;RPBZ=1.82899;MQBZ=1.0751;MQSBZ=-0.670063;BQBZ=-0.762893;SCBZ=1.81014;MQ0F=0;AC=1;AN=2;DP4=81,65,17,16;MQ=59	GT:PL:AD	0/1:245,0,255:146,33
+NODE_283_length_387_cov_36.243976	210	.	C	A	220.107	PASS	DP=236;VDB=0.933177;SGB=-0.69312;RPBZ=-1.4511;MQBZ=0.0863354;MQSBZ=-0.0862695;BQBZ=-0.48355;SCBZ=1.74431;MQ0F=0;AC=1;AN=2;DP4=75,66,15,17;MQ=59	GT:PL:AD	0/1:255,0,255:141,32
+NODE_283_length_387_cov_36.243976	211	.	G	A	213.008	PASS	DP=234;VDB=0.944882;SGB=-0.69311;RPBZ=-1.48012;MQBZ=1.06466;MQSBZ=0.344488;BQBZ=-0.874816;SCBZ=1.56895;MQ0F=0;AC=1;AN=2;DP4=77,63,13,18;MQ=59	GT:PL:AD	0/1:248,0,255:140,30
+NODE_283_length_387_cov_36.243976	226	.	T	C	220.835	PASS	DP=248;VDB=0.811955;SGB=-0.693147;RPBZ=-2.72439;MQBZ=1.40775;MQSBZ=0;BQBZ=-1.01044;SCBZ=2.54554;MQ0F=0;AC=1;AN=2;DP4=72,68,21,24;MQ=59	GT:PL:AD	0/1:255,0,255:140,41
+NODE_283_length_387_cov_36.243976	232	.	A	G	100.314	PASS	DP=228;VDB=0.269029;SGB=-0.692717;RPBZ=-1.49097;MQBZ=0.990298;MQSBZ=-0.133441;BQBZ=1.21063;SCBZ=1.80076;MQ0F=0;AC=1;AN=2;DP4=78,67,11,12;MQ=59	GT:PL:AD	0/1:136,0,255:145,21
+NODE_283_length_387_cov_36.243976	249	.	A	G	133.305	PASS	DP=240;VDB=0.00711701;SGB=-0.693097;RPBZ=2.73834;MQBZ=-5.38914;MQSBZ=-0.631244;BQBZ=-2.16239;SCBZ=-1.25;MQ0F=0;AC=1;AN=2;DP4=68,73,12,18;MQ=59	GT:PL:AD	0/1:169,0,255:141,27
+NODE_283_length_387_cov_36.243976	253	.	A	T	179.842	PASS	DP=235;VDB=0.0100292;SGB=-0.693127;RPBZ=2.2028;MQBZ=-3.96942;MQSBZ=-0.535455;BQBZ=-2.28917;SCBZ=-0.42535;MQ0F=0;AC=1;AN=2;DP4=64,68,10,23;MQ=59	GT:PL:AD	0/1:215,0,255:132,33
+NODE_283_length_387_cov_36.243976	268	.	G	T	128.352	PASS	DP=228;VDB=0.00400767;SGB=-0.692976;RPBZ=2.76998;MQBZ=-6.09893;MQSBZ=-0.513187;BQBZ=-1.95488;SCBZ=-0.434175;MQ0F=0;AC=1;AN=2;DP4=53,80,8,18;MQ=58	GT:PL:AD	0/1:164,0,255:133,26
+NODE_283_length_387_cov_36.243976	280	.	T	C	63.9211	PASS	DP=222;VDB=0.0443551;SGB=-0.692831;RPBZ=2.29367;MQBZ=-4.83815;MQSBZ=-0.595028;BQBZ=-1.51662;SCBZ=0.552003;MQ0F=0;AC=1;AN=2;DP4=47,84,8,16;MQ=58	GT:PL:AD	0/1:100,0,255:131,23
+NODE_283_length_387_cov_36.243976	283	.	C	T	83.0965	PASS	DP=220;VDB=0.00973834;SGB=-0.692831;RPBZ=2.94023;MQBZ=-4.81859;MQSBZ=-0.496732;BQBZ=-1.26201;SCBZ=-0.228875;MQ0F=0;AC=1;AN=2;DP4=43,87,9,15;MQ=58	GT:PL:AD	0/1:119,0,255:130,22
+NODE_283_length_387_cov_36.243976	286	.	G	C	222.244	PASS	DP=213;VDB=0.00630891;SGB=-0.693147;RPBZ=1.27346;MQBZ=-1.96925;MQSBZ=-0.6101;BQBZ=-0.672222;SCBZ=-1.23664;MQ0F=0;AC=1;AN=2;DP4=31,56,23,41;MQ=58	GT:PL:AD	0/1:255,0,255:87,61
+NODE_283_length_387_cov_36.243976	295	.	G	T	26.0693	PASS	DP=218;VDB=0.927923;SGB=-0.692717;RPBZ=1.14632;MQBZ=-4.757;MQSBZ=-0.393618;BQBZ=-3.40155;SCBZ=-0.173737;MQ0F=0;AC=1;AN=2;DP4=44,87,8,15;MQ=58	GT:PL:AD	0/1:63,0,255:131,23
+NODE_283_length_387_cov_36.243976	364	.	A	G	221.602	PASS	DP=108;VDB=6.6723e-05;SGB=-0.693079;RPBZ=-2.31029;MQBZ=-3.48791;MQSBZ=1.61278;BQBZ=-1.2233;SCBZ=-3.39938;MQ0F=0.0185185;AC=1;AN=2;DP4=14,40,14,15;MQ=49	GT:PL:AD	0/1:255,0,255:54,29
+NODE_283_length_387_cov_36.243976	372	.	C	G	192.23	PASS	DP=86;VDB=1.43058e-08;SGB=-0.692717;RPBZ=-3.42522;MQBZ=-3.26484;MQSBZ=2.11664;BQBZ=-1.04203;SCBZ=-3.23486;MQ0F=0.0232558;AC=1;AN=2;DP4=10,41,10,13;MQ=49	GT:PL:AD	0/1:226,0,255:51,22
+NODE_286_length_374_cov_2.416928	357	.	A	C	228.38	PASS	DP=45;VDB=6.62586e-09;SGB=-0.693021;RPBZ=-1.42777;MQBZ=0;MQSBZ=0;BQBZ=1.54028;SCBZ=1.48965;MQ0F=0;AC=2;AN=2;DP4=0,1,9,18;MQ=60	GT:PL:AD	1/1:255,69,0:1,27
+NODE_286_length_374_cov_2.416928	368	.	A	C	225.417	PASS	DP=36;VDB=5.38127e-13;SGB=-0.692717;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,7,16;MQ=60	GT:PL:AD	1/1:255,69,0:0,23
+NODE_293_length_325_cov_11.670370	17	.	A	G	221.922	PASS	DP=64;VDB=1.16632e-12;SGB=-0.693054;RPBZ=1.21623;MQBZ=0.57381;MQSBZ=0.0881926;BQBZ=0.548204;SCBZ=1.1754;MQ0F=0.03125;AC=1;AN=2;DP4=6,10,18,10;MQ=45	GT:PL:AD	0/1:255,0,189:16,25
+NODE_293_length_325_cov_11.670370	18	.	A	C	221.407	PASS	DP=66;VDB=1.1862e-12;SGB=-0.693021;RPBZ=3.00618;MQBZ=0.174227;MQSBZ=0.463461;BQBZ=2.74921;SCBZ=2.01712;MQ0F=0.030303;AC=1;AN=2;DP4=4,14,19,8;MQ=46	GT:PL:AD	0/1:255,0,111:18,26
+NODE_293_length_325_cov_11.670370	95	.	T	C	222.246	PASS	DP=151;VDB=0.00035011;SGB=-0.692976;RPBZ=1.13146;MQBZ=-0.716471;MQSBZ=0.159009;BQBZ=-3.14041;SCBZ=-0.948394;MQ0F=0.013245;AC=1;AN=2;DP4=20,7,11,15;MQ=50	GT:PL:AD	0/1:255,0,255:27,22
+NODE_293_length_325_cov_11.670370	130	.	A	G	222.073	PASS	DP=123;VDB=0.0264592;SGB=-0.692831;RPBZ=-0.0663071;MQBZ=-3.05498;MQSBZ=-0.840439;BQBZ=-1.15444;SCBZ=0.0540225;MQ0F=0.0162602;AC=1;AN=2;DP4=23,9,4,20;MQ=49	GT:PL:AD	0/1:255,0,255:32,21
+NODE_293_length_325_cov_11.670370	131	.	A	C	222.371	PASS	DP=121;VDB=8.48975e-05;SGB=-0.69311;RPBZ=0.686491;MQBZ=-2.2762;MQSBZ=-1.25608;BQBZ=-1.44582;SCBZ=0.61111;MQ0F=0.0165289;AC=1;AN=2;DP4=19,11,8,23;MQ=50	GT:PL:AD	0/1:255,0,255:30,30
+NODE_295_length_292_cov_28.113924	57	.	G	A	221.341	PASS	DP=167;VDB=3.29187e-06;SGB=-0.693021;RPBZ=-0.957222;MQBZ=1.19376;MQSBZ=1.46558;BQBZ=0.518605;SCBZ=-1.81947;MQ0F=0;AC=1;AN=2;DP4=54,24,15,12;MQ=59	GT:PL:AD	0/1:255,0,255:78,27
+NODE_295_length_292_cov_28.113924	197	.	G	A	221.038	PASS	DP=133;VDB=0.361858;SGB=-0.692352;RPBZ=-0.449641;MQBZ=-1.49239;MQSBZ=-1.6435;BQBZ=-0.248736;SCBZ=0.747567;MQ0F=0;AC=1;AN=2;DP4=15,48,10,11;MQ=58	GT:PL:AD	0/1:255,0,255:63,20
+NODE_295_length_292_cov_28.113924	200	.	G	T	221.258	PASS	DP=130;VDB=0.368224;SGB=-0.692352;RPBZ=-0.465197;MQBZ=-1.49239;MQSBZ=-1.59682;BQBZ=0.887932;SCBZ=0.747602;MQ0F=0;AC=1;AN=2;DP4=14,49,10,11;MQ=58	GT:PL:AD	0/1:255,0,255:63,21
+NODE_295_length_292_cov_28.113924	201	.	A	G	221.459	PASS	DP=131;VDB=0.255519;SGB=-0.692562;RPBZ=-0.403152;MQBZ=-1.35612;MQSBZ=-1.52999;BQBZ=0.911438;SCBZ=0.53107;MQ0F=0;AC=1;AN=2;DP4=11,49,11,11;MQ=58	GT:PL:AD	0/1:255,0,255:60,21
+NODE_300_length_265_cov_3.542857	223	.	A	T	225.417	PASS	DP=24;VDB=0.0263707;SGB=-0.688148;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,4,11;MQ=60	GT:PL:AD	1/1:255,45,0:0,15
+NODE_302_length_254_cov_8.286432	77	.	C	T	32.8707	PASS	DP=46;VDB=0.0714862;SGB=-0.511536;RPBZ=-2.29355;MQBZ=0;MQSBZ=0;BQBZ=1.65927;SCBZ=-1.35551;MQ0F=0;AC=1;AN=2;DP4=14,12,0,3;MQ=60	GT:PL:AD	0/1:69,0,255:26,3
+NODE_302_length_254_cov_8.286432	80	.	C	T	25.8449	PASS	DP=44;VDB=0.0714862;SGB=-0.511536;RPBZ=-2.26703;MQBZ=0;MQSBZ=0;BQBZ=1.0864;SCBZ=-1.2094;MQ0F=0;AC=1;AN=2;DP4=13,12,0,3;MQ=60	GT:PL:AD	0/1:62,0,255:25,3
+NODE_303_length_253_cov_6.277778	53	.	C	A	60.9522	PASS	DP=33;VDB=3.45353e-05;SGB=-0.651104;RPBZ=-0.554399;MQBZ=-4.1792;MQSBZ=2.08209;BQBZ=-0.916174;SCBZ=3.09937;MQ0F=0.030303;AC=1;AN=2;DP4=10,6,8,0;MQ=48	GT:PL:AD	0/1:95,0,255:16,8
+NODE_303_length_253_cov_6.277778	56	.	A	T	60.949	PASS	DP=33;VDB=3.72299e-05;SGB=-0.651104;RPBZ=-0.555745;MQBZ=-4.1792;MQSBZ=2.08209;BQBZ=-1.08572;SCBZ=3.25147;MQ0F=0.030303;AC=1;AN=2;DP4=10,6,8,0;MQ=48	GT:PL:AD	0/1:95,0,255:16,8
+NODE_303_length_253_cov_6.277778	80	.	A	C	80.0686	PASS	DP=37;VDB=0.0322726;SGB=-0.662043;RPBZ=0.42666;MQBZ=-4.76957;MQSBZ=1.5337;BQBZ=-1.38706;SCBZ=3.85922;MQ0F=0.027027;AC=1;AN=2;DP4=9,7,8,1;MQ=49	GT:PL:AD	0/1:114,0,255:16,9
+NODE_303_length_253_cov_6.277778	130	.	T	A	71.2797	PASS	DP=63;VDB=0.838183;SGB=-0.662043;RPBZ=0.906943;MQBZ=-4.1601;MQSBZ=1.47057;BQBZ=-0.526278;SCBZ=-0.244403;MQ0F=0.015873;AC=1;AN=2;DP4=13,8,7,2;MQ=50	GT:PL:AD	0/1:106,0,255:21,9
+NODE_303_length_253_cov_6.277778	157	.	C	T	52.0489	PASS	DP=62;VDB=0.781662;SGB=-0.590765;RPBZ=-0.779807;MQBZ=-2.79029;MQSBZ=1.00037;BQBZ=0.192651;SCBZ=0.582384;MQ0F=0;AC=1;AN=2;DP4=8,16,3,2;MQ=53	GT:PL:AD	0/1:88,0,255:24,5
+NODE_303_length_253_cov_6.277778	158	.	T	G	46.0077	PASS	DP=62;VDB=0.781662;SGB=-0.590765;RPBZ=-0.75306;MQBZ=-2.27046;MQSBZ=0.930686;BQBZ=0.122529;SCBZ=0.235406;MQ0F=0;AC=1;AN=2;DP4=9,17,3,2;MQ=52	GT:PL:AD	0/1:82,0,255:26,5
+NODE_303_length_253_cov_6.277778	159	.	A	G	48.1005	PASS	DP=62;VDB=0.688859;SGB=-0.616816;RPBZ=-1.25088;MQBZ=-3.01954;MQSBZ=0.930686;BQBZ=0.164602;SCBZ=0.71224;MQ0F=0;AC=1;AN=2;DP4=9,16,3,3;MQ=52	GT:PL:AD	0/1:84,0,255:25,5
+NODE_303_length_253_cov_6.277778	160	.	C	A	49.986	PASS	DP=61;VDB=0.676541;SGB=-0.616816;RPBZ=-1.25621;MQBZ=-3.14727;MQSBZ=0.604291;BQBZ=0;SCBZ=0.772915;MQ0F=0;AC=1;AN=2;DP4=8,18,3,3;MQ=52	GT:PL:AD	0/1:86,0,255:26,6
+NODE_303_length_253_cov_6.277778	195	.	C	G	106.9	PASS	DP=48;VDB=0.108725;SGB=-0.670168;RPBZ=-1.25593;MQBZ=-2.64799;MQSBZ=-1.27702;BQBZ=-2.25011;SCBZ=0.262993;MQ0F=0;AC=1;AN=2;DP4=4,16,3,7;MQ=50	GT:PL:AD	0/1:141,0,255:20,9
+NODE_303_length_253_cov_6.277778	233	.	T	A	44.8573	PASS	DP=31;VDB=0.00276675;SGB=-0.616816;RPBZ=-0.390647;MQBZ=-1.42539;MQSBZ=-0.40996;BQBZ=-1.03799;SCBZ=-0.283954;MQ0F=0;AC=1;AN=2;DP4=2,13,2,4;MQ=51	GT:PL:AD	0/1:79,0,255:15,6
+NODE_309_length_235_cov_36.994444	62	.	C	T	220.926	PASS	DP=152;VDB=0.860976;SGB=-0.692562;RPBZ=1.47246;MQBZ=-1.45812;MQSBZ=0.22584;BQBZ=-1.234;SCBZ=1.11216;MQ0F=0.0131579;AC=1;AN=2;DP4=37,30,15,7;MQ=51	GT:PL:AD	0/1:255,0,255:67,22
+NODE_309_length_235_cov_36.994444	74	.	T	G	221.39	PASS	DP=187;VDB=0.99992;SGB=-0.693054;RPBZ=0.576162;MQBZ=-1.48826;MQSBZ=0.269054;BQBZ=1.23969;SCBZ=0.878375;MQ0F=0.0106952;AC=1;AN=2;DP4=37,39,18,10;MQ=53	GT:PL:AD	0/1:255,0,255:76,28
+NODE_309_length_235_cov_36.994444	133	.	G	A	220.847	PASS	DP=169;VDB=0.000497422;SGB=-0.692352;RPBZ=-1.46087;MQBZ=-2.05133;MQSBZ=-1.07631;BQBZ=0.7076;SCBZ=0.182297;MQ0F=0;AC=1;AN=2;DP4=29,41,10,11;MQ=59	GT:PL:AD	0/1:255,0,255:70,20
+NODE_309_length_235_cov_36.994444	136	.	G	A	220.717	PASS	DP=173;VDB=0.00164026;SGB=-0.692067;RPBZ=-1.28166;MQBZ=-1.48204;MQSBZ=-0.879649;BQBZ=0.940239;SCBZ=0.109457;MQ0F=0;AC=1;AN=2;DP4=31,42,10,10;MQ=58	GT:PL:AD	0/1:255,0,255:73,20
+NODE_309_length_235_cov_36.994444	145	.	C	T	221.435	PASS	DP=160;VDB=0.000390237;SGB=-0.692914;RPBZ=1.10322;MQBZ=-0.0192431;MQSBZ=-0.641176;BQBZ=0.292506;SCBZ=-1.2516;MQ0F=0;AC=1;AN=2;DP4=27,39,9,16;MQ=58	GT:PL:AD	0/1:255,0,255:66,25
+NODE_309_length_235_cov_36.994444	146	.	C	A	220.832	PASS	DP=160;VDB=9.59808e-06;SGB=-0.692352;RPBZ=-1.14534;MQBZ=-1.34556;MQSBZ=-0.641176;BQBZ=0.31851;SCBZ=0.132602;MQ0F=0;AC=1;AN=2;DP4=27,43,9,12;MQ=58	GT:PL:AD	0/1:255,0,255:70,20
+NODE_310_length_234_cov_1.324022	156	.	A	T	225.417	PASS	DP=20;VDB=0.015625;SGB=-0.676189;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,6,5;MQ=60	GT:PL:AD	1/1:255,33,0:0,11
+NODE_310_length_234_cov_1.324022	200	.	A	T	225.417	PASS	DP=15;VDB=0.0824373;SGB=-0.662043;MQSBZ=0;MQ0F=0;AC=2;AN=2;DP4=0,0,6,3;MQ=60	GT:PL:AD	1/1:255,27,0:0,9
+NODE_313_length_218_cov_9.245399	17	.	C	T	79.9578	PASS	DP=60;VDB=0.00143357;SGB=-0.616816;RPBZ=-0.606427;MQBZ=-1.52625;MQSBZ=-0.169975;BQBZ=-1.2734;SCBZ=-0.412897;MQ0F=0;AC=1;AN=2;DP4=18,5,4,2;MQ=57	GT:PL:AD	0/1:115,0,255:23,5
+NODE_313_length_218_cov_9.245399	23	.	A	C	91.8324	PASS	DP=62;VDB=0.000220624;SGB=-0.651104;RPBZ=0.416019;MQBZ=-1.00721;MQSBZ=-0.24325;BQBZ=-0.712843;SCBZ=1.70407;MQ0F=0;AC=1;AN=2;DP4=16,7,8,0;MQ=57	GT:PL:AD	0/1:126,0,255:23,7
+NODE_313_length_218_cov_9.245399	56	.	A	T,C	194.442	PASS	DP=95;VDB=4.38061e-08;SGB=-0.693141;RPBZ=-0.0594995;MQBZ=-0.61628;MQSBZ=0.0689413;BQBZ=1.96844;SCBZ=-0.929525;MQ0F=0.0105263;AC=1,1;AN=2;DP4=7,1,23,14;MQ=54	GT:PL:AD	1/2:255,151,255,255,0,255:8,26,11
+NODE_313_length_218_cov_9.245399	95	.	G	C	221.553	PASS	DP=114;VDB=0.0933502;SGB=-0.692831;RPBZ=-1.26756;MQBZ=-1.79949;MQSBZ=-0.319436;BQBZ=-0.734459;SCBZ=0.515925;MQ0F=0.0175439;AC=1;AN=2;DP4=18,10,10,14;MQ=51	GT:PL:AD	0/1:255,0,255:28,14
+NODE_313_length_218_cov_9.245399	106	.	G	A	187.555	PASS	DP=98;VDB=0.00214876;SGB=-0.662043;RPBZ=1.29999;MQBZ=1.76076;MQSBZ=-1.32647;BQBZ=-0.350238;SCBZ=-1.13585;MQ0F=0.0102041;AC=1;AN=2;DP4=18,20,4,5;MQ=51	GT:PL:AD	0/1:222,0,255:38,9
+NODE_313_length_218_cov_9.245399	110	.	C	T	143.947	PASS	DP=98;VDB=0.575506;SGB=-0.670168;RPBZ=-1.80651;MQBZ=-1.43177;MQSBZ=-1.09268;BQBZ=-1.75767;SCBZ=1.99347;MQ0F=0.0102041;AC=1;AN=2;DP4=18,20,5,5;MQ=51	GT:PL:AD	0/1:179,0,255:38,10
+NODE_313_length_218_cov_9.245399	118	.	A	G	222.055	PASS	DP=96;VDB=1.76859e-05;SGB=-0.689466;RPBZ=1.97841;MQBZ=3.18498;MQSBZ=-0.758911;BQBZ=-0.814422;SCBZ=-1.69754;MQ0F=0.0104167;AC=1;AN=2;DP4=13,18,8,8;MQ=51	GT:PL:AD	0/1:255,0,255:31,15
+NODE_313_length_218_cov_9.245399	121	.	G	A	221.562	PASS	DP=95;VDB=0.000287848;SGB=-0.683931;RPBZ=1.71433;MQBZ=2.63929;MQSBZ=-0.975673;BQBZ=-1.08518;SCBZ=-2.04916;MQ0F=0.0105263;AC=1;AN=2;DP4=14,20,8,5;MQ=51	GT:PL:AD	0/1:255,0,255:34,13
+NODE_313_length_218_cov_9.245399	163	.	G	A	221.018	PASS	DP=48;VDB=4.91819e-05;SGB=-0.692976;RPBZ=1.8349;MQBZ=0.529634;MQSBZ=-0.735153;BQBZ=-1.71648;SCBZ=-2.18683;MQ0F=0;AC=1;AN=2;DP4=2,5,3,23;MQ=49	GT:PL:AD	0/1:255,0,158:7,25
+NODE_313_length_218_cov_9.245399	169	.	T	C	25.8742	PASS	DP=44;VDB=0.0525422;SGB=-0.590765;RPBZ=0.911512;MQBZ=1.4419;MQSBZ=-0.68014;BQBZ=0.0789352;SCBZ=-0.871528;MQ0F=0;AC=1;AN=2;DP4=4,23,1,4;MQ=49	GT:PL:AD	0/1:61,0,255:27,4
+NODE_313_length_218_cov_9.245399	176	.	G	A	52.0694	PASS	DP=31;VDB=0.0191208;SGB=-0.636426;RPBZ=-0.73567;MQBZ=-1.09847;MQSBZ=0.79698;BQBZ=-0.199209;SCBZ=0.803797;MQ0F=0;AC=1;AN=2;DP4=2,15,0,7;MQ=46	GT:PL:AD	0/1:86,0,248:17,7
+NODE_318_length_213_cov_13.734177	75	.	A	C	206.384	PASS	DP=56;VDB=0.15051;SGB=-0.686358;RPBZ=-1.4352;MQBZ=-2.55222;MQSBZ=-1.67082;BQBZ=-1.97413;SCBZ=1.57792;MQ0F=0;AC=1;AN=2;DP4=5,5,10,4;MQ=51	GT:PL:AD	0/1:239,0,255:10,14
+NODE_318_length_213_cov_13.734177	114	.	G	A	151.424	PASS	DP=69;VDB=0.017389;SGB=-0.689466;RPBZ=-0.0828413;MQBZ=-2.58473;MQSBZ=-0.985983;BQBZ=-4.8806;SCBZ=-0.587635;MQ0F=0;AC=1;AN=2;DP4=10,9,10,6;MQ=55	GT:PL:AD	0/1:185,0,255:19,15
+NODE_318_length_213_cov_13.734177	119	.	AGT	AT	160.393	PASS	INDEL;IDV=24;IMF=0.358209;DP=67;VDB=0.000339165;SGB=-0.692352;RPBZ=-0.765748;MQBZ=-3.27427;MQSBZ=-0.985983;BQBZ=-4.8806;SCBZ=-1.33616;MQ0F=0;AC=1;AN=2;DP4=11,10,12,9;MQ=54	GT:PL:AD	0/1:193,0,192:21,21
+NODE_323_length_202_cov_6.863946	106	.	C	T	42.7277	PASS	DP=40;VDB=0.0615984;SGB=-0.590765;RPBZ=-1.11581;MQBZ=-2.47064;MQSBZ=0.156072;BQBZ=-0.757218;SCBZ=0.569462;MQ0F=0;AC=1;AN=2;DP4=8,8,3,2;MQ=49	GT:PL:AD	0/1:78,0,255:16,5
+NODE_326_length_197_cov_8.345070	56	.	T	A	165.302	PASS	DP=54;VDB=0.000474404;SGB=-0.651104;RPBZ=-2.13578;MQBZ=-0.293753;MQSBZ=-0.361103;BQBZ=0.902389;SCBZ=-1.53351;MQ0F=0;AC=1;AN=2;DP4=14,10,1,7;MQ=51	GT:PL:AD	0/1:199,0,255:24,8
+NODE_326_length_197_cov_8.345070	87	.	T	C	185.556	PASS	DP=53;VDB=0.000417266;SGB=-0.651104;RPBZ=-1.6334;MQBZ=-1.35017;MQSBZ=0.332697;BQBZ=1.2448;SCBZ=-1.70066;MQ0F=0;AC=1;AN=2;DP4=13,7,1,7;MQ=54	GT:PL:AD	0/1:219,0,255:20,8
+NODE_326_length_197_cov_8.345070	89	.	C	T	161.225	PASS	DP=52;VDB=0.000474404;SGB=-0.651104;RPBZ=-1.43632;MQBZ=-1.47213;MQSBZ=0.224224;BQBZ=-1.86065;SCBZ=-1.92957;MQ0F=0;AC=1;AN=2;DP4=12,7,2,6;MQ=52	GT:PL:AD	0/1:195,0,255:19,8
+NODE_326_length_197_cov_8.345070	100	.	A	C	188.777	PASS	DP=53;VDB=0.000454598;SGB=-0.651104;RPBZ=-0.292673;MQBZ=-1.4474;MQSBZ=-0.73287;BQBZ=2.0603;SCBZ=-1.93006;MQ0F=0;AC=1;AN=2;DP4=8,11,1,7;MQ=54	GT:PL:AD	0/1:222,0,255:19,8
+NODE_326_length_197_cov_8.345070	140	.	T	A	148.921	PASS	DP=43;VDB=0.000336016;SGB=-0.651104;RPBZ=0.3089;MQBZ=-0.853878;MQSBZ=-1.63691;BQBZ=1.92855;SCBZ=-1.61588;MQ0F=0;AC=1;AN=2;DP4=6,12,0,8;MQ=55	GT:PL:AD	0/1:182,0,255:18,8
+NODE_326_length_197_cov_8.345070	142	.	A	G	190.976	PASS	DP=43;VDB=0.000391156;SGB=-0.651104;RPBZ=0.477475;MQBZ=-1.35943;MQSBZ=-1.23772;BQBZ=2.47723;SCBZ=-1.61588;MQ0F=0;AC=1;AN=2;DP4=6,12,1,7;MQ=54	GT:PL:AD	0/1:224,0,255:18,8
+NODE_331_length_173_cov_8.881356	56	.	G	A	222.392	PASS	DP=39;VDB=0.0013689;SGB=-0.676189;RPBZ=0.821044;MQBZ=-0.60505;MQSBZ=1.23998;BQBZ=-0.66003;SCBZ=-0.332823;MQ0F=0;AC=1;AN=2;DP4=7,4,8,3;MQ=58	GT:PL:AD	0/1:255,0,255:11,11
+NODE_335_length_169_cov_33.087719	54	.	C	A	220.95	PASS	DP=98;VDB=0.0396213;SGB=-0.683931;RPBZ=0.301389;MQBZ=0.96972;MQSBZ=0.108421;BQBZ=0.0576902;SCBZ=1.21639;MQ0F=0;AC=1;AN=2;DP4=27,16,8,5;MQ=58	GT:PL:AD	0/1:255,0,255:43,13
+NODE_335_length_169_cov_33.087719	73	.	T	C	221.589	PASS	DP=111;VDB=0.025716;SGB=-0.689466;RPBZ=0.355531;MQBZ=0.416196;MQSBZ=-1.05225;BQBZ=1.88439;SCBZ=-0.728129;MQ0F=0;AC=1;AN=2;DP4=23,18,12,4;MQ=58	GT:PL:AD	0/1:255,0,255:41,16
+NODE_335_length_169_cov_33.087719	118	.	A	G	221.061	PASS	DP=94;VDB=0.0119695;SGB=-0.676189;RPBZ=0.492069;MQBZ=0.136838;MQSBZ=-1.02614;BQBZ=1.63073;SCBZ=0.387138;MQ0F=0;AC=1;AN=2;DP4=23,15,6,5;MQ=58	GT:PL:AD	0/1:255,0,255:38,11
+NODE_335_length_169_cov_33.087719	124	.	A	G	221.025	PASS	DP=91;VDB=0.00142387;SGB=-0.676189;RPBZ=0.135138;MQBZ=0.40559;MQSBZ=-1.33836;BQBZ=0.264252;SCBZ=0.880738;MQ0F=0;AC=1;AN=2;DP4=22,15,5,6;MQ=57	GT:PL:AD	0/1:255,0,255:37,11
+NODE_350_length_158_cov_11.844660	72	.	C	T	225.417	PASS	DP=33;VDB=0.000229124;SGB=-0.690438;MQSBZ=0.676123;MQ0F=0;AC=2;AN=2;DP4=0,0,14,3;MQ=57	GT:PL:AD	1/1:255,51,0:0,17
+NODE_354_length_152_cov_15.793814	82	.	G	T	225.417	PASS	DP=32;VDB=0.00913551;SGB=-0.689466;MQSBZ=-0.377964;MQ0F=0;AC=2;AN=2;DP4=0,0,10,6;MQ=57	GT:PL:AD	1/1:255,48,0:0,16
+NODE_354_length_152_cov_15.793814	97	.	A	G	225.417	PASS	DP=28;VDB=0.00744531;SGB=-0.686358;MQSBZ=-0.698212;MQ0F=0;AC=2;AN=2;DP4=0,0,10,4;MQ=57	GT:PL:AD	1/1:255,42,0:0,14
+NODE_355_length_152_cov_14.773196	52	.	C	T	222.192	PASS	DP=60;VDB=0.168008;SGB=-0.680642;RPBZ=-0.27295;MQBZ=-0.413616;MQSBZ=1.85028;BQBZ=0;SCBZ=0.41367;MQ0F=0.0333333;AC=1;AN=2;DP4=11,9,6,6;MQ=49	GT:PL:AD	0/1:255,0,255:20,12
+NODE_363_length_143_cov_29.034091	14	.	G	A	221.964	PASS	DP=49;VDB=7.8601e-05;SGB=-0.662043;RPBZ=-2.75699;MQBZ=1.33603;MQSBZ=2.18127;BQBZ=0.669265;SCBZ=-2.13105;MQ0F=0;AC=1;AN=2;DP4=15,5,5,4;MQ=52	GT:PL:AD	0/1:255,0,255:20,9
+NODE_364_length_141_cov_12.232558	35	.	G	A	101.988	PASS	DP=36;VDB=0.0277561;SGB=-0.590765;RPBZ=0.547545;MQBZ=-1.02933;MQSBZ=-0.497752;BQBZ=0.620174;SCBZ=0.604687;MQ0F=0;AC=1;AN=2;DP4=6,7,1,4;MQ=49	GT:PL:AD	0/1:136,0,255:13,5
+NODE_364_length_141_cov_12.232558	50	.	A	G	222.41	PASS	DP=43;VDB=0.000107494;SGB=-0.680642;RPBZ=1.62934;MQBZ=-1.55111;MQSBZ=0.142806;BQBZ=1.22481;SCBZ=1.16597;MQ0F=0;AC=1;AN=2;DP4=4,6,5,7;MQ=48	GT:PL:AD	0/1:255,0,255:10,11
+NODE_364_length_141_cov_12.232558	86	.	A	C	151.849	PASS	DP=48;VDB=0.00107727;SGB=-0.616816;RPBZ=1.74092;MQBZ=0.210463;MQSBZ=1.32477;BQBZ=0.283151;SCBZ=1.11235;MQ0F=0.0416667;AC=1;AN=2;DP4=7,11,3,3;MQ=44	GT:PL:AD	0/1:185,0,255:18,6
+NODE_364_length_141_cov_12.232558	111	.	C	A	97.5627	PASS	DP=44;VDB=0.00595258;SGB=-0.616816;RPBZ=-0.889182;MQBZ=-1.57603;MQSBZ=0.810545;BQBZ=0.612372;SCBZ=-0.985364;MQ0F=0.0227273;AC=1;AN=2;DP4=7,9,3,3;MQ=47	GT:PL:AD	0/1:132,0,255:16,6
+NODE_373_length_118_cov_12.571429	63	.	A	G	36.6793	PASS	DP=35;VDB=0.288338;SGB=-0.670168;RPBZ=-0.6953;MQBZ=-2.47758;MQSBZ=0.429447;BQBZ=0.398679;SCBZ=0.56404;MQ0F=0.0571429;AC=1;AN=2;DP4=5,7,5,5;MQ=26	GT:PL:AD	0/1:70,0,197:12,9
+NODE_377_length_115_cov_27.233333	21	.	C	T	81.3967	PASS	DP=27;VDB=0.00324086;SGB=-0.616816;RPBZ=2.08485;MQBZ=-0.771777;MQSBZ=1.47339;BQBZ=-2.72647;SCBZ=-1.20237;MQ0F=0.037037;AC=1;AN=2;DP4=3,6,3,3;MQ=49	GT:PL:AD	0/1:115,0,255:9,6
+NODE_377_length_115_cov_27.233333	58	.	G	C	118.841	PASS	DP=27;VDB=0.012598;SGB=-0.616816;RPBZ=2.03085;MQBZ=-0.771777;MQSBZ=1.47339;BQBZ=-1.82574;SCBZ=-1.26248;MQ0F=0.037037;AC=1;AN=2;DP4=3,6,3,3;MQ=49	GT:PL:AD	0/1:152,0,255:9,6
+NODE_377_length_115_cov_27.233333	60	.	T	C	118.959	PASS	DP=27;VDB=0.0131721;SGB=-0.616816;RPBZ=2.03085;MQBZ=-0.771777;MQSBZ=1.47339;BQBZ=-1.29541;SCBZ=-1.38789;MQ0F=0.037037;AC=1;AN=2;DP4=3,6,3,3;MQ=49	GT:PL:AD	0/1:152,0,255:9,6
+NODE_403_length_111_cov_8.517857	56	.	T	C	47.1116	PASS	DP=12;VDB=0.1;SGB=-0.453602;RPBZ=-0.46291;MQBZ=-0.491869;MQSBZ=0.231869;BQBZ=1.5;SCBZ=0;MQ0F=0;AC=1;AN=2;DP4=3,1,0,2;MQ=54	GT:PL:AD	0/1:80,0,137:4,2
+NODE_439_length_106_cov_17.568627	42	.	C	T	56.7661	PASS	DP=38;VDB=0.0340507;SGB=-0.590765;RPBZ=0.706235;MQBZ=-1.35558;MQSBZ=1.93755;BQBZ=1.0931;SCBZ=1.49315;MQ0F=0.0526316;AC=1;AN=2;DP4=6,8,4,1;MQ=37	GT:PL:AD	0/1:91,0,255:14,5
+NODE_443_length_103_cov_12.791667	46	.	A	G	46.7434	PASS	DP=14;VDB=0.02;SGB=-0.453602;RPBZ=1.18322;MQBZ=-0.213664;MQSBZ=0.551677;BQBZ=0;SCBZ=0.781607;MQ0F=0;AC=1;AN=2;DP4=1,4,0,2;MQ=49	GT:PL:AD	0/1:80,0,187:5,2
+NODE_443_length_103_cov_12.791667	48	.	C	G	46.7434	PASS	DP=14;VDB=0.02;SGB=-0.453602;RPBZ=1.18322;MQBZ=-0.213664;MQSBZ=0.551677;BQBZ=0;SCBZ=0.774597;MQ0F=0;AC=1;AN=2;DP4=1,4,0,2;MQ=49	GT:PL:AD	0/1:80,0,187:5,2

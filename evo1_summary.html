@@ -1,0 +1,1643 @@
+
+<!--==========================================================================
+	FTL macros 
+	========================================================================== -->
+
+
+<!--==========================================================================
+	CSS styles 
+	========================================================================== -->
+
+
+<style type="text/css">
+
+body {
+	background-color: #dddddd;
+}
+
+/* Table styles. */
+
+table {
+  border-color: #000;
+  border-spacing: 0px;
+  border-style: solid;
+  border-width: 1px;
+  cell-spacing: 0px;
+}
+
+.noBorder {
+  border-width: 0px;
+}
+
+td, th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  padding: 2px 0.5em;
+  white-space: nowrap;
+}
+
+td.numeric {
+  text-align: right;
+}
+
+th {
+  background-color: #c0c0c0;
+}
+
+th.mainHeader {
+  background-color: #808080;
+  color: #ffffff;
+  text-align: left;
+}
+
+th a {
+  color: #000080;
+  text-decoration: none;
+}
+
+th a:visited {
+  color: #000080;
+}
+
+th a:active, th a:hover {
+  color: #800000;
+  text-decoration: underline;
+}
+
+.toc {
+	border: 1px solid #aaa;
+	background-color: #eeeeee;
+	padding: 5px;
+	font-size: 95%;
+}
+
+.note {
+	border: 1px solid #aaa;
+	background-color: #eeeeee;
+	padding: 5px;
+	font-size: 90%;
+	text-align: left;
+}
+
+.main {
+	margin-top: 15px;
+	width: 1000px;
+	text-align: left;
+	background: #ffffff;
+	border: 3px solid #777777;
+}
+
+.histo {
+	table-layout:fixed;
+	width:100%;
+	border:1px solid #aaa;
+	word-wrap:break-word;
+}
+
+</style>
+
+
+<!--==========================================================================
+	Index
+	========================================================================== -->
+
+<center>
+<div class="main">
+
+<center> <h3> SnpEff: Variant analysis </h3> </center>
+
+<div style="margin-left: .5em">
+<table class="toc"><tr><td>
+	<center><b>Contents</b></center>
+	<a href="#summary">Summary</a><br>
+	<a href="#changeRateChr"> Variant rate by chromosome</a><br>
+	<a href="#changesByType">Variants by type</a><br>
+	<a href="#effectsImpact"> Number of variants by impact </a><br>
+	<a href="#effectsImpact"> Number of variants by functional class </a><br>
+	<a href="#effects"> Number of variants by effect </a><br>
+	<a href="#quality">Quality histogram</a><br>
+	<a href="#indels">InDel length histogram</a><br>
+	<a href="#baseChages">Base variant table</a><br>
+	<a href="#tstv">Transition vs transversions (ts/tv)</a><br>
+	<a href="#alleleFreq"> Allele frequency </a><br>
+	<a href="#alleleCount"> Allele Count </a><br>
+	<a href="#codonChanges"> Codon change table </a><br>
+	<a href="#aaChanges"> Amino acid change table </a><br>
+	<a href="#chrChanges"> Chromosome variants plots </a><br>
+	<a href="evo1_summary.genes.txt"> Details by gene </a><br>
+</tr></td></table>
+</div>
+
+
+<!--==========================================================================
+	Summary table 
+	========================================================================== -->
+
+<hr>
+<a name="summary">
+<center>
+<b>Summary</b><p>
+
+<table border=0>
+	<tr bgcolor=ffffff> 
+		<td valign=top> <b> Genome </b> </td>
+		<td> mi_genoma_evo </td>
+	</tr>
+	<tr bgcolor=dddddd> 
+		<td valign=top> <b> Date </b> </td>
+		<td> 2025-10-22 11:56 </td>
+	</tr>
+	<tr bgcolor=ffffff> 
+		<td valign=top> <b> SnpEff version </b> </td>
+		<td> <pre>SnpEff 5.0e (build 2021-03-09 06:01), by Pablo Cingolani</pre> </td>
+	</tr>
+	<tr bgcolor=dddddd> 
+		<td valign=top> <b> Command line arguments </b> </td>
+		<td> <pre>SnpEff  -no-upstream -no-downstream -s variants/snpeff/evo1_summary.html 
+mi_genoma_evo variants/evo1_filtered.vcf </pre> </td>
+	</tr>
+	<tr bgcolor=ffffff> 
+		<td valign=top> <b> Warnings </b> </td>
+		 
+		<td bgcolor="#ffffff"> 0 </td>
+	</tr>	
+	<tr bgcolor=dddddd> 
+		<td valign=top> <b> Errors </b> </td>
+		   
+		<td bgcolor="#ff0000"> 302 </td>
+	</tr>	
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of lines (input file) </b> </td>
+		<td> 302 </td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Number of variants (before filter) </b> </td>
+		<td> 302 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of not variants <br>(i.e. reference equals alternative) </b> </td>
+		<td> 0 </td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Number of variants processed <br> (i.e. after filter and non-variants) </b> </td>
+		<td> 302 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of known variants <br>(i.e. non-empty ID) </b> </td>
+		<td> 
+		0
+		( 0% ) 
+		</td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Number of multi-allelic VCF entries <br>(i.e. more than two alleles) </b> </td>
+		<td> 
+		0
+		</td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Number of effects </b> </td>
+		<td> 302 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Genome total length </b> </td>
+		<td> 4,544,713 </td>
+	</tr>
+	<tr bgcolor=dddddd>
+		<td valign=top> <b> Genome effective length </b> </td>
+		<td> 84 </td>
+	</tr>
+	<tr bgcolor=ffffff>
+		<td valign=top> <b> Variant rate </b> </td>
+		<td> 1 variant every 0 bases </td>
+	</tr>
+</table>
+<p>
+</center>
+
+<!--==========================================================================
+	Variant rate by chromosome
+	========================================================================== -->
+
+<hr> 
+<a name="changeRateChr"> 
+
+<center>
+<b> Variants rate details </b><p>
+
+<table border=1>
+	<tr><th> Chromosome </th><th> Length </th><th> Variants </th><th> Variants rate </th></tr> 
+		<tr>
+			<td> NODE_104_length_10874_cov_6.646846 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_105_length_10648_cov_6.747328 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_10_length_88167_cov_6.674889 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_11_length_87161_cov_6.628738 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_131_length_5688_cov_5.810907 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_134_length_4557_cov_9.784375 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_138_length_4280_cov_5.874375 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_141_length_4019_cov_11.329782 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_142_length_3952_cov_6.683097 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_149_length_2654_cov_50.735351 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_15_length_72278_cov_6.901442 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_163_length_1368_cov_9.304415 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_165_length_1337_cov_11.350794 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_168_length_1213_cov_32.692782 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_16_length_69378_cov_6.714319 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_176_length_981_cov_15.050885 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_178_length_946_cov_7.094361 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_183_length_811_cov_32.186649 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_185_length_740_cov_9.995475 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_186_length_735_cov_11.493921 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_188_length_657_cov_6.481034 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_189_length_615_cov_7.615242 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_190_length_587_cov_5.670588 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_194_length_521_cov_4.506757 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_196_length_515_cov_35.584475 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_199_length_410_cov_4.945946 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_19_length_66480_cov_6.954942 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_1_length_167691_cov_6.816352 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_200_length_397_cov_12.593750 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_203_length_387_cov_8.019355 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_208_length_362_cov_8.326316 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_209_length_349_cov_9.716912 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_210_length_347_cov_4.881481 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_211_length_337_cov_6.211538 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_212_length_314_cov_26.405063 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_21_length_64464_cov_6.652927 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_220_length_264_cov_24.743316 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_221_length_262_cov_8.259459 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_225_length_252_cov_1.245714 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_228_length_237_cov_9.937500 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_22_length_62787_cov_6.735911 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_231_length_229_cov_32.184211 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_23_length_60506_cov_6.959275 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_241_length_206_cov_8.193798 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_24_length_59348_cov_6.763088 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_250_length_190_cov_10.327434 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_263_length_158_cov_4.617284 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_271_length_155_cov_15.525641 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_273_length_155_cov_13.397436 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_27_length_51960_cov_6.965210 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_28_length_50016_cov_6.969923 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_29_length_47805_cov_7.063108 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_30_length_47580_cov_6.789361 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_31_length_46513_cov_6.637458 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_32_length_45844_cov_6.567920 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_33_length_44235_cov_7.238009 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_34_length_40559_cov_7.165407 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_35_length_38821_cov_7.280740 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_37_length_38344_cov_6.938668 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_39_length_36576_cov_6.726705 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_3_length_120662_cov_6.850554 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_40_length_34821_cov_7.332662 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_41_length_34748_cov_6.286810 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_43_length_34294_cov_6.879037 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_45_length_33261_cov_6.582841 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_46_length_32900_cov_6.637906 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_47_length_32882_cov_6.968785 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_49_length_31629_cov_6.649753 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_4_length_101311_cov_7.293844 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_54_length_30095_cov_6.998867 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_58_length_29042_cov_6.724219 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_5_length_101127_cov_6.893686 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_64_length_25665_cov_7.356847 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_66_length_24740_cov_7.405952 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_67_length_24629_cov_6.253218 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_6_length_99317_cov_7.389883 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_70_length_23154_cov_6.964033 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_74_length_20117_cov_6.958832 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_76_length_19536_cov_6.746082 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_81_length_17930_cov_6.642469 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_88_length_14620_cov_6.294231 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_93_length_13945_cov_7.069224 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_94_length_13799_cov_7.187290 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+		<tr>
+			<td> NODE_9_length_90906_cov_6.854110 </td>
+			<td class="numeric"> 1 </td>
+			<td class="numeric"> 0 </td>
+			<td class="numeric"> 0 </td>
+		</tr> 
+	<tr>
+		<th> Total </th>
+		<th class="numeric"> 84 </th>
+		<th class="numeric"> 302 </th>
+		<th class="numeric"> 0 </th>
+	</tr> 
+</table> 
+</center>
+
+<!--==========================================================================
+	Variants by type
+	========================================================================== -->
+
+<hr> 
+<a name="changesByType"> 
+<center>
+<b> Number variants by type</b><p>
+
+<table border=1>
+	<thead>
+		<tr>
+			<th> <b> Type   </b> </th>
+			<th> <b> Total  </b> </th>
+		</tr>
+	</thead>
+    <tbody>
+	    <tr>
+	    	<td> <b> SNP </b> </td>
+	    	<td class="numeric" bgcolor="#ff0000"> 285 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> MNP </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> INS </b> </td>
+	    	<td class="numeric" bgcolor="#00ff00"> 5 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> DEL </b> </td>
+	    	<td class="numeric" bgcolor="#06f800"> 12 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> MIXED </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> INV </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> DUP </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> BND </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+	    <tr>
+	    	<td> <b> INTERVAL </b> </td>
+	    	<td class="numeric" bgcolor="ffffff"> 0 </td>
+	    </tr>
+    </tbody>
+    <tfoot>
+	    <tr>
+	    	<th><b>Total </b> </th>
+	    	<th class="numeric"> 302 </th>
+	    </tr>
+    </tfoot>
+</table>
+</center>
+
+<!--==========================================================================
+	Effects by impact
+	========================================================================== -->
+
+<hr> 
+<a name="effectsImpact"> 
+<center>
+<b> Number of effects by impact </b> <p> 
+
+<table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+<p>
+</center>
+
+<!--==========================================================================
+	Effects by functional class
+	========================================================================== -->
+
+<hr> 
+<a name="effectsFuncClass"> 
+<center>
+<b> Number of effects by functional class </b> <p> 
+
+<table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+<p>
+
+Missense / Silent ratio: 0
+
+</center>
+
+<!--==========================================================================
+	Effects stats
+	========================================================================== -->
+
+<hr> 
+<a name="effects"> 
+<center>
+<b> Number of effects by type and region </b> <p> 
+
+<table border=0>
+	<tr>
+		<th> Type </th>
+		<th> Region </th>
+	</tr>
+	<tr>
+		<td> <table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+ </td>
+		<td> <table border=0>
+	<thead>
+		<tr> 
+			<th><b> Type (alphabetical order)  </b></th>
+			<th> &nbsp; </th>
+			<th> Count </th>
+			<th> Percent </th>
+		</tr>
+	</thead>
+</table><br>
+ </td>
+	</tr>
+</table>
+<p>
+
+<img src="http://chart.apis.google.com/chart?cht=bvs&chbh=50,4,8&chs=800x300&chxt=y,y,x,x&chtt=Variations&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chco=00FFFF,FA8072,FF0000,A52A2A,FFA500,DEB887,E9967A,7FFFD4,808080&chdl=Upstream|5%27UTR|Exon|Splice+Donor|Intron|Splice+Acceptor|3%27UTR|Downstream|Intergenic&chxl=1:|%25|2:|Intergenic|Up|5%27UTR|Exon|Donor|Intron|Acceptor|Exon|3%27UTR|Down|Intergenic|3:|&chd=e:AA__AAAAAAAAAAAAAAAAAA,AAAA__AAAAAAAAAAAAAAAA,AAAAAA__AAAAAA__AAAAAA,AAAAAAAA__AAAAAAAAAAAA,AAAAAAAAAA__AAAAAAAAAA,AAAAAAAAAAAA__AAAAAAAA,AAAAAAAAAAAAAAAA__AAAA,AAAAAAAAAAAAAAAAAA__AA,__AAAAAAAAAAAAAAAAAA__" border=1><p>
+
+</center>
+
+<!--==========================================================================
+	Quality
+	========================================================================== -->
+
+<hr> 
+<a name="quality"> 
+<b> Quality:</b> 
+<p>
+<pre>
+	<table class="histo">
+		<tr> <th width=15%>Min</th><td>20</td> </tr>
+		<tr> <th>Max</th><td>228</td> </tr>
+		<tr> <th>Mean</th><td>161.351</td> </tr>
+		<tr> <th>Median</th><td>220</td> </tr>
+		<tr> <th>Standard deviation</th><td>75.821</td> </tr>
+		<tr> <th>Values</th><td>20,22,23,24,26,27,28,29,30,31,33,34,35,37,38,39,40,41,42,43,44,46,47,49,50,51,53,54,55,56,57,58,60,64,66,67,68,69,70,72,76,77,78,80,81,84,86,87,90,91,92,93,95,96,97,102,104,106,108,109,110,111,115,118,122,124,128,131,135,138,139,141,144,146,149,151,153,155,157,159,161,164,165,166,167,169,171,174,176,177,179,180,184,185,186,187,188,192,194,203,206,208,209,214,217,218,219,220,221,222,225,226,228</td> </tr>
+		<tr> <th>Count</th><td>5,4,2,1,2,1,2,2,2,1,3,1,1,1,1,2,1,1,2,1,1,2,2,1,2,2,1,1,2,2,1,3,1,1,1,1,2,1,2,1,2,2,1,1,1,1,1,1,1,1,2,1,3,2,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,2,2,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,9,31,55,40,1,19</td> </tr>
+		</tr>
+	</table>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chg=20.0,5.0,3,2&chxp=1,50.0|3,50.0&chtt=Quality+histogram&chxr=0,1.0,55.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Count|2:|20|||||||||||34|||||||||||47|||||||||||64|||||||||||81|||||||||||102|||||||||||128|||||||||||155|||||||||||176|||||||||||203|||||||||||225||228|3:|Quality&chd=e:EfDNApAAApAAApApApAAB7AAAAAAAAApAAAAApAAAAApApAAApApAAAAApApAAB7AAAAAAAAApAAApAAApApAAAAAAAAAAAAAAAAApAAB7ApAAApAAAAAAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAApApAAAAAAAAAAApAAAAAAAAAAAAApAAAAAAAAAAAAApAAAAAAAAAAAAAAAAAAAAI9jM..uEAAVH"><br>
+</pre>
+
+<!--==========================================================================
+	InDels
+	========================================================================== -->
+
+<hr> 
+<a name="indels"> 
+<b> Insertions and deletions length:</b> 
+<p>
+<pre>
+	<table class="histo">
+		<tr> <th width=15%>Min</th><td>0</td> </tr>
+		<tr> <th>Max</th><td>2</td> </tr>
+		<tr> <th>Mean</th><td>0.882</td> </tr>
+		<tr> <th>Median</th><td>1</td> </tr>
+		<tr> <th>Standard deviation</th><td>0.485</td> </tr>
+		<tr> <th>Values</th><td>0,1,2</td> </tr>
+		<tr> <th>Count</th><td>3,13,1</td> </tr>
+		</tr>
+	</table>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chs=800x300&chd=e:KP..AA&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxl=1:|Count|2:|0||2|3:|Length&chxr=0,1.0,13.0|1,0.0,100.0|3,0.0,100.0&chtt=Insertion+deletion+length+histogram"><br>
+</pre>
+
+<!--==========================================================================
+	Base changes
+	========================================================================== -->
+
+<hr> 
+<a name="baseChages"> 
+<center>
+<b> Base changes (SNPs) </b> <p>
+
+<table border=1>
+    <tr>
+    	<td> &nbsp; </td>  <th> <b> A </b> </th> <th> <b> C </b> </th> <th> <b> G </b> </th> <th> <b> T </b> </th>
+    </tr>
+	    <tr> <th> <b> A </b> </th><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="#41bd00"> 20 </td><td class="numeric" bgcolor="#9a6400"> 35 </td><td class="numeric" bgcolor="#47b700"> 21 </td> </tr>
+	    <tr> <th> <b> C </b> </th><td class="numeric" bgcolor="#17e700"> 13 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="#00ff00"> 9 </td><td class="numeric" bgcolor="#887600"> 32 </td> </tr>
+	    <tr> <th> <b> G </b> </th><td class="numeric" bgcolor="#ff0000"> 52 </td><td class="numeric" bgcolor="#00ff00"> 9 </td><td class="numeric" bgcolor="ffffff"> 0 </td><td class="numeric" bgcolor="#17e700"> 13 </td> </tr>
+	    <tr> <th> <b> T </b> </th><td class="numeric" bgcolor="#41bd00"> 20 </td><td class="numeric" bgcolor="#e71700"> 48 </td><td class="numeric" bgcolor="#17e700"> 13 </td><td class="numeric" bgcolor="ffffff"> 0 </td> </tr>
+</table>
+</center>
+
+<p>
+
+<!--==========================================================================
+	Ts/Tv
+	========================================================================== -->
+
+<hr> 
+<a name="tstv">
+<center> <b> Ts/Tv (transitions / transversions) </b> <p> </center>
+
+<small>
+<b>Note:</b> Only SNPs are used for this statistic.<br>
+<b>Note:</b> This Ts/Tv ratio is a 'raw' ratio (ratio of observed events).
+</small>
+<p>
+
+<center>
+<table border=1>
+	<tr> <th> Transitions </th><td class="numeric"> 186 </td> </tr>
+	<tr> <th> Transversions </th><td class="numeric"> 157 </td> </tr>
+	<tr> <th> Ts/Tv ratio </th><td class="numeric"> 1.1847 </td> </tr>
+</table>
+</center>
+<p>
+
+	<b>All variants:</b>
+	<pre>Sample ,mapping/evo1.sorted.bam,Total
+Transitions ,186,186
+Transversions ,157,157
+Ts/Tv ,1.185,1.185
+</pre>
+	<p>
+	<b>Only known variants</b> (i.e. the ones having a non-empty ID field):
+	<pre>No results available (empty input?)</pre>
+<p>
+
+<!--==========================================================================
+	Allele frequency
+	========================================================================== -->
+
+<hr> 
+<a name="alleleFreq">
+<center> <b> Allele frequency </b> <p> </center>
+
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:..AA&chs=800x300&chxt=y,y,x,x&chg=5.0,16.0,3,2&chxp=1,50.0|3,50.0&chtt=Allele+Frequency+%25&chxr=0,67.0,235.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Count|2:|50|100|3:|Alleles+frequency"><br>
+	<table class="histo">
+		<tr> <th width=15%>Min</th><td>50</td> </tr>
+		<tr> <th>Max</th><td>100</td> </tr>
+		<tr> <th>Mean</th><td>61.093</td> </tr>
+		<tr> <th>Median</th><td>50</td> </tr>
+		<tr> <th>Standard deviation</th><td>20.809</td> </tr>
+		<tr> <th>Values</th><td>50,100</td> </tr>
+		<tr> <th>Count</th><td>235,67</td> </tr>
+		</tr>
+	</table>
+<p>
+	
+<!--==========================================================================
+	Allele Count
+	========================================================================== -->
+
+<hr> 
+<a name="alleleCount">
+<center> <b> Allele Count </b> <p> </center>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:..AA&chs=800x300&chxt=y,y,x,x&chtt=Allele+Count&chxp=1,50.0|3,50.0&chxl=1:|Count|2:|1|2|3:|Allele+Count&chxr=0,67.0,235.0|1,0.0,100.0|3,0.0,100.0"><br>
+	<table class="histo">
+		<tr> <th width=15%>Min</th><td>1</td> </tr>
+		<tr> <th>Max</th><td>2</td> </tr>
+		<tr> <th>Mean</th><td>1.222</td> </tr>
+		<tr> <th>Median</th><td>1</td> </tr>
+		<tr> <th>Standard deviation</th><td>0.416</td> </tr>
+		<tr> <th>Values</th><td>1,2</td> </tr>
+		<tr> <th>Count</th><td>235,67</td> </tr>
+		</tr>
+	</table>
+<p>
+
+
+<!--==========================================================================
+	Hom/Het table
+	========================================================================== -->
+
+<hr> 
+<a name="homHet">
+<center> <b> Hom/Het per sample </b> <p> </center>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chd=e:..&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chtt=Heterozygous+genotypes&chxr=0,0.0,235.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Heterozygous+count|2:|0|3:|Sample+number"><br>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chd=e:..&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chtt=Homozygous+%28ALT%29+genotypes&chxr=0,0.0,67.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Homozygous+count|2:|0|3:|Sample+number"><br>
+	<img src="http://chart.apis.google.com/chart?cht=bvg&chd=e:AA&chbh=8,4,2&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chtt=Missing+genotypes&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Missing+count|2:|0|3:|Sample+number"><br>
+	
+	<pre>Sample_names , mapping/evo1.sorted.bam
+Reference , 0
+Het , 235
+Hom , 67
+Missing , 0
+</pre>
+<p>
+
+<!--==========================================================================
+	Codon change table
+	========================================================================== -->
+	
+<hr> 
+<a name="codonChanges">
+<center>
+<b> Codon changes</b> <p>
+
+	<div class="note">
+		How to read this table: <br>
+		- Rows are reference codons and columns are changed codons. E.g. Row 'AAA' column 'TAA' indicates how many 'AAA' codons have been replaced by 'TAA' codons.<br>
+		- Red background colors indicate that more changes happened (heat-map).<br>
+		- Diagonals are indicated using grey background color <br> 
+		- WARNING: This table may include different translation codon tables (e.g. mamalian DNA and mitochondrial DNA).<br>
+		<p>
+	</div><p>
+
+  
+<table border=1>
+	<thead>
+		<tr> 
+			<th> &nbsp; </th>
+			
+		</tr>
+	</thead>
+</table>
+</center>
+
+<!--==========================================================================
+	Amino acid change table
+	========================================================================== -->
+
+<hr> 
+<a name="aaChanges">
+<center>
+<b> Amino acid changes</b><p> 
+
+	<div class="note">
+		How to read this table: <br>
+		- Rows are reference amino acids and columns are changed amino acids. E.g. Row 'A' column 'E' indicates how many 'A' amino acids have been replaced by 'E' amino acids.<br>
+		- Red background colors indicate that more changes happened (heat-map).<br>
+		- Diagonals are indicated using grey background color <br> 
+		- WARNING: This table may include different translation codon tables (e.g. mamalian DNA and mitochondrial DNA).<br>
+		<p>
+	</div><p>
+
+<table border=1>
+	<thead>
+		<tr> 
+			<th> &nbsp; </th>
+			
+		</tr>
+	</thead>
+</table>
+</center>
+
+<!--==========================================================================
+	Chromosome variants table
+	========================================================================== -->
+
+<hr> 
+<a name="chrChanges">
+<center>
+<b> Variants by chromosome</b><p> 
+
+<center>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_104_length_10874_cov_6.646846"><br>
+		NODE_104_length_10874_cov_6.646846, Position,0,1
+NODE_104_length_10874_cov_6.646846,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_105_length_10648_cov_6.747328"><br>
+		NODE_105_length_10648_cov_6.747328, Position,0,1
+NODE_105_length_10648_cov_6.747328,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_10_length_88167_cov_6.674889"><br>
+		NODE_10_length_88167_cov_6.674889, Position,0,1
+NODE_10_length_88167_cov_6.674889,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_11_length_87161_cov_6.628738"><br>
+		NODE_11_length_87161_cov_6.628738, Position,0,1
+NODE_11_length_87161_cov_6.628738,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_131_length_5688_cov_5.810907"><br>
+		NODE_131_length_5688_cov_5.810907, Position,0,1
+NODE_131_length_5688_cov_5.810907,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_134_length_4557_cov_9.784375"><br>
+		NODE_134_length_4557_cov_9.784375, Position,0,1
+NODE_134_length_4557_cov_9.784375,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_138_length_4280_cov_5.874375"><br>
+		NODE_138_length_4280_cov_5.874375, Position,0,1
+NODE_138_length_4280_cov_5.874375,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_141_length_4019_cov_11.329782"><br>
+		NODE_141_length_4019_cov_11.329782, Position,0,1
+NODE_141_length_4019_cov_11.329782,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_142_length_3952_cov_6.683097"><br>
+		NODE_142_length_3952_cov_6.683097, Position,0,1
+NODE_142_length_3952_cov_6.683097,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_149_length_2654_cov_50.735351"><br>
+		NODE_149_length_2654_cov_50.735351, Position,0,1
+NODE_149_length_2654_cov_50.735351,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_15_length_72278_cov_6.901442"><br>
+		NODE_15_length_72278_cov_6.901442, Position,0,1
+NODE_15_length_72278_cov_6.901442,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_163_length_1368_cov_9.304415"><br>
+		NODE_163_length_1368_cov_9.304415, Position,0,1
+NODE_163_length_1368_cov_9.304415,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_165_length_1337_cov_11.350794"><br>
+		NODE_165_length_1337_cov_11.350794, Position,0,1
+NODE_165_length_1337_cov_11.350794,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_168_length_1213_cov_32.692782"><br>
+		NODE_168_length_1213_cov_32.692782, Position,0,1
+NODE_168_length_1213_cov_32.692782,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_16_length_69378_cov_6.714319"><br>
+		NODE_16_length_69378_cov_6.714319, Position,0,1
+NODE_16_length_69378_cov_6.714319,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_176_length_981_cov_15.050885"><br>
+		NODE_176_length_981_cov_15.050885, Position,0,1
+NODE_176_length_981_cov_15.050885,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_178_length_946_cov_7.094361"><br>
+		NODE_178_length_946_cov_7.094361, Position,0,1
+NODE_178_length_946_cov_7.094361,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_183_length_811_cov_32.186649"><br>
+		NODE_183_length_811_cov_32.186649, Position,0,1
+NODE_183_length_811_cov_32.186649,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_185_length_740_cov_9.995475"><br>
+		NODE_185_length_740_cov_9.995475, Position,0,1
+NODE_185_length_740_cov_9.995475,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_186_length_735_cov_11.493921"><br>
+		NODE_186_length_735_cov_11.493921, Position,0,1
+NODE_186_length_735_cov_11.493921,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_188_length_657_cov_6.481034"><br>
+		NODE_188_length_657_cov_6.481034, Position,0,1
+NODE_188_length_657_cov_6.481034,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_189_length_615_cov_7.615242"><br>
+		NODE_189_length_615_cov_7.615242, Position,0,1
+NODE_189_length_615_cov_7.615242,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_190_length_587_cov_5.670588"><br>
+		NODE_190_length_587_cov_5.670588, Position,0,1
+NODE_190_length_587_cov_5.670588,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_194_length_521_cov_4.506757"><br>
+		NODE_194_length_521_cov_4.506757, Position,0,1
+NODE_194_length_521_cov_4.506757,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_196_length_515_cov_35.584475"><br>
+		NODE_196_length_515_cov_35.584475, Position,0,1
+NODE_196_length_515_cov_35.584475,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_199_length_410_cov_4.945946"><br>
+		NODE_199_length_410_cov_4.945946, Position,0,1
+NODE_199_length_410_cov_4.945946,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_19_length_66480_cov_6.954942"><br>
+		NODE_19_length_66480_cov_6.954942, Position,0,1
+NODE_19_length_66480_cov_6.954942,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_1_length_167691_cov_6.816352"><br>
+		NODE_1_length_167691_cov_6.816352, Position,0,1
+NODE_1_length_167691_cov_6.816352,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_200_length_397_cov_12.593750"><br>
+		NODE_200_length_397_cov_12.593750, Position,0,1
+NODE_200_length_397_cov_12.593750,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_203_length_387_cov_8.019355"><br>
+		NODE_203_length_387_cov_8.019355, Position,0,1
+NODE_203_length_387_cov_8.019355,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_208_length_362_cov_8.326316"><br>
+		NODE_208_length_362_cov_8.326316, Position,0,1
+NODE_208_length_362_cov_8.326316,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_209_length_349_cov_9.716912"><br>
+		NODE_209_length_349_cov_9.716912, Position,0,1
+NODE_209_length_349_cov_9.716912,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_210_length_347_cov_4.881481"><br>
+		NODE_210_length_347_cov_4.881481, Position,0,1
+NODE_210_length_347_cov_4.881481,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_211_length_337_cov_6.211538"><br>
+		NODE_211_length_337_cov_6.211538, Position,0,1
+NODE_211_length_337_cov_6.211538,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_212_length_314_cov_26.405063"><br>
+		NODE_212_length_314_cov_26.405063, Position,0,1
+NODE_212_length_314_cov_26.405063,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_21_length_64464_cov_6.652927"><br>
+		NODE_21_length_64464_cov_6.652927, Position,0,1
+NODE_21_length_64464_cov_6.652927,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_220_length_264_cov_24.743316"><br>
+		NODE_220_length_264_cov_24.743316, Position,0,1
+NODE_220_length_264_cov_24.743316,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_221_length_262_cov_8.259459"><br>
+		NODE_221_length_262_cov_8.259459, Position,0,1
+NODE_221_length_262_cov_8.259459,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_225_length_252_cov_1.245714"><br>
+		NODE_225_length_252_cov_1.245714, Position,0,1
+NODE_225_length_252_cov_1.245714,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_228_length_237_cov_9.937500"><br>
+		NODE_228_length_237_cov_9.937500, Position,0,1
+NODE_228_length_237_cov_9.937500,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_22_length_62787_cov_6.735911"><br>
+		NODE_22_length_62787_cov_6.735911, Position,0,1
+NODE_22_length_62787_cov_6.735911,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_231_length_229_cov_32.184211"><br>
+		NODE_231_length_229_cov_32.184211, Position,0,1
+NODE_231_length_229_cov_32.184211,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_23_length_60506_cov_6.959275"><br>
+		NODE_23_length_60506_cov_6.959275, Position,0,1
+NODE_23_length_60506_cov_6.959275,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_241_length_206_cov_8.193798"><br>
+		NODE_241_length_206_cov_8.193798, Position,0,1
+NODE_241_length_206_cov_8.193798,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_24_length_59348_cov_6.763088"><br>
+		NODE_24_length_59348_cov_6.763088, Position,0,1
+NODE_24_length_59348_cov_6.763088,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_250_length_190_cov_10.327434"><br>
+		NODE_250_length_190_cov_10.327434, Position,0,1
+NODE_250_length_190_cov_10.327434,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_263_length_158_cov_4.617284"><br>
+		NODE_263_length_158_cov_4.617284, Position,0,1
+NODE_263_length_158_cov_4.617284,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_271_length_155_cov_15.525641"><br>
+		NODE_271_length_155_cov_15.525641, Position,0,1
+NODE_271_length_155_cov_15.525641,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_273_length_155_cov_13.397436"><br>
+		NODE_273_length_155_cov_13.397436, Position,0,1
+NODE_273_length_155_cov_13.397436,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_27_length_51960_cov_6.965210"><br>
+		NODE_27_length_51960_cov_6.965210, Position,0,1
+NODE_27_length_51960_cov_6.965210,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_28_length_50016_cov_6.969923"><br>
+		NODE_28_length_50016_cov_6.969923, Position,0,1
+NODE_28_length_50016_cov_6.969923,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_29_length_47805_cov_7.063108"><br>
+		NODE_29_length_47805_cov_7.063108, Position,0,1
+NODE_29_length_47805_cov_7.063108,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_30_length_47580_cov_6.789361"><br>
+		NODE_30_length_47580_cov_6.789361, Position,0,1
+NODE_30_length_47580_cov_6.789361,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_31_length_46513_cov_6.637458"><br>
+		NODE_31_length_46513_cov_6.637458, Position,0,1
+NODE_31_length_46513_cov_6.637458,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_32_length_45844_cov_6.567920"><br>
+		NODE_32_length_45844_cov_6.567920, Position,0,1
+NODE_32_length_45844_cov_6.567920,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_33_length_44235_cov_7.238009"><br>
+		NODE_33_length_44235_cov_7.238009, Position,0,1
+NODE_33_length_44235_cov_7.238009,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_34_length_40559_cov_7.165407"><br>
+		NODE_34_length_40559_cov_7.165407, Position,0,1
+NODE_34_length_40559_cov_7.165407,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_35_length_38821_cov_7.280740"><br>
+		NODE_35_length_38821_cov_7.280740, Position,0,1
+NODE_35_length_38821_cov_7.280740,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_37_length_38344_cov_6.938668"><br>
+		NODE_37_length_38344_cov_6.938668, Position,0,1
+NODE_37_length_38344_cov_6.938668,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_39_length_36576_cov_6.726705"><br>
+		NODE_39_length_36576_cov_6.726705, Position,0,1
+NODE_39_length_36576_cov_6.726705,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_3_length_120662_cov_6.850554"><br>
+		NODE_3_length_120662_cov_6.850554, Position,0,1
+NODE_3_length_120662_cov_6.850554,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_40_length_34821_cov_7.332662"><br>
+		NODE_40_length_34821_cov_7.332662, Position,0,1
+NODE_40_length_34821_cov_7.332662,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_41_length_34748_cov_6.286810"><br>
+		NODE_41_length_34748_cov_6.286810, Position,0,1
+NODE_41_length_34748_cov_6.286810,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_43_length_34294_cov_6.879037"><br>
+		NODE_43_length_34294_cov_6.879037, Position,0,1
+NODE_43_length_34294_cov_6.879037,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_45_length_33261_cov_6.582841"><br>
+		NODE_45_length_33261_cov_6.582841, Position,0,1
+NODE_45_length_33261_cov_6.582841,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_46_length_32900_cov_6.637906"><br>
+		NODE_46_length_32900_cov_6.637906, Position,0,1
+NODE_46_length_32900_cov_6.637906,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_47_length_32882_cov_6.968785"><br>
+		NODE_47_length_32882_cov_6.968785, Position,0,1
+NODE_47_length_32882_cov_6.968785,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_49_length_31629_cov_6.649753"><br>
+		NODE_49_length_31629_cov_6.649753, Position,0,1
+NODE_49_length_31629_cov_6.649753,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_4_length_101311_cov_7.293844"><br>
+		NODE_4_length_101311_cov_7.293844, Position,0,1
+NODE_4_length_101311_cov_7.293844,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_54_length_30095_cov_6.998867"><br>
+		NODE_54_length_30095_cov_6.998867, Position,0,1
+NODE_54_length_30095_cov_6.998867,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_58_length_29042_cov_6.724219"><br>
+		NODE_58_length_29042_cov_6.724219, Position,0,1
+NODE_58_length_29042_cov_6.724219,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_5_length_101127_cov_6.893686"><br>
+		NODE_5_length_101127_cov_6.893686, Position,0,1
+NODE_5_length_101127_cov_6.893686,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_64_length_25665_cov_7.356847"><br>
+		NODE_64_length_25665_cov_7.356847, Position,0,1
+NODE_64_length_25665_cov_7.356847,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_66_length_24740_cov_7.405952"><br>
+		NODE_66_length_24740_cov_7.405952, Position,0,1
+NODE_66_length_24740_cov_7.405952,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_67_length_24629_cov_6.253218"><br>
+		NODE_67_length_24629_cov_6.253218, Position,0,1
+NODE_67_length_24629_cov_6.253218,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_6_length_99317_cov_7.389883"><br>
+		NODE_6_length_99317_cov_7.389883, Position,0,1
+NODE_6_length_99317_cov_7.389883,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_70_length_23154_cov_6.964033"><br>
+		NODE_70_length_23154_cov_6.964033, Position,0,1
+NODE_70_length_23154_cov_6.964033,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_74_length_20117_cov_6.958832"><br>
+		NODE_74_length_20117_cov_6.958832, Position,0,1
+NODE_74_length_20117_cov_6.958832,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_76_length_19536_cov_6.746082"><br>
+		NODE_76_length_19536_cov_6.746082, Position,0,1
+NODE_76_length_19536_cov_6.746082,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_81_length_17930_cov_6.642469"><br>
+		NODE_81_length_17930_cov_6.642469, Position,0,1
+NODE_81_length_17930_cov_6.642469,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_88_length_14620_cov_6.294231"><br>
+		NODE_88_length_14620_cov_6.294231, Position,0,1
+NODE_88_length_14620_cov_6.294231,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_93_length_13945_cov_7.069224"><br>
+		NODE_93_length_13945_cov_7.069224, Position,0,1
+NODE_93_length_13945_cov_7.069224,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_94_length_13799_cov_7.187290"><br>
+		NODE_94_length_13799_cov_7.187290, Position,0,1
+NODE_94_length_13799_cov_7.187290,Count,0,0
+
+	</pre>
+	<pre>
+		<img src="http://chart.apis.google.com/chart?cht=bvg&chbh=8,4,2&chd=e:AAAA&chs=800x300&chxt=y,y,x,x&chxp=1,50.0|3,50.0&chxr=0,0.0,0.0|1,0.0,100.0|3,0.0,100.0&chxl=1:|Variants%2F1b|2:|0|1|3:|Position&chtt=Variants+histogram%3A+NODE_9_length_90906_cov_6.854110"><br>
+		NODE_9_length_90906_cov_6.854110, Position,0,1
+NODE_9_length_90906_cov_6.854110,Count,0,0
+
+	</pre>
+</center>
+
+<!--==========================================================================
+	Variants by gene 
+	========================================================================== -->
+
+<center>
+	<hr>
+	<b> Details by gene </b><p>
+	<p>
+	<b><a href="evo1_summary.genes.txt">Here</a></b> you can find a tab-separated table.
+</center>
+</div>
+</center>
