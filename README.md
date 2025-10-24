@@ -1,1 +1,1 @@
-# Entrega2_Proyecto_Bioinform-tica
+# Entrega2_Proyecto_Bioinformatica
